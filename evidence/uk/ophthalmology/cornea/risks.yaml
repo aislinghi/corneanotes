@@ -1724,3 +1724,17 @@ puk:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+dry_eye:
+  uk_prevalence:
+    description: Adults in the UK with dry eye disease
+    value: 1 in 3
+    detail: 32.1% (95% CI 25.5-37.7%) by TFOS DEWS II criteria; 29.5% by Women's Health Study criteria
+    population: 282 volunteers aged 18 to 88, Birmingham, UK (cross-sectional; small volunteer sample)
+    source: 'Vidal-Rohr M, Craig JP, Davies LN, Wolffsohn JS. The epidemiology of dry eye disease in the UK: the Aston dry eye study. Cont Lens Anterior Eye. 2023;46(3):101837. doi:10.1016/j.clae.2023.101837'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/37003925/
+    source_location: 'Abstract: ''DED prevalence by the TFOS DEWS II criteria was 32.1%''; ''Approximately one-third of the adult UK population have DED'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'

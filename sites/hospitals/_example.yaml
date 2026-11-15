@@ -108,5 +108,8 @@ puk:                                   # how this unit shares care for PUK
 blepharitis:                           # products and further treatments this unit suggests
   products: "Any clean flannel or a microwavable eye bag can be used for the warm compress. Eyelid cleaning wipes and solutions can be bought from pharmacies; ask us or your pharmacist if you are not sure which to use."
 
+dry_eye:                               # local access to further treatments
+  further_treatments: "If your dry eye is severe and does not improve with lubricants, we can discuss further treatments with you in the cornea clinic, including anti-inflammatory drops, plugs for the tear ducts and serum eye drops."
+
 videos:                                # links to this hospital's recorded videos, by document
   # leaflet-corneal-cross-linking: "https://..."
