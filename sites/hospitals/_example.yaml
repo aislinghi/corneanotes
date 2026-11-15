@@ -49,6 +49,16 @@ aftercare:                             # this unit's own practice after each pro
     pain_relief: "We will give you pain relief tablets and eye drops to take home."
     follow_up: "We will see you about a week after treatment to check the surface has healed and remove the bandage contact lens, and then again at 3 to 6 months."
     time_off_work: "Most people take about a week off work or school, or two weeks if they do a lot of close or screen work."
+  pk:
+    follow_up: "We will see you within a week of your operation, and then every few months for the first two years."
+    drops: "We usually reduce your steroid drops gradually over the first year, and many people stay on a low dose for longer."
+    stitches: "We usually start removing stitches about a year after surgery, a few at a time in clinic."
+    time_off_work: "Most people take two to four weeks off work, depending on their job."
+  ek:
+    posture: "After the operation, please lie on your back as much as you can for the rest of the day and that night. This helps the air bubble hold the new layer in place."
+    follow_up: "We will check your eye the day after surgery and again within a week, and then every few months for the first year."
+    drops: "We usually reduce your steroid drops gradually over the first year."
+    time_off_work: "Most people take one to two weeks off work."
   amniotic_membrane:
     while_in_place: |
       While the membrane is on your eye, please do not rub or press on the eye,

@@ -80,6 +80,8 @@ Every tissue donor's health and medical history is carefully checked, and their 
 
 There is no test for variant Creutzfeldt-Jakob disease (vCJD). The risk of passing it on through a tissue transplant is believed to be very low, but it cannot be ruled out [12].
 
+Corneas do not need to be matched to your tissue type [19].
+
 There are not enough donated corneas in the UK for everyone who needs one [1], so you may have to wait for your operation.
 
 ## What are the risks?
@@ -149,7 +151,7 @@ For other questions, call {{site.name}} on {{site.contacts.main_phone}} ({{site.
 | How is DALK different? | Systematic reviews; UK national data; published research | [2, 5, 7, 8, 9] | AI assistant, quotes checked against source | 2026-11-15 |
 | Becoming a full-thickness transplant | Published research (UK) | [10, 11] | AI assistant, quotes checked against source | 2026-11-15 |
 | The operation | UK national data; UK hospital patient information | [3, 8] | AI assistant, quotes checked against source | 2026-11-15 |
-| The donor cornea | National guidance (NHS Blood and Transplant) | [1, 12, 13] | AI assistant, quotes checked against source | 2026-11-15 |
+| The donor cornea | National guidance (NHS Blood and Transplant) | [1, 12, 13, 19] | AI assistant, quotes checked against source | 2026-11-15 |
 | Risks | Systematic review; published research; UK hospital patient information | [3, 7, 8, 14, 15] | AI assistant, quotes checked against source | 2026-11-15 |
 | How well does it work? | Meta-analysis; published research (UK); UK government | [3, 10, 16, 17] | AI assistant, quotes checked against source | 2026-11-15 |
 | After the operation; signs of rejection | UK hospital patient information; published research | [3, 15] | AI assistant, quotes checked against source | 2026-11-15 |
@@ -182,3 +184,4 @@ Latest routine review: shown automatically from the review records.
 16. Guan M, et al. Graft survival rate of deep anterior lamellar keratoplasty for keratoconus: a meta-analysis. Medicine (Baltimore). 2018;97(28):e11404. [Link](https://pubmed.ncbi.nlm.nih.gov/29995786/)
 17. GOV.UK. Driving eyesight rules. [Link](https://www.gov.uk/driving-eyesight-rules)
 18. NHS Blood and Transplant, Organ Donation and Transplantation. How we use your information. [Link](https://www.odt.nhs.uk/information-for-patients/how-we-use-your-information/)
+19. NHS Blood and Transplant. Cornea transplantation: allocation policy (POL189), section 1.3.1.6. [Link](https://nhsbtdbe.blob.core.windows.net/umbraco-assets-corp/4954/cornea_allocation_policy.pdf)

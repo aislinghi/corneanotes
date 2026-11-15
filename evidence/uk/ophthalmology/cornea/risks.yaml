@@ -425,3 +425,392 @@ cxl:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+transplant:
+  survival_5y_kc:
+    description: First corneal transplant (any type) for keratoconus still working at 5 years, UK
+    value: 9 in 10
+    detail: 89% (95% CI 87-92), transplants 2018-2020
+    population: UK first corneal grafts of all types for keratoconus, 2018-2020, n=992
+    source: NHS Blood and Transplant. Organ and Tissue Donation and Transplantation Activity Report 2025/26, Section 11 (corneal transplant outcomes).
+    source_url: https://nhsbtdbe.blob.core.windows.net/umbraco-assets-corp/39933/activity-report-2025-2026-final.pdf
+    source_location: 'Table 11.28, five-year graft survival, 2018-2020: 89 (87-92)'
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  survival_5y_fed:
+    description: First corneal transplant (any type) for Fuchs dystrophy still working at 5 years, UK
+    value: 8 in 10
+    detail: 81% (95% CI 78-83), transplants 2018-2020
+    population: UK first corneal grafts of all types for Fuchs endothelial dystrophy, 2018-2020, n=2204
+    source: NHS Blood and Transplant. Organ and Tissue Donation and Transplantation Activity Report 2025/26, Section 11 (corneal transplant outcomes).
+    source_url: https://nhsbtdbe.blob.core.windows.net/umbraco-assets-corp/39933/activity-report-2025-2026-final.pdf
+    source_location: 'Table 11.29, five-year graft survival, 2018-2020: 81 (78-83)'
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  survival_5y_pbk:
+    description: First corneal transplant (any type) for corneal swelling after cataract surgery still working at 5 years, UK
+    value: 2 in 3
+    detail: 64% (95% CI 59-67), transplants 2018-2020
+    population: UK first corneal grafts of all types for pseudophakic bullous keratopathy, 2018-2020, n=1111
+    source: NHS Blood and Transplant. Organ and Tissue Donation and Transplantation Activity Report 2025/26, Section 11 (corneal transplant outcomes).
+    source_url: https://nhsbtdbe.blob.core.windows.net/umbraco-assets-corp/39933/activity-report-2025-2026-final.pdf
+    source_location: 'Table 11.30, five-year graft survival, 2018-2020: 64 (59-67)'
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  pk_share:
+    description: Share of UK corneal transplants that are PK
+    value: 1 in 5
+    detail: 22.2% (1,225 of all UK corneal transplants in 2025-26)
+    population: All UK corneal transplants reported to NHS Blood and Transplant, 2025-26
+    source: NHS Blood and Transplant. Organ and Tissue Donation and Transplantation Activity Report 2025/26, Section 10 (cornea activity).
+    source_url: https://nhsbtdbe.blob.core.windows.net/umbraco-assets-corp/39933/activity-report-2025-2026-final.pdf
+    source_location: 'Table 10.5: ''PK 1225 22.2'' (2025-2026)'
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  dmek_share:
+    description: Share of UK corneal transplants that are DMEK
+    value: 4 in 10
+    detail: 40.9% (2,257 of all UK corneal transplants in 2025-26)
+    population: All UK corneal transplants reported to NHS Blood and Transplant, 2025-26
+    source: NHS Blood and Transplant. Organ and Tissue Donation and Transplantation Activity Report 2025/26, Section 10 (cornea activity).
+    source_url: https://nhsbtdbe.blob.core.windows.net/umbraco-assets-corp/39933/activity-report-2025-2026-final.pdf
+    source_location: 'Table 10.5: ''DMEK 2257 40.9'' (2025-2026)'
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  dsaek_share:
+    description: Share of UK corneal transplants that are DSAEK
+    value: 1 in 5
+    detail: 21.5% (1,185 of all UK corneal transplants in 2025-26)
+    population: All UK corneal transplants reported to NHS Blood and Transplant, 2025-26
+    source: NHS Blood and Transplant. Organ and Tissue Donation and Transplantation Activity Report 2025/26, Section 10 (cornea activity).
+    source_url: https://nhsbtdbe.blob.core.windows.net/umbraco-assets-corp/39933/activity-report-2025-2026-final.pdf
+    source_location: 'Table 10.5: ''DSAEK 1185 21.5'' (2025-2026)'
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+pk:
+  rejection_2y_kc:
+    description: Rejection of the inner layer within 2 years after PK for keratoconus, adults, UK
+    value: 1 in 10
+    detail: 10% of adults (13% of children aged 16 or under)
+    population: 'UK first transplants for keratoconus 2003-2018: 7,191 adults, 170 children'
+    source: 'Wajnsztajn D, Hopkinson CL, Larkin DFP; NHSBT Ocular Tissue Advisory Group (OTAG Study 29). Keratoplasty for keratoconus in young patients: demographics, clinical features, and post-transplant
+      outcomes. Am J Ophthalmol. 2021;226:68-75. doi:10.1016/j.ajo.2021.02.003'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/33577788/
+    source_location: 'Abstract: ''Endothelial rejection was reported following penetrating keratoplasty (PK) in 13% of children (10% in adults).'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  rejection_2y_fed:
+    description: Rejection within 2 years after PK for Fuchs dystrophy, UK
+    value: 1 in 14
+    detail: 2-year rejection-free survival 93% (95% CI 90-94)
+    population: UK PK for Fuchs endothelial dystrophy, 2005-2011
+    source: 'Figueiredo GS, Jones MN, Krishna Y, et al.; NHSBT Ocular Tissue Advisory Group. Transplant rejection following endothelial keratoplasty and penetrating keratoplasty in the United Kingdom: incidence
+      and survival. Am J Ophthalmol. 2015;160(3):416-21. doi:10.1016/j.ajo.2015.06.012'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/26116262/
+    source_location: 'Abstract: ''For FED, 2-year rejection-free survival was 93% (95% confidence interval [CI] 90%-94%) for PK'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  endophthalmitis:
+    description: Serious infection inside the eye after PK, at any time, UK
+    value: 1 in 150
+    detail: 0.67% overall; 0.16% within 6 weeks of surgery
+    population: UK first PK, 1999-2006, n=11,320
+    source: Chen JY, Jones MN, Srinivasan S, et al.; NHSBT Ocular Tissue Advisory Group. Endophthalmitis after penetrating keratoplasty. Ophthalmology. 2015;122(1):25-30. doi:10.1016/j.ophtha.2014.07.038
+    source_url: https://pubmed.ncbi.nlm.nih.gov/25264028/
+    source_location: 'Abstract: ''The overall incidence of endophthalmitis occurring after primary PK in the UK was 0.67%. The incidence of endophthalmitis occurring within 6 weeks of surgery was 0.16%.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  glaucoma:
+    description: Raised eye pressure (glaucoma) after PK
+    value: 1 in 5
+    detail: pooled incidence 21.5% (95% CI 17.8-25.7); 12.1% with a strict definition excluding steroid-induced
+    population: Systematic review and meta-analysis, 30 studies, 27,146 patients
+    source: 'Wu S, Xu J. Incidence and risk factors for post-penetrating keratoplasty glaucoma: a systematic review and meta-analysis. PLoS One. 2017;12(4):e0176261. doi:10.1371/journal.pone.0176261'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/28430806/
+    source_location: 'Abstract: ''Overall (Definition I) pooled incidence in all studies was 21.5% (95% CI 17.8%, 25.7%)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  wound_injury:
+    description: Graft wound opening after an injury to the eye, after PK
+    value: 1 in 40
+    detail: 2.6% (15 of 572)
+    population: Belfast regional centre, 572 PKs, 1992-2004
+    source: Williams MA, Gawley SD, Jackson AJ, Frazer DG. Traumatic graft dehiscence after penetrating keratoplasty. Ophthalmology. 2008;115(2):276-278.e1. doi:10.1016/j.ophtha.2007.04.006
+    source_url: https://pubmed.ncbi.nlm.nih.gov/17588664/
+    source_location: 'Abstract: ''Fifteen eyes (2.6%) were treated for traumatic wound dehiscence'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  vision_6_6_kc:
+    description: Very sharp vision (6/6 or better) 2 years after PK for keratoconus, UK
+    value: 1 in 3
+    detail: 33% (compared with 22% after DALK)
+    population: UK keratoconus transplants
+    source: 'Jones MN, Armitage WJ, Ayliffe W, Larkin DF, Kaye SB; NHSBT Ocular Tissue Advisory Group. Penetrating and deep anterior lamellar keratoplasty for keratoconus: a comparison of graft outcomes
+      in the United Kingdom. Invest Ophthalmol Vis Sci. 2009;50(12):5625-9'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/19661238/
+    source_location: 'Abstract: ''33% of patients who underwent PK achieved a BCVA of 6/6 or better at 2 years compared with only 22% of those who underwent DALK'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  survival_10y_endothelial:
+    description: PK for endothelial disease still working at 10 years (donors aged 12 to 65)
+    value: 3 in 4
+    detail: 77% 10-year success
+    population: US Cornea Donor Study, 1,090 PKs, mainly Fuchs dystrophy and corneal swelling after cataract surgery
+    source: 'Writing Committee for the Cornea Donor Study Research Group. The effect of donor age on penetrating keratoplasty for endothelial disease: graft survival after 10 years in the Cornea Donor Study.
+      Ophthalmology. 2013;120(12):2419-27. doi:10.1016/j.ophtha.2013.08.026'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/24246825/
+    source_location: 'Abstract: ''the 10-year success rate was 77% for 707 corneas from donors aged 12 to 65 years'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+ek:
+  rejection_2y_dmek:
+    description: Rejection within 2 years after DMEK
+    value: 1 in 100
+    detail: 1% cumulative probability at 1 and 2 years (DSEK 8% and 12%; PK 14% and 18%)
+    population: 'Single US centre: DMEK 141, DSEK 598, PK 30 eyes, same steroid regimen'
+    source: Anshu A, Price MO, Price FW Jr. Risk of corneal transplant rejection significantly reduced with Descemet's membrane endothelial keratoplasty. Ophthalmology. 2012;119(3):536-40. doi:10.1016/j.ophtha.2011.09.019
+    source_url: https://pubmed.ncbi.nlm.nih.gov/22218143/
+    source_location: 'Abstract: ''The Kaplan-Meier cumulative probability of a rejection episode at 1 and 2 years was 1% and 1% ... for DMEK; 8% and 12% ... for DSEK'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  rejection_2y_dsek:
+    description: Rejection within 2 years after DSEK
+    value: 1 in 8
+    detail: 12% cumulative probability at 2 years
+    population: Single US centre, 598 DSEK eyes
+    source: Anshu A, Price MO, Price FW Jr. Risk of corneal transplant rejection significantly reduced with Descemet's membrane endothelial keratoplasty. Ophthalmology. 2012;119(3):536-40. doi:10.1016/j.ophtha.2011.09.019
+    source_url: https://pubmed.ncbi.nlm.nih.gov/22218143/
+    source_location: Abstract, as above
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  rebubble_dmek_high:
+    description: DMEK graft partly detached and needed more air (average across studies)
+    value: 3 in 10
+    detail: mean 28.8% (range 0.2% to 76%) across studies
+    population: Systematic review by the American Academy of Ophthalmology, 47 studies
+    source: 'Deng SX, Lee WB, Hammersmith KM, et al. Descemet membrane endothelial keratoplasty: safety and outcomes: a report by the American Academy of Ophthalmology. Ophthalmology. 2018;125(2):295-310.
+      doi:10.1016/j.ophtha.2017.08.015'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/28923499/
+    source_location: 'Abstract: ''The most common complication was partial graft detachment requiring air injection (mean, 28.8%; range, 0.2%-76%).'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  rebubble_dmek_uk:
+    description: DMEK graft needed more air, one UK centre
+    value: 1 in 50
+    detail: re-bubbling 2%
+    population: UK centre, 88 DMEKs, median follow-up 332 days
+    source: 'Fajgenbaum MAP, Kopsachilis N, Hollick EJ. Descemet''s membrane endothelial keratoplasty: surgical outcomes and endothelial cell count modelling from a UK centre. Eye (Lond). 2018;32(10):1629-1635'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/29921952/
+    source_location: 'Abstract: ''re-bubbling 2%, primary failure 6%'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  detachment_dsek:
+    description: DSEK graft came out of place (average across studies)
+    value: 1 in 7
+    detail: mean 14%
+    population: Systematic review by the American Academy of Ophthalmology
+    source: 'Lee WB, Jacobs DS, Musch DC, et al. Descemet''s stripping endothelial keratoplasty: safety and outcomes: a report by the American Academy of Ophthalmology. Ophthalmology. 2009;116(9):1818-30'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/19643492/
+    source_location: 'Abstract: ''posterior graft dislocations (mean, 14%...)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  primary_failure_dmek:
+    description: DMEK graft never cleared (primary graft failure), average across studies
+    value: 1 in 60
+    detail: mean 1.7% (range 0% to 12.5%)
+    population: Systematic review by the American Academy of Ophthalmology
+    source: 'Deng SX, Lee WB, Hammersmith KM, et al. Descemet membrane endothelial keratoplasty: safety and outcomes: a report by the American Academy of Ophthalmology. Ophthalmology. 2018;125(2):295-310.
+      doi:10.1016/j.ophtha.2017.08.015'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/28923499/
+    source_location: 'Abstract: ''primary graft failure (mean, 1.7%; range, 0%-12.5%)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  primary_failure_dsek:
+    description: DSEK graft never cleared (primary graft failure), average across studies
+    value: 1 in 20
+    detail: mean 5%
+    population: Systematic review by the American Academy of Ophthalmology
+    source: 'Lee WB, Jacobs DS, Musch DC, et al. Descemet''s stripping endothelial keratoplasty: safety and outcomes: a report by the American Academy of Ophthalmology. Ophthalmology. 2009;116(9):1818-30'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/19643492/
+    source_location: 'Abstract: ''primary graft failure (mean, 5%...)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  vision_6_7_5_dmek:
+    description: Very good vision (6/7.5 or better) a year after DMEK
+    value: 2 in 3
+    detail: 66% after DMEK v 33% after ultrathin DSAEK
+    population: Randomised trial, Netherlands, 54 eyes with Fuchs dystrophy
+    source: 'Dunker SL, Dickman MM, Wisse RPL, et al. Descemet membrane endothelial keratoplasty versus ultrathin Descemet stripping automated endothelial keratoplasty: a multicenter randomized controlled
+      clinical trial. Ophthalmology. 2020;127(9):1152-1159. doi:10.1016/j.ophtha.2020.02.029'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/32386811/
+    source_location: 'Abstract: ''the percentage of eyes reaching 20/25 Snellen BSCVA was higher in DMEK compared with UT-DSAEK (66% vs. 33%; P = 0.02)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  vision_6_7_5_dsek:
+    description: Very good vision (6/7.5 or better) a year after ultrathin DSAEK
+    value: 1 in 3
+    detail: 33%
+    population: Randomised trial, Netherlands, 54 eyes
+    source: Dunker SL, et al. Ophthalmology. 2020;127(9):1152-1159
+    source_url: https://pubmed.ncbi.nlm.nih.gov/32386811/
+    source_location: Abstract, as above
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  cataract_10y:
+    description: Needing cataract surgery within 10 years after DMEK, in eyes with their natural lens
+    value: 1 in 6
+    detail: probability 0.06 at 1 year and 0.17 at 10 years
+    population: Netherlands, 261 eyes with their natural lens, mean follow-up 54 months
+    source: 'Vasiliauskaitė I, et al. Phacoemulsification after Descemet membrane endothelial keratoplasty: incidence and influence on endothelial cell density. J Refract Surg. 2021;37(2):119-125'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/33577698/
+    source_location: 'Abstract: ''The probability of cataract extraction after DMEK was 0.06 (95% CI: 0.03 to 0.09) at 1 year and 0.17 (95% CI: 0.12 to 0.22) at 10 years'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  macular_swelling_low:
+    description: Swelling at the back of the eye (macular oedema) after DMEK, lower estimate
+    value: 1 in 25
+    detail: 3.8% (8 of 209), all resolved
+    population: Canada, 209 eyes, at least 6 months
+    source: Ching G, et al. Curr Eye Res. 2021;46(5):678-682
+    source_url: https://pubmed.ncbi.nlm.nih.gov/32865037/
+    source_location: 'Abstract: ''The 6-month incidence of CME was 3.8% (8/209)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  macular_swelling_high:
+    description: Swelling at the back of the eye (macular oedema) after DMEK, higher estimate
+    value: 1 in 10
+    detail: 9.36% (23 of 246)
+    population: Paris, 246 eyes
+    source: Guindolet D, et al. Br J Ophthalmol. 2023;107(4):470-475
+    source_url: https://pubmed.ncbi.nlm.nih.gov/34750101/
+    source_location: 'Abstract: ''Twenty three of 246 eyes (9.36%) developed clinically significant (cs)-CMO after DMEK.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  pupil_block_uk:
+    description: Sudden pressure rise from the air bubble blocking fluid flow (pupil block) after DMEK, one UK centre
+    value: 1 in 25
+    detail: 3.8% (4 of 104); in two, the standard protocol was not followed
+    population: UK centre, 104 eyes with Fuchs dystrophy, 6 months
+    source: Mukhija R, Quiney G, Nanavaty MA. Clinical outcomes of Descemet membrane endothelial keratoplasty without routine prophylactic peripheral iridotomy. Vision (Basel). 2023;7(2):41. doi:10.3390/vision7020041
+    source_url: https://pubmed.ncbi.nlm.nih.gov/37218959/
+    source_location: 'Abstract: ''Four eyes (3.8%) developed PB; in two of these cases, standard protocol was not followed.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  survival_10y_dmek:
+    description: DMEK graft still working at 10 years
+    value: 9 in 10
+    detail: Kaplan-Meier estimated graft survival 0.86 at 10 years
+    population: Germany, 2,521 DMEKs
+    source: Dryander SE, et al. Cornea. 2026;45(11):1360-1367
+    source_url: https://pubmed.ncbi.nlm.nih.gov/41198103/
+    source_location: 'Abstract: ''The Kaplan-Meier estimated graft survival at 10 years was 0.86.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  endophthalmitis:
+    description: Serious infection inside the eye after endothelial keratoplasty
+    value: 1 in 500
+    detail: 0.20% pooled incidence (95% CI 0.20-0.30)
+    population: Systematic review and meta-analysis, 21 studies, international
+    source: 'Chen KY, Chan HC, Chan CM. Incidence of infectious endophthalmitis after keratoplasty surgery: an updated systematic review and meta-analysis. Infection. 2026;54(4):1701-1723. doi:10.1007/s15010-026-02772-4'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/41991784/
+    source_location: 'Abstract: ''compared with ALK (0.20%; 95% CI 0.01-0.30) and EK (0.20%; 95% CI 0.20-0.30)'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+fuchs:
+  prevalence_over_40:
+    description: People over 40 with Fuchs endothelial dystrophy, United States and Europe
+    value: 4 to 5 in 100
+    detail: estimated prevalence 4-5% over age 40
+    population: Review of published prevalence studies
+    source: 'Fautsch MP, Wieben ED, Baratz KH, et al. TCF4-mediated Fuchs endothelial corneal dystrophy: insights into a common trinucleotide repeat-associated disease. Prog Retin Eye Res. 2021;81:100883.
+      doi:10.1016/j.preteyeres.2020.100883'
+    source_url: https://europepmc.org/article/PMC/PMC7988464
+    source_location: 'Section ''Epidemiology'': ''In the United States and Europe, the prevalence of the disease is estimated to be 4-5% among persons over the age of 40 years'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
