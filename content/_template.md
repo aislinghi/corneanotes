@@ -60,12 +60,21 @@ Be specific and honest: if a statement rests on the author's own experience
 rather than published evidence, say so.
 -->
 
-| Section | Based on | Source | Checked by | Date checked |
+| Section | Based on | References | Checked by | Date checked |
 |---|---|---|---|---|
-| What is this about? | | | | |
-| What to expect | | | | |
-| What are the risks? | National data | `risk.cornea.cxl.example_risk` (see `evidence/uk/`) | | |
+| What is this about? | Published guideline | [1] | | |
+| What to expect | Published research | [2] | | |
+| What are the risks? | National data | [3] (`risk.cornea.cxl.example_risk`) | | |
 | When to get urgent help | Local details | This service's file in `sites/` | | |
 
 Written by: Your name and role. AI assistance: none. Reviewed and approved by: (reviewer, date).
 Latest routine review: shown automatically from the review records (for example "Reviewed by AI on [date], no change found, not checked by a person").
+
+## References
+
+<!-- Numbered, with a working link for every source. Every source must have been
+opened and read. Use the same numbers in the table above. -->
+
+1. Author(s). Title. Publisher or journal. Year. [Link](https://...)
+2. ...
+3. ...
