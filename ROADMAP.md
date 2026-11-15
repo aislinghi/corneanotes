@@ -26,6 +26,13 @@ Documents planned so far, starting with cornea. Each is split into a shared core
 |---|---|---|
 | Eye casualty training in cornea | Recognition and initial management of corneal presentations, when to escalate | Local escalation routes and on-call arrangements |
 
+## Medicines
+
+| Document | Shared core | Local details |
+|---|---|---|
+| Formulary applications for new medicines | Evidence review, national guidance status, licensing, place in pathway, national list price from `evidence/` | Committee format, local patient numbers, budget impact, supply arrangements |
+| Formulary reviews | Standard review checklist: new evidence, safety alerts, guidance and price changes | Local usage, outcome and decision |
+
 ## Business cases
 
 | Document | Shared core | Local details |

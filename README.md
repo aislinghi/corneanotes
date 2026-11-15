@@ -35,6 +35,7 @@ See [ROADMAP.md](ROADMAP.md) for the documents planned so far.
 | `content/<specialty>/<subspecialty>/referral/` | Referral guidance for optometrists, GPs and other units |
 | `content/<specialty>/<subspecialty>/teaching/` | Training material |
 | `content/<specialty>/<subspecialty>/guidelines/` | Clinical guidelines, e.g. microbiology and antimicrobial treatment |
+| `content/<specialty>/<subspecialty>/formulary-applications/` | Applications and reviews for medicines on local formularies |
 | `content/<specialty>/<subspecialty>/business-cases/` | Business cases for equipment, tissue, services and training |
 | `content/<specialty>/<subspecialty>/video-scripts/` | Scripts for patient videos, recorded by each service's own clinicians |
 | `content/_template.md` | Starting point for a new document |
