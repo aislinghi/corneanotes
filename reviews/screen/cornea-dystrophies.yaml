@@ -1,0 +1,14 @@
+# Screen topic: corneal dystrophies (other than Fuchs and EBMD).
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-dystrophies
+covers:
+  evidence:
+    - risk.cornea.dystrophies.*
+  documents:
+    - content/ophthalmology/cornea/conditions/corneal-dystrophies/*
+pubmed:
+  - '("granular corneal dystrophy"[tiab] OR "lattice corneal dystrophy"[tiab] OR "macular corneal dystrophy"[tiab] OR "Reis-Bucklers"[tiab] OR "Thiel-Behnke"[tiab] OR "Avellino"[tiab] OR TGFBI[tiab]) AND (keratectomy[tiab] OR keratoplasty[tiab] OR recurrence[tiab] OR LASIK[tiab] OR refractive[tiab] OR review[pt])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"

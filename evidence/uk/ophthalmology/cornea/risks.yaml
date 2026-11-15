@@ -2146,3 +2146,31 @@ conjunctival_lesions:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+dystrophies:
+  ptk_recurrence:
+    description: Eyes with granular or lattice dystrophy in which the dystrophy came back after PTK laser treatment
+    value: 1 in 5
+    detail: 20% (10 eyes) granular, 17% (2 eyes) lattice; mean follow-up 3.0 years
+    population: 62 eyes of 40 patients with granular or lattice corneal dystrophy, Germany
+    source: 'Das S, Langenbucher A, Seitz B. Excimer laser phototherapeutic keratectomy for granular and lattice corneal dystrophy: a comparative study. J Refract Surg. 2005;21(6):727-31. doi:10.3928/1081-597X-20051101-12'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/16329366/
+    source_location: 'Abstract, Results: ''Recurrences were observed in 10 (20%) eyes with granular dystrophy and 2 (17%) eyes with lattice dystrophy.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  lattice_graft_recurrence_5y:
+    description: Lattice dystrophy coming back in a full-thickness transplant enough to cause erosions or reduced vision within five years
+    value: 1 in 6
+    detail: 17.1% (6 eyes) clinically significant recurrence at 5 years; simple recurrence in 60%, median 8.4 years
+    population: 35 eyes of 21 patients with lattice dystrophy who had PK, Wills Eye Hospital, USA, 1984-2001
+    source: Marcon AS, Cohen EJ, Rapuano CJ, Laibson PR. Recurrence of corneal stromal dystrophies after penetrating keratoplasty. Cornea. 2003;22(1):19-21. doi:10.1097/00003226-200301000-00005
+    source_url: https://pubmed.ncbi.nlm.nih.gov/12502942/
+    source_location: 'Abstract, Results: ''After 5 years of follow-up, there was a clinically significant recurrence, manifested by recurrent erosions or associated with decreased visual acuity, in the
+      first eye transplanted of each patient, respectively, in six (17.1%) and seven (20%) eyes with lattice'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
