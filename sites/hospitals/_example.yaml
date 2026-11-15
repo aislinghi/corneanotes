@@ -115,6 +115,9 @@ ebmd:                                  # which procedures this unit offers for E
 fuchs:                                 # how this unit follows up Fuchs dystrophy
   follow_up: "If Fuchs dystrophy is not affecting your vision, you may not need regular hospital appointments. Your optometrist will check your eyes at your routine eye tests and can refer you back to us if things change."
 
+neurotrophic:                          # this unit's own access to treatments for neurotrophic keratitis
+  further_treatments: "In the cornea clinic we can offer bandage contact lenses, serum eye drops, botulinum toxin injections to close the eyelid, and amniotic membrane. If you need eyelid surgery or nerve graft surgery, we will refer you to a specialist team."
+
 suture_removal:                        # where and how this unit removes corneal stitches
   where: "We usually remove stitches in the clinic, sitting at the microscope, using numbing drops. It usually takes a few minutes. Occasionally we remove them in the operating theatre."
 
