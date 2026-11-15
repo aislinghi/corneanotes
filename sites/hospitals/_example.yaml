@@ -76,6 +76,8 @@ aftercare:                             # this unit's own practice after each pro
     follow_up: "We will usually check your eye again within a week or two to make sure the infection is healing. If you are using steroid drops, we will reduce them slowly and keep checking your eye."
   chemical_injury:
     follow_up: "We will usually check your eye again the next day. If the injury is more serious, we may admit you to hospital, and our cornea team will look after you."
+  marginal_keratitis:
+    follow_up: "If you are given steroid drops, we will usually check your eye, including the pressure in it, within one to two weeks."
   amniotic_membrane:
     while_in_place: |
       While the membrane is on your eye, please do not rub or press on the eye,
