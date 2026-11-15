@@ -13,6 +13,7 @@ cxl:
     source: "EXAMPLE"
     source_url: ""
     source_location: ""
+    last_changed:
     last_checked:
     checked_by: ""
     next_check_due:

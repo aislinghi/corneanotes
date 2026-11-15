@@ -20,7 +20,7 @@ At this early stage it is maintained by a single clinician. Others are welcome t
 
 **One national figure, used everywhere.** Risk figures are not typed into individual leaflets. Each figure lives once in `evidence/` (for now `evidence/uk/`), with its source in national data or the published literature, the date it was last checked and when it is next due. Documents refer to it, for example `{{risk.cornea.cxl.example_risk}}`, so updating one figure updates every document that quotes it.
 
-**Kept current.** Every document and every figure has a review date. The plan is a scheduled check that flags anything overdue and lists new publications on each risk topic for a clinician to look at. Figures are only ever changed by a person, through a reviewed change, so there is a full record of who changed what, when, and on what evidence.
+**Kept current.** Every document, figure and local formulary has a review date. A monthly check (`scripts/check_currency.py`, run by GitHub Actions) opens an issue listing anything overdue or due soon, any document quoting a figure that has changed since the document was last reviewed, and any reference to a figure that does not exist. A planned addition will also list new publications on each risk topic for a clinician to look at. Figures are only ever changed by a person, through a reviewed change, so there is a full record of who changed what, when, and on what evidence.
 
 **Every change is reviewed.** Anyone can propose a change. Nothing is published until a trusted clinical reviewer for that area has approved it (see `.github/CODEOWNERS`).
 

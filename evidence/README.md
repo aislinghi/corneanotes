@@ -6,7 +6,7 @@ Every risk or outcome figure, and every national cost or price (for example tiss
 
 1. **National data first.** Use national registry or audit data where it exists. Otherwise use high-quality published literature (systematic reviews, large series). Local unit figures are not used: the same operation should be described with the same numbers everywhere.
 2. **Every figure has a source.** Give a full reference and a link, and say exactly where in the source the figure appears (table, page, section).
-3. **Every figure has a review date.** `last_checked` is when someone last confirmed the figure against its source and looked for newer data. `next_check_due` is when it must be looked at again.
+3. **Every figure has a review date.** `last_changed` is when the value itself last changed. `last_checked` is when someone last confirmed the figure against its source and looked for newer data. `next_check_due` is when it must be looked at again.
 4. **Only people change figures.** Any change goes through a pull request and is approved by a reviewer for that area. Automated checks may flag figures for review, but never change them.
 
 Costs follow the same rules. Use the national published price (with its source and the date it applies from), not a figure from one unit's invoice. Local costs that genuinely differ, such as staffing or estates, belong in that service's `sites/` file.
@@ -25,6 +25,7 @@ cxl:                                   # procedure or condition
     source: "Full reference"
     source_url: "https://..."
     source_location: "Table 2, page 5"
+    last_changed: 2026-01-01           # when the value last changed; documents reviewed before this are flagged
     last_checked: 2026-01-01
     checked_by: "Name"
     next_check_due: 2027-01-01
