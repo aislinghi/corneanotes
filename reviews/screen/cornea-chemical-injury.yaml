@@ -1,0 +1,14 @@
+# Screen topic: chemical injury to the eye.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-chemical-injury
+covers:
+  evidence:
+    - risk.cornea.chemical_injury.*
+  documents:
+    - content/ophthalmology/cornea/conditions/chemical-injury/*
+pubmed:
+  - '("Eye Burns"[mh] OR "chemical injur*"[tiab] OR "chemical burn*"[tiab] OR "alkali burn*"[tiab] OR "ocular burn*"[tiab]) AND (eye[tiab] OR ocular[tiab] OR cornea*[tiab]) AND (incidence[tiab] OR outcome*[tiab] OR treatment[tiab] OR irrigation[tiab] OR "systematic review"[pt])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"

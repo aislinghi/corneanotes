@@ -1,0 +1,14 @@
+# Screen topic: peripheral ulcerative keratitis.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-puk
+covers:
+  evidence:
+    - risk.cornea.puk.*
+  documents:
+    - content/ophthalmology/cornea/conditions/peripheral-ulcerative-keratitis/*
+pubmed:
+  - '("peripheral ulcerative keratitis"[tiab] OR "Mooren"[tiab] OR ("Corneal Ulcer"[mh] AND (rheumatoid[tiab] OR vasculitis[tiab]))) AND (outcome*[tiab] OR treatment[tiab] OR perforation[tiab] OR immunosuppress*[tiab] OR mortality[tiab] OR review[pt])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"
