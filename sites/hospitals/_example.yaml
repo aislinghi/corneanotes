@@ -1,4 +1,6 @@
-# Hospital or clinic level. EXAMPLE file: copy, rename and fill in.
+# Hospital or clinic level. EXAMPLE file: copy, rename and fill in with your own details.
+# This example is fictional. Its phone numbers are in the range Ofcom reserves
+# for fiction (01632 960xxx), so they cannot reach anyone.
 # Every key here (and inherited from the trust, networks and country) can be
 # used in a document as {{site.<key>}}.
 level: hospital
@@ -7,27 +9,35 @@ trust: example-trust                   # file name in sites/trusts/ without .yam
 department: "Cornea Service"
 
 contacts:
-  main_phone: "01234 567890"           # EXAMPLE: replace with your number
-  urgent_phone: "01234 567891"         # EXAMPLE: replace with your number
-  hours: "Monday to Friday, 9am to 5pm"
+  main_phone: "01632 960 000"
+  urgent_phone: "01632 960 001"
+  hours: "Monday to Friday, 8:30am to 5pm"
 
 urgent_access: |
-  EXAMPLE: describe how a patient should get urgent help during working hours.
+  Our eye emergency telephone line is open Monday to Friday, 8:30am to 5pm, and
+  Saturday and Sunday, 9am to 1pm. A nurse or doctor will advise you, and will
+  arrange for you to be seen the same day if needed.
 
 out_of_hours: |
-  EXAMPLE: describe what a patient should do out of hours, e.g. which
-  emergency department or eye casualty to attend.
+  Outside these hours, call NHS 111. If you have sudden loss of vision or severe
+  pain, go to your nearest emergency department.
 
 pifu:                                  # patient-initiated follow-up (PIFU)
-  phone: "01234 567892"                # EXAMPLE: your PIFU line
+  phone: "01632 960 002"
   how_to_contact: |
-    EXAMPLE: how a patient on PIFU gets back in touch (phone, email, online form)
-    and how quickly they can expect a reply.
-  duration: "EXAMPLE: how long a patient stays on PIFU before discharge"
+    Call our PIFU line, Monday to Friday, 9am to 4pm. Leave a message if no one
+    answers, and we will call you back within two working days.
+  duration: "12 months"
 
 formulary:
   stocked:                             # agents from evidence/uk/ophthalmology/cornea/ophthalmic-antimicrobials.yaml stocked here
     - example_agent
+
+amniotic_membrane:                     # products differ between units
+  types_used: |
+    We use frozen amniotic membrane supplied by NHS Blood and Transplant. It is
+    kept frozen until it is needed.
+  antibiotic_traces: "The membrane may contain tiny traces of the antibiotics used to clean it during processing. Please tell us if you are allergic to any antibiotic."
 
 videos:                                # links to this hospital's recorded videos, by document
   # leaflet-corneal-cross-linking: "https://..."

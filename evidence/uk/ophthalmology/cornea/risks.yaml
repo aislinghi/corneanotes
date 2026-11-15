@@ -1,19 +1,174 @@
 # Cornea risk and outcome figures. See evidence/README.md for the rules and format.
-#
-# EXAMPLE ONLY: the entry below shows the format. It is not real data and must
-# not be quoted. Replace it with real figures from national data or the
-# published literature, each with a full source.
+# 'value' is how the figure reads in a patient leaflet; 'detail' is the figure as published.
 
-cxl:
-  example_risk:
-    description: "EXAMPLE ONLY: not a real figure"
-    value: "EXAMPLE"
-    detail: "EXAMPLE"
-    population: "EXAMPLE"
-    source: "EXAMPLE"
-    source_url: ""
-    source_location: ""
-    last_changed:
-    last_checked:
-    checked_by: ""
-    next_check_due:
+dalk:
+  conversion_manual:
+    description: Operation changed to a full-thickness graft during surgery (manual technique)
+    value: 1 in 4
+    detail: 24.1% (UK multi-surgeon series, manual DALK)
+    population: 357 eyes with keratoconus, Moorfields, 2012-2016, 42 surgeons including trainees
+    source: 'Gadhvi KA, Romano V, Fernández-Vega Cueto L, Aiello F, Day AC, Allan BD. Deep anterior lamellar keratoplasty for keratoconus: multisurgeon results. Am J Ophthalmol. 2019;201:54-62. doi:10.1016/j.ajo.2019.01.022'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/30721690/
+    source_location: 'Abstract, Results: ''A total of 24.1% were converted to penetrating keratoplasty (PK) intraoperatively.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  conversion_laser:
+    description: Operation changed to a full-thickness graft during surgery (laser-assisted technique)
+    value: 1 in 30
+    detail: 3.4% (2 of 58 eyes)
+    population: Keratoconus, Moorfields, femtosecond laser-assisted DALK 2015-2018
+    source: 'Gadhvi KA, et al. Femtosecond laser-assisted deep anterior lamellar keratoplasty for keratoconus: multi-surgeon results. Am J Ophthalmol. 2020;220:191-202. doi:10.1016/j.ajo.2020.07.023'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/32707206/
+    source_location: 'Abstract: ''Intraoperative conversion to PK was carried out in 2 of 58 (3.4%) F-DALK cases compared to 80 of 326 (24.5%) M-DALK cases'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  rejection_lower:
+    description: At least one rejection episode (lower estimate)
+    value: 1 in 20
+    detail: 5.2% (24 of 464 eyes)
+    population: 464 eyes, single centre, Japan, 1997-2021
+    source: Kasamatsu H, et al. Incidence and clinical features of immunologic rejection after deep anterior lamellar keratoplasty. Cornea. 2024;43(8):1008-1014. doi:10.1097/ICO.0000000000003444
+    source_url: https://pubmed.ncbi.nlm.nih.gov/38049155/
+    source_location: 'Abstract, Results: ''Of 411 patients, 24 (24 eyes [5.2%] ...) developed immunologic rejection.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  rejection_upper:
+    description: At least one rejection episode over long-term follow-up (upper estimate)
+    value: 1 in 6
+    detail: 16.7% (38 of 228 eyes), mean follow-up 103 months
+    population: 228 DALK eyes with keratoconus, single surgeon, France, 1993-2021
+    source: Borderie VM, Georgeon C, Sandali O, Bouheraoua N. Long-term outcomes of deep anterior lamellar versus penetrating keratoplasty for keratoconus. Br J Ophthalmol. 2023;108(1):10-16. doi:10.1136/bjo-2023-324230
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10803977/
+    source_location: 'Table 2: ''At least one rejection episode 38 (16.7%)'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  rejection_reversed:
+    description: Graft clear again after treatment for rejection
+    value: 9 in 10
+    detail: 89.5% (17 of 19 eyes treated)
+    population: Eyes with rejection after DALK, single centre, Japan
+    source: Kasamatsu H, et al. Cornea. 2024;43(8):1008-1014. doi:10.1097/ICO.0000000000003444
+    source_url: https://pubmed.ncbi.nlm.nih.gov/38049155/
+    source_location: 'Abstract: ''After treatment, corneal clarity was restored in 17 eyes (89.5%).'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  graft_survival_5y:
+    description: Graft still working (clear) at 5 years
+    value: 9 in 10
+    detail: 90.4% pooled 5-year graft survival
+    population: Meta-analysis of 12 studies, DALK for keratoconus
+    source: 'Guan M, et al. Graft survival rate of deep anterior lamellar keratoplasty for keratoconus: a meta-analysis. Medicine (Baltimore). 2018;97(28):e11404. doi:10.1097/MD.0000000000011404'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/29995786/
+    source_location: 'Abstract: ''The merged 1-, 3-, and 5-year graft survival rates were 100% ..., 92.9% ..., and 90.4%'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  vision_6_12_1y:
+    description: Vision of 6/12 or better in the operated eye, with glasses or contact lenses, within a year
+    value: 3 in 4
+    detail: 75.9%
+    population: 357 eyes with keratoconus, Moorfields, 2012-2016
+    source: 'Gadhvi KA, Romano V, Fernández-Vega Cueto L, Aiello F, Day AC, Allan BD. Deep anterior lamellar keratoplasty for keratoconus: multisurgeon results. Am J Ophthalmol. 2019;201:54-62. doi:10.1016/j.ajo.2019.01.022'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/30721690/
+    source_location: 'Abstract: ''75.9% of eyes had CDVA >=20/40 within 1 year of surgery, rising to 81% after suture removal.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  vision_6_12_after_sutures:
+    description: Vision of 6/12 or better in the operated eye, with glasses or contact lenses, after all stitches removed
+    value: 4 in 5
+    detail: 81%
+    population: 357 eyes with keratoconus, Moorfields, 2012-2016
+    source: 'Gadhvi KA, Romano V, Fernández-Vega Cueto L, Aiello F, Day AC, Allan BD. Deep anterior lamellar keratoplasty for keratoconus: multisurgeon results. Am J Ophthalmol. 2019;201:54-62. doi:10.1016/j.ajo.2019.01.022'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/30721690/
+    source_location: 'Abstract: ''rising to 81% after suture removal'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  endophthalmitis:
+    description: Serious infection inside the eye (endophthalmitis) after a partial-thickness graft
+    value: 1 in 500
+    detail: 0.20% pooled incidence after anterior lamellar keratoplasty (all types, not DALK alone)
+    population: Systematic review and meta-analysis, 21 studies, international
+    source: 'Chen KY, Chan HC, Chan CM. Incidence of infectious endophthalmitis after keratoplasty surgery: an updated systematic review and meta-analysis. Infection. 2026;54(4):1701-1723. doi:10.1007/s15010-026-02772-4'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/41991784/
+    source_location: 'Abstract: ''compared with ALK (0.20%; 95% CI 0.01-0.30)'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  infection_any:
+    description: Any infection of the graft over long-term follow-up
+    value: 1 in 60
+    detail: 1.7% (4 of 228 eyes)
+    population: 228 DALK eyes with keratoconus, single surgeon, France, mean follow-up 103 months
+    source: Borderie VM, Georgeon C, Sandali O, Bouheraoua N. Long-term outcomes of deep anterior lamellar versus penetrating keratoplasty for keratoconus. Br J Ophthalmol. 2023;108(1):10-16. doi:10.1136/bjo-2023-324230
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10803977/
+    source_location: 'Table 2: ''Infection 4 (1.7%)'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  raised_pressure:
+    description: Raised eye pressure needing treatment over long-term follow-up
+    value: 1 in 8
+    detail: 11.8% (27 of 228 eyes), compared with 21.5% after full-thickness grafts
+    population: 228 DALK eyes with keratoconus, single surgeon, France
+    source: Borderie VM, Georgeon C, Sandali O, Bouheraoua N. Long-term outcomes of deep anterior lamellar versus penetrating keratoplasty for keratoconus. Br J Ophthalmol. 2023;108(1):10-16. doi:10.1136/bjo-2023-324230
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10803977/
+    source_location: 'Table 2: ''Elevated IOP requiring treatment 27 (11.8%) ... 59 (21.5%)'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  cataract:
+    description: Cataract after surgery over long-term follow-up
+    value: 1 in 30
+    detail: 3.1% (7 of 228 eyes)
+    population: 228 DALK eyes with keratoconus, single surgeon, France
+    source: Borderie VM, Georgeon C, Sandali O, Bouheraoua N. Long-term outcomes of deep anterior lamellar versus penetrating keratoplasty for keratoconus. Br J Ophthalmol. 2023;108(1):10-16. doi:10.1136/bjo-2023-324230
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10803977/
+    source_location: 'Table 2: ''Cataract 7 (3.1%)'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+keratoconus:
+  transplant_needed:
+    description: People with keratoconus who need a corneal transplant
+    value: 1 in 10 to 1 in 7
+    detail: 10% to 15%
+    population: Background statement of a Cochrane review
+    source: Keane M, Coster D, Ziaei M, Williams K. Deep anterior lamellar keratoplasty versus penetrating keratoplasty for treating keratoconus. Cochrane Database Syst Rev. 2014;(7):CD009700. doi:10.1002/14651858.CD009700.pub2
+    source_url: https://pubmed.ncbi.nlm.nih.gov/25055058/
+    source_location: 'Abstract, Background: ''Approximately 10% to 15% of patients diagnosed with keratoconus require corneal transplantation.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'

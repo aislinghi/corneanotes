@@ -19,7 +19,7 @@ Evidence is held per country, because national data differs between countries. F
 cxl:                                   # procedure or condition
   example_risk:                        # figure name; key becomes risk.cornea.cxl.example_risk
     description: "Plain-English description of the outcome"
-    value: "1 in N"                    # as it should read in a patient leaflet
+    value: "1 in N"                    # the figure only; the document supplies words such as "about"
     detail: "Underlying figure, e.g. x% (95% CI a to b), n = ..."
     population: "Who the figure applies to"
     source: "Full reference"
