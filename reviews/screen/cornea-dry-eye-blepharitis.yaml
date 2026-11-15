@@ -1,0 +1,15 @@
+# Screen topic: dry eye disease and blepharitis.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-dry-eye-blepharitis
+covers:
+  evidence:
+    - risk.cornea.dry_eye.*
+    - risk.cornea.blepharitis.*
+  documents:
+    - content/ophthalmology/cornea/conditions/dry-eye-and-blepharitis/*
+pubmed:
+  - '("Dry Eye Syndromes"[mh] OR "dry eye"[tiab] OR "Blepharitis"[mh] OR blepharitis[tiab] OR "meibomian gland dysfunction"[tiab]) AND ("systematic review"[pt] OR "randomized controlled trial"[pt] OR guideline[pt] OR prevalence[tiab])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"
