@@ -105,5 +105,8 @@ recurrent_erosion:                     # which procedures this unit offers
 puk:                                   # how this unit shares care for PUK
   shared_care: "We work closely with the rheumatology team at the Example Eye Unit's hospital. Your GP will usually arrange your regular blood tests, following a plan agreed with the hospital."
 
+blepharitis:                           # products and further treatments this unit suggests
+  products: "Any clean flannel or a microwavable eye bag can be used for the warm compress. Eyelid cleaning wipes and solutions can be bought from pharmacies; ask us or your pharmacist if you are not sure which to use."
+
 videos:                                # links to this hospital's recorded videos, by document
   # leaflet-corneal-cross-linking: "https://..."
