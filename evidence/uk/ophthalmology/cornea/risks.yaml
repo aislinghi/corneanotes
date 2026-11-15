@@ -2119,3 +2119,30 @@ keratoconus_lenses:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+conjunctival_lesions:
+  ossn_recurrence_1y_uk:
+    description: OSSN coming back within a year of treatment, UK specialist centre
+    value: 1 in 10
+    detail: 1-year recurrence rate 10.9%; 5-year 18.5%
+    population: 78 cases of ocular surface squamous neoplasia, Sheffield ocular oncology centre, UK, retrospective, mean follow-up 37 months
+    source: 'Maudgil A, Patel T, Rundle P, Rennie IG, Mudhar HS. Ocular surface squamous neoplasia: analysis of 78 cases from a UK ocular oncology centre. Br J Ophthalmol. 2013;97(12):1520-4. doi:10.1136/bjophthalmol-2013-303338'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/24064943/
+    source_location: 'Abstract, Results: ''The 1-year recurrence rate was 10.9%, and 5-year recurrence rate was 18.5%'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  naevus_to_melanoma:
+    description: People with a conjunctival naevus (mole) who developed melanoma from it
+    value: fewer than 1 in 100
+    detail: 3 of 410 patients, over a mean interval of 7 years
+    population: 410 consecutive patients with conjunctival naevi, Wills Eye Hospital, USA; 149 followed for a mean of 11 years
+    source: 'Shields CL, Fasiuddin AF, Mashayekhi A, Shields JA. Conjunctival nevi: clinical features and natural course in 410 consecutive patients. Arch Ophthalmol. 2004;122(2):167-75. doi:10.1001/archopht.122.2.167'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/14769591/
+    source_location: 'Abstract, Results: ''There were 3 patients who developed malignant melanoma from a preexisting compound nevus (2 cases) or blue nevus (1 case) over a mean interval of 7 years.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'

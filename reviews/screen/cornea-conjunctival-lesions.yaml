@@ -1,0 +1,15 @@
+# Screen topic: conjunctival lesions.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-conjunctival-lesions
+covers:
+  evidence:
+    - risk.cornea.conjunctival_lesions.*
+  documents:
+    - content/ophthalmology/cornea/conditions/conjunctival-lesions/*
+pubmed:
+  - '("ocular surface squamous neoplasia"[tiab] OR "conjunctival intraepithelial neoplasia"[tiab] OR "conjunctival squamous"[tiab]) AND (mitomycin[tiab] OR fluorouracil[tiab] OR interferon[tiab] OR excision[tiab] OR recurrence[tiab] OR incidence[tiab] OR review[pt])'
+  - '("conjunctival nevus"[tiab] OR "conjunctival naevus"[tiab] OR "primary acquired melanosis"[tiab] OR pinguecula[tiab])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"
