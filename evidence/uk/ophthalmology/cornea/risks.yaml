@@ -1738,3 +1738,17 @@ dry_eye:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+allergic_conjunctivitis:
+  seasonal_adults:
+    description: Adults affected by seasonal allergic conjunctivitis (hay fever affecting the eyes)
+    value: 1 in 5
+    detail: '''about one fifth of adults'' (no source given)'
+    population: UK professional guidance
+    source: 'College of Optometrists. Clinical Management Guidelines: conjunctivitis (seasonal and perennial allergic), version 16, 2025.'
+    source_url: https://www.college-optometrists.org/guidance/clinical-management-guidelines/seasonal-allergic-conjunctivitis.html
+    source_location: 'Information for patients: ''one of the most common eye problems, affecting about one fifth of adults'''
+    read: Full text (public section)
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
