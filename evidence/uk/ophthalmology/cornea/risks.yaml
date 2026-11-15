@@ -1614,3 +1614,113 @@ chemical_injury:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+puk:
+  both_eyes_uk:
+    description: Both eyes affected, UK
+    value: 1 in 5
+    detail: 21% (15 of 70)
+    population: Bristol Eye Hospital, UK, 70 patients at a corneal immunosuppression clinic, 2002-2012 (non-infectious)
+    source: 'Knox Cartwright NE, Tole DM, Georgoudis P, Cook SD. Peripheral ulcerative keratitis and corneal melt: a 10-year single center review with historical comparison. Cornea. 2014;33(1):27-31. doi:10.1097/ICO.0000000000000008'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/24240486/
+    source_location: 'Abstract: ''Fifteen (21%) had bilateral disease'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  autoimmune_share:
+    description: PUK not caused by infection that is linked to autoimmune disease
+    value: 1 in 2
+    detail: '''almost half of the noninfectious causes'' (narrative review)'
+    population: Review
+    source: 'Hassanpour K, ElSheikh RH, Arabi A, Frank CR, et al. Peripheral ulcerative keratitis: a review. J Ophthalmic Vis Res. 2022;17(2):252-275. doi:10.18502/jovr.v17i2.10797'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/35765625/
+    source_location: 'Section ''Etiology'': ''Autoimmune diseases represent almost half of the noninfectious causes of PUK.'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  first_sign:
+    description: PUK appearing before or at the same time as the diagnosis of an autoimmune disease
+    value: 4 in 10
+    detail: 41.7%
+    population: 24 patients with autoimmune PUK, two centres, mean follow-up 14.4 years
+    source: 'Pelegrin L, Araujo O, Espinosa G, Rodriguez-Pinto I, et al. Peripheral ulcerative keratitis (PUK) in autoimmune diseases: a severe ocular manifestation not always associated with systemic disease
+      activity. Eur J Intern Med. 2026;148:106795'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/41735083/
+    source_location: 'Abstract: ''PUK preceded or coincided with the diagnosis of systemic disease in 41.7 % of cases.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  perforation:
+    description: Hole in the cornea (perforation) over long-term follow-up
+    value: 1 in 9
+    detail: 11.5% (6 eyes)
+    population: New Zealand, 41 patients (52 eyes) with PUK or necrotising scleritis, mean follow-up 7 years
+    source: 'Ogra S, Sims JL, McGhee CNJ, Niederer RL. Ocular complications and mortality in peripheral ulcerative keratitis and necrotising scleritis: the role of systemic immunosuppression. Clin Exp Ophthalmol.
+      2020;48(4):434-441. doi:10.1111/ceo.13709'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/31872475/
+    source_location: 'Abstract: ''Perforation occurred in six eyes (11.5%).'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  recurrence:
+    description: PUK coming back over long-term follow-up
+    value: 4 in 10
+    detail: 44.2% (23 eyes)
+    population: New Zealand, 41 patients (52 eyes) with PUK or necrotising scleritis, mean follow-up 7 years
+    source: 'Ogra S, Sims JL, McGhee CNJ, Niederer RL. Ocular complications and mortality in peripheral ulcerative keratitis and necrotising scleritis: the role of systemic immunosuppression. Clin Exp Ophthalmol.
+      2020;48(4):434-441. doi:10.1111/ceo.13709'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/31872475/
+    source_location: 'Abstract: ''Recurrence occurred in 23 eyes (44.2%)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  moderate_vision_loss:
+    description: Moderate loss of vision over long-term follow-up
+    value: 1 in 5
+    detail: 19.2% (10 eyes)
+    population: New Zealand, 41 patients (52 eyes) with PUK or necrotising scleritis, mean follow-up 7 years
+    source: 'Ogra S, Sims JL, McGhee CNJ, Niederer RL. Ocular complications and mortality in peripheral ulcerative keratitis and necrotising scleritis: the role of systemic immunosuppression. Clin Exp Ophthalmol.
+      2020;48(4):434-441. doi:10.1111/ceo.13709'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/31872475/
+    source_location: 'Abstract: ''Moderate vision loss occurred in 10 eyes (19.2%) and severe loss in six eyes (11.5%).'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  severe_vision_loss:
+    description: Severe loss of vision over long-term follow-up
+    value: 1 in 9
+    detail: 11.5% (6 eyes)
+    population: New Zealand, 41 patients (52 eyes) with PUK or necrotising scleritis, mean follow-up 7 years
+    source: 'Ogra S, Sims JL, McGhee CNJ, Niederer RL. Ocular complications and mortality in peripheral ulcerative keratitis and necrotising scleritis: the role of systemic immunosuppression. Clin Exp Ophthalmol.
+      2020;48(4):434-441. doi:10.1111/ceo.13709'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/31872475/
+    source_location: Abstract, as above
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  transplant_uk:
+    description: Corneal transplant needed after perforation, UK
+    value: 1 in 6
+    detail: 16% (12 eyes of 11 patients); 10 of 12 grafts stayed clear
+    population: Bristol Eye Hospital, UK, 70 patients at a corneal immunosuppression clinic, 2002-2012 (non-infectious)
+    source: 'Knox Cartwright NE, Tole DM, Georgoudis P, Cook SD. Peripheral ulcerative keratitis and corneal melt: a 10-year single center review with historical comparison. Cornea. 2014;33(1):27-31. doi:10.1097/ICO.0000000000000008'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/24240486/
+    source_location: 'Abstract: ''After perforation, 12 eyes of 11 patients (16%) underwent a corneal transplantation, and 10 (83%) of these remained clear.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'

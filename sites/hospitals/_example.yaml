@@ -102,5 +102,8 @@ pterygium:                             # how this unit carries out pterygium sur
 recurrent_erosion:                     # which procedures this unit offers
   procedures_offered: "At the Example Eye Unit we offer alcohol delamination and PTK laser treatment. Your surgeon will discuss which is best for you."
 
+puk:                                   # how this unit shares care for PUK
+  shared_care: "We work closely with the rheumatology team at the Example Eye Unit's hospital. Your GP will usually arrange your regular blood tests, following a plan agreed with the hospital."
+
 videos:                                # links to this hospital's recorded videos, by document
   # leaflet-corneal-cross-linking: "https://..."
