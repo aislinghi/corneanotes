@@ -1321,3 +1321,160 @@ recurrent_erosion:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+herpes_zoster:
+  lifetime_risk:
+    description: People who get shingles at some point in their life
+    value: 1 in 4
+    detail: estimated lifetime risk of one in four
+    population: England and Wales
+    source: 'UK Health Security Agency. Shingles (herpes zoster): the Green Book, chapter 28a. 12 August 2025.'
+    source_url: https://www.gov.uk/government/publications/shingles-herpes-zoster-the-green-book-chapter-28a
+    source_location: '''History and epidemiology'': ''with an estimated lifetime risk of one in four (Miller et al., 1993)'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  share_ophthalmic:
+    description: Shingles cases that affect the eye area (ophthalmic shingles)
+    value: 1 in 10 to 1 in 5
+    detail: 10-20% (estimate cited by UKHSA)
+    population: Estimate cited in UK national guidance
+    source: 'UK Health Security Agency. Shingles (herpes zoster): the Green Book, chapter 28a. 12 August 2025.'
+    source_url: https://www.gov.uk/government/publications/shingles-herpes-zoster-the-green-book-chapter-28a
+    source_location: '''Studies have estimated ophthalmic zoster to occur in 10-20% of shingles cases'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  eye_involved_with_nose_rash:
+    description: Eye involved when the rash reaches the tip, side or root of the nose
+    value: 8 in 10
+    detail: 78% (308 of 393) with the sign v 34% (539 of 1576) without; low-certainty evidence
+    population: Systematic review and meta-analysis, 14 observational studies
+    source: 'Mihalache A, Yu P, Tao BK, Xie JS, et al. Hutchinson''s sign in herpes zoster ophthalmicus: a systematic review and meta-analysis. Ophthalmology. 2026;133(3):411-422. doi:10.1016/j.ophtha.2025.10.019'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/41223901/
+    source_location: 'Abstract: ''78%, 308/393 in patients with HS vs. 34%, 539/1576 in patients without HS'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  eye_involved_without_nose_rash:
+    description: Eye involved when the rash does not reach the nose
+    value: 1 in 3
+    detail: 34% (539 of 1576)
+    population: As above
+    source: Mihalache A, et al. Ophthalmology. 2026;133(3):411-422
+    source_url: https://pubmed.ncbi.nlm.nih.gov/41223901/
+    source_location: Abstract, as above
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  uveitis:
+    description: Inflammation inside the eye (uveitis) after ophthalmic shingles
+    value: 1 in 2
+    detail: 47.6% (413 patients); median 10 days after the rash
+    population: 'Auckland, New Zealand: 869 patients with acute herpes zoster ophthalmicus, 2006-2016, median follow-up 6.3 years (hospital cohort)'
+    source: 'Meyer JJ, Liu K, Danesh-Meyer HV, Niederer RL. Herpes zoster ophthalmicus uveitis: onset and complications. Am J Ophthalmol. 2024;268:409-415. doi:10.1016/j.ajo.2024.09.017'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/39307262/
+    source_location: 'Abstract: ''413 (47.6%) developed uveitis. Median time from onset of rash to diagnosis of uveitis was 10 days'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  recurrence:
+    description: Eye problems coming back at least once after ophthalmic shingles
+    value: 1 in 4
+    detail: 23.0% (200 patients); median 3.5 months to first recurrence; after stopping steroid drops, median 1.4 months
+    population: 'Auckland, New Zealand: 869 patients with acute herpes zoster ophthalmicus, 2006-2016, median follow-up 6.3 years (hospital cohort)'
+    source: 'Scott DAR, Liu K, Danesh-Meyer HV, Niederer RL. Herpes zoster ophthalmicus recurrence: risk factors and long-term clinical outcomes. Am J Ophthalmol. 2024;268:1-9. doi:10.1016/j.ajo.2024.06.003'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/38909743/
+    source_location: 'Abstract: ''at least 1 recurrence was seen in 200 subjects (23.0%)''; ''recurrence occurred after a median of 1.4 months'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  moderate_vision_loss:
+    description: Moderate loss of vision (6/15 or worse) caused by ophthalmic shingles
+    value: 1 in 10
+    detail: 9.6% (83 eyes)
+    population: 'Auckland, New Zealand: 869 patients with acute herpes zoster ophthalmicus, 2006-2016, median follow-up 6.3 years (hospital cohort)'
+    source: Niederer RL, Meyer JJ, Liu K, Danesh-Meyer HV. Herpes zoster ophthalmicus clinical presentation and risk factors for loss of vision. Am J Ophthalmol. 2021;226:83-89. doi:10.1016/j.ajo.2021.02.002
+    source_url: https://pubmed.ncbi.nlm.nih.gov/33571476/
+    source_location: 'Abstract: ''Moderate vision loss (<=20/50) secondary to HZO occurred in 83 eyes (9.6%)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  severe_vision_loss:
+    description: Severe loss of vision (6/60 or worse) caused by ophthalmic shingles
+    value: 1 in 30
+    detail: 3.6% (31 eyes); mainly from corneal scarring
+    population: 'Auckland, New Zealand: 869 patients with acute herpes zoster ophthalmicus, 2006-2016, median follow-up 6.3 years (hospital cohort)'
+    source: Niederer RL, Meyer JJ, Liu K, Danesh-Meyer HV. Herpes zoster ophthalmicus clinical presentation and risk factors for loss of vision. Am J Ophthalmol. 2021;226:83-89. doi:10.1016/j.ajo.2021.02.002
+    source_url: https://pubmed.ncbi.nlm.nih.gov/33571476/
+    source_location: 'Abstract: ''severe vision loss (<=20/200) occurred in 31 eyes (3.6%)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  reduced_corneal_feeling:
+    description: Loss of feeling in the cornea causing surface damage (neurotrophic keratopathy)
+    value: 1 in 15
+    detail: 6.7% (58 patients), highest risk 1 to 2 years after onset
+    population: 'Auckland, New Zealand: 869 patients with acute herpes zoster ophthalmicus, 2006-2016, median follow-up 6.3 years (hospital cohort)'
+    source: Meyer JJ, Liu K, McGhee CNJ, Danesh-Meyer HV, et al. Neurotrophic keratopathy after herpes zoster ophthalmicus. Cornea. 2022;41(11):1433-1436
+    source_url: https://pubmed.ncbi.nlm.nih.gov/35120347/
+    source_location: 'Abstract: ''NK developed in 58 patients (6.7%), with the highest hazard 1 to 2 years after onset of HZO.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  phn_60_64:
+    description: Nerve pain lasting more than 3 months after shingles, aged 60 to 64
+    value: 1 in 10
+    detail: 9%
+    population: England and Wales, immunocompetent, before the vaccine programme (van Hoek 2009)
+    source: 'UK Health Security Agency. Shingles (herpes zoster): the Green Book, chapter 28a. 12 August 2025.'
+    source_url: https://www.gov.uk/government/publications/shingles-herpes-zoster-the-green-book-chapter-28a
+    source_location: 'Table 1: 60-64 years, 9%'
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  phn_85:
+    description: Nerve pain lasting more than 3 months after shingles, aged 85 and over
+    value: 1 in 2
+    detail: 52%
+    population: As above
+    source: 'UK Health Security Agency. Shingles (herpes zoster): the Green Book, chapter 28a. 12 August 2025.'
+    source_url: https://www.gov.uk/government/publications/shingles-herpes-zoster-the-green-book-chapter-28a
+    source_location: 'Table 1: 85 years and over, 52%'
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  vaccine_hzo:
+    description: Reduction in ophthalmic shingles with the current (non-live) shingles vaccine
+    value: 9 in 10
+    detail: adjusted effectiveness 89.1% (95% CI 82.9-93.0%)
+    population: 4.8 million US adults aged 50 and over, 2018-2019
+    source: Lu A, Sun Y, Porco TC, Arnold BF, et al. Effectiveness of the recombinant zoster vaccine for herpes zoster ophthalmicus in the United States. Ophthalmology. 2021;128(12):1699-1707
+    source_url: https://pubmed.ncbi.nlm.nih.gov/33892049/
+    source_location: 'Abstract: ''The overall adjusted effectiveness of RZV against HZO was 89.1% (95% CI, 82.9%-93.0%).'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
