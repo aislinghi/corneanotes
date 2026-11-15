@@ -1,0 +1,14 @@
+# Screen topic: penetrating keratoplasty (PK).
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-pk
+covers:
+  evidence:
+    - risk.cornea.pk.*
+  documents:
+    - content/ophthalmology/cornea/conditions/corneal-transplant/*penetrating*
+pubmed:
+  - '("penetrating keratoplasty"[tiab] OR "Keratoplasty, Penetrating"[mh]) AND (rejection[tiab] OR survival[tiab] OR failure[tiab] OR complication*[tiab] OR registry[tiab] OR outcome*[tiab])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"

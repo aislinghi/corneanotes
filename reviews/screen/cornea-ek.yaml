@@ -1,0 +1,14 @@
+# Screen topic: endothelial keratoplasty (DSEK, DSAEK, DMEK).
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-ek
+covers:
+  evidence:
+    - risk.cornea.ek.*
+  documents:
+    - content/ophthalmology/cornea/conditions/corneal-transplant/*endothelial*
+pubmed:
+  - '("endothelial keratoplasty"[tiab] OR DMEK[tiab] OR DSAEK[tiab] OR DSEK[tiab] OR "Descemet Stripping Endothelial Keratoplasty"[mh] OR "Descemet membrane endothelial keratoplasty"[tiab]) AND (rejection[tiab] OR survival[tiab] OR failure[tiab] OR detachment[tiab] OR rebubbl*[tiab] OR complication*[tiab] OR outcome*[tiab])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"
