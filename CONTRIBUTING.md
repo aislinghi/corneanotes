@@ -1,0 +1,50 @@
+# Contributing to corneanotes
+
+Thank you for helping improve these leaflets and protocols. Contributions from clinicians, allied health professionals, patients and carers are all welcome.
+
+## The golden rules
+
+1. **No patient-identifiable information, ever.** No names, dates of birth, hospital or NHS numbers, photographs, or case details that could identify someone. This repository is public and its history is permanent: anything pushed can be seen even after it is deleted.
+2. **Every change is reviewed.** Nothing reaches the main branch without approval from a trusted reviewer (listed in `.github/CODEOWNERS`).
+3. **Same information everywhere.** The clinical core of a document is shared by every service. Local details (phone numbers, urgent access, out-of-hours arrangements) go in placeholders filled from `sites/`, never in the shared text.
+4. **National figures, kept in one place.** Never type a risk figure into a document. Add or update it in `evidence/` with its national or published source, and refer to it by its key. See [evidence/README.md](evidence/README.md).
+5. **Cite your sources.** Other clinical statements should be backed by a reference (guideline, paper, product information) listed in the file's `sources` field.
+6. **Write for the reader.** Leaflets are for patients: plain English, short sentences, and explain any medical term you have to use.
+
+## How to suggest a change
+
+### On the GitHub website (no coding needed)
+
+1. Open the file you want to change, or `content/_template.md` to start a new one.
+2. Click the pencil icon ("Edit this file"). GitHub will make your own copy (a "fork") automatically.
+3. Make your changes and click **Commit changes**, then **Propose changes**.
+4. Click **Create pull request** and fill in the checklist.
+
+### With git
+
+1. Fork the repository and create a branch.
+2. Make your changes and push to your fork.
+3. Open a pull request against `main`.
+
+## What happens next
+
+A reviewer will read your pull request. They may approve it, ask questions, or request changes. Once approved it is merged and becomes part of the published content. If you push further changes after approval, it will need approving again.
+
+## Adding a new document
+
+1. Copy `content/_template.md` into the right folder, for example `content/ophthalmology/cornea/leaflets/`.
+2. Name it in lower case with hyphens, for example `corneal-cross-linking.md`.
+3. Fill in the details at the top of the file (the part between the `---` lines) and write the content underneath.
+4. Leave `status` as `draft`. The reviewer changes it to `approved`.
+
+## Adding your service
+
+Copy `sites/_example.yaml`, fill in your local details and open a pull request. See [sites/README.md](sites/README.md).
+
+## Starting a new specialty or subspecialty
+
+Open an issue first. A new area needs a lead reviewer, who is added to `.github/CODEOWNERS` for that area's folders.
+
+## Licence
+
+By contributing, you agree that your contribution is licensed under the same licence as the rest of the repository, [CC BY-NC-SA 4.0](LICENSE).

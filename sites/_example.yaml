@@ -1,0 +1,21 @@
+# Example service file. Copy this file, rename it after your service and fill it in.
+# Every key here can be used in a document as {{site.<key>}}.
+
+name: "Example Eye Unit, Example NHS Foundation Trust"
+department: "Cornea Service"
+country: "UK"
+
+contacts:
+  main_phone: "01234 567890"           # EXAMPLE: replace with your number
+  urgent_phone: "01234 567891"         # EXAMPLE: replace with your number
+  hours: "Monday to Friday, 9am to 5pm"
+
+urgent_access: |
+  EXAMPLE: describe how a patient should get urgent help during working hours.
+
+out_of_hours: |
+  EXAMPLE: describe what a patient should do out of hours, e.g. which
+  emergency department or eye casualty to attend.
+
+format:
+  template: ""                         # name of this service's document template, when available

@@ -1,0 +1,18 @@
+# Cornea risk and outcome figures. See evidence/README.md for the rules and format.
+#
+# EXAMPLE ONLY: the entry below shows the format. It is not real data and must
+# not be quoted. Replace it with real figures from national data or the
+# published literature, each with a full source.
+
+cxl:
+  example_risk:
+    description: "EXAMPLE ONLY: not a real figure"
+    value: "EXAMPLE"
+    detail: "EXAMPLE"
+    population: "EXAMPLE"
+    source: "EXAMPLE"
+    source_url: ""
+    source_location: ""
+    last_checked:
+    checked_by: ""
+    next_check_due:

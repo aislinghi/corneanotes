@@ -1,0 +1,16 @@
+# Who must approve changes to each area. Later lines take priority.
+# A reviewer must be a collaborator with write access to the repository.
+# When a new specialty or subspecialty joins, add a line for its folder and its lead reviewer(s), e.g.
+# /content/ophthalmology/glaucoma/   @glaucoma-lead
+# /evidence/ophthalmology/glaucoma/  @glaucoma-lead
+
+# Default: everything else, including governance files and the website
+*                                    @aislinghi
+
+# Cornea content and evidence
+/content/ophthalmology/cornea/       @aislinghi
+/evidence/ophthalmology/cornea/      @aislinghi
+
+# Governance files always need the repository owner
+/.github/                            @aislinghi
+/LICENSE                             @aislinghi
