@@ -1,0 +1,14 @@
+# Screen topic: Acanthamoeba keratitis.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-acanthamoeba
+covers:
+  evidence:
+    - risk.cornea.acanthamoeba.*
+  documents:
+    - content/ophthalmology/cornea/conditions/microbial-keratitis/leaflet-acanthamoeba-keratitis.md
+pubmed:
+  - '"Acanthamoeba keratitis"[tiab] AND (treatment[tiab] OR polihexanide[tiab] OR polyhexanide[tiab] OR PHMB[tiab] OR outcome[tiab] OR "risk factors"[tiab] OR incidence[tiab] OR trial[pt] OR review[pt])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"

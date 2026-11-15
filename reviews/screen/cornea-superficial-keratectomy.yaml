@@ -1,0 +1,14 @@
+# Screen topic: superficial keratectomy.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-superficial-keratectomy
+covers:
+  evidence:
+    - risk.cornea.superficial_keratectomy.*
+  documents:
+    - content/ophthalmology/cornea/conditions/recurrent-corneal-erosion/leaflet-superficial-keratectomy.md
+pubmed:
+  - '("superficial keratectomy"[tiab] OR "epithelial debridement"[tiab] OR "diamond burr"[tiab] OR "Salzmann"[tiab]) AND (cornea[tiab] OR corneal[tiab])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"
