@@ -1170,3 +1170,154 @@ pterygium:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+recurrent_erosion:
+  needed_more_than_ointment:
+    description: People with recurrent erosion who needed more than nightly ointment, UK
+    value: 1 in 25
+    detail: further therapy needed in 5 of 117 started on nightly ointment (about 4%)
+    population: Moorfields, UK randomised trial, 117 patients, mean follow-up 10.6 months
+    source: 'Hykin PG, Foss AE, Pavesio C, Dart JK. The natural history and management of recurrent corneal erosion: a prospective randomised trial. Eye (Lond). 1994;8(Pt 1):35-40. doi:10.1038/eye.1994.6'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/8013716/
+    source_location: 'Abstract: ''Of 117 cases started on prophylactic ointment at night, further therapy due to prophylaxis failure was required in only 5.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  symptoms_4y:
+    description: People still having occasional attacks about 4 years later, UK
+    value: 6 in 10
+    detail: 59% (55 of 94) still symptomatic; attacks a median of every 60 days; median pain score 2.5 out of 10
+    population: Moorfields, UK; 94 of 117 patients contacted; mean follow-up 48 months
+    source: 'Heyworth P, Morlet N, Rayner S, Hykin P, Dart J. Natural history of recurrent erosion syndrome: a 4 year review of 117 patients. Br J Ophthalmol. 1998;82(1):26-8. doi:10.1136/bjo.82.1.26'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/9536875/
+    source_location: 'Abstract: ''55 (59%) were still symptomatic with attacks occurring at a median frequency of 60 days'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  symptoms_4y_ebmd:
+    description: People with a basement membrane dystrophy still having attacks about 4 years later, UK
+    value: 3 in 4
+    detail: 75%
+    population: Moorfields, UK; 94 of 117 patients contacted; mean follow-up 48 months
+    source: 'Heyworth P, Morlet N, Rayner S, Hykin P, Dart J. Natural history of recurrent erosion syndrome: a 4 year review of 117 patients. Br J Ophthalmol. 1998;82(1):26-8. doi:10.1136/bjo.82.1.26'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/9536875/
+    source_location: 'Abstract: ''Seventy five per cent (n = 21) of patients with epithelial basement membrane dystrophy (EBMD) were symptomatic'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  symptoms_4y_injury:
+    description: People whose erosions started after an injury still having attacks about 4 years later, UK
+    value: 1 in 2
+    detail: 46%
+    population: Moorfields, UK; 94 of 117 patients contacted; mean follow-up 48 months
+    source: 'Heyworth P, Morlet N, Rayner S, Hykin P, Dart J. Natural history of recurrent erosion syndrome: a 4 year review of 117 patients. Br J Ophthalmol. 1998;82(1):26-8. doi:10.1136/bjo.82.1.26'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/9536875/
+    source_location: 'Abstract: ''compared with those with a traumatic aetiology among whom 46% (n = 28) were symptomatic'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  ptk_recurrence:
+    description: Erosions coming back after PTK laser treatment
+    value: 1 in 5
+    detail: 18% overall (95% CI 13-24%); 21% with follow-up beyond one year
+    population: Systematic review and meta-analysis, 21 studies (mostly uncontrolled), 705 eyes, follow-up 3 months to 14 years
+    source: 'Chen S, Chu X, Zhang C, Jia Z, et al. Safety and efficacy of the phototherapeutic keratectomy for treatment of recurrent corneal erosions: a systematic review and meta-analysis. Ophthalmic
+      Res. 2023;66(1):1114-1127. doi:10.1159/000533160'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/37490883/
+    source_location: 'Abstract: ''The recurrence rate was 18% (95% CI, 13%-24%)'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  ptk_haze:
+    description: Haze in the cornea after PTK, usually temporary
+    value: 1 in 8
+    detail: 13% (95% CI 6-21%); most cases fully reversible
+    population: Systematic review and meta-analysis, 21 studies (mostly uncontrolled), 705 eyes, follow-up 3 months to 14 years
+    source: 'Chen S, Chu X, Zhang C, Jia Z, et al. Safety and efficacy of the phototherapeutic keratectomy for treatment of recurrent corneal erosions: a systematic review and meta-analysis. Ophthalmic
+      Res. 2023;66(1):1114-1127. doi:10.1159/000533160'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/37490883/
+    source_location: 'Abstract: ''subepithelial haze, hyperopic shift, and decrease of the best spectacle-corrected visual acuity ... 13% ..., 20% ..., and 11%'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  ptk_long_sight:
+    description: Shift towards long sight after PTK
+    value: 1 in 5
+    detail: 20% (95% CI 11-28%)
+    population: Systematic review and meta-analysis, 21 studies (mostly uncontrolled), 705 eyes, follow-up 3 months to 14 years
+    source: 'Chen S, Chu X, Zhang C, Jia Z, et al. Safety and efficacy of the phototherapeutic keratectomy for treatment of recurrent corneal erosions: a systematic review and meta-analysis. Ophthalmic
+      Res. 2023;66(1):1114-1127. doi:10.1159/000533160'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/37490883/
+    source_location: Abstract, as above
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  ptk_vision_loss:
+    description: Some loss of best vision with glasses after PTK, usually one line
+    value: 1 in 9
+    detail: 11% (95% CI 5-16%); mostly a one-line loss
+    population: Systematic review and meta-analysis, 21 studies (mostly uncontrolled), 705 eyes, follow-up 3 months to 14 years
+    source: 'Chen S, Chu X, Zhang C, Jia Z, et al. Safety and efficacy of the phototherapeutic keratectomy for treatment of recurrent corneal erosions: a systematic review and meta-analysis. Ophthalmic
+      Res. 2023;66(1):1114-1127. doi:10.1159/000533160'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/37490883/
+    source_location: 'Abstract, as above; Discussion: ''most patients showed only line 1 deterioration'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  alcohol_success:
+    description: Alcohol delamination successful, UK
+    value: 8 in 10
+    detail: 83% (15 of 18 eyes) successes, 3 partial successes, no failures
+    population: Nottingham, UK, 20 eyes, mean follow-up 24 months
+    source: 'Singh RP, Raj D, Pherwani A, Lagnado R, et al. Alcohol delamination of the corneal epithelium for recalcitrant recurrent corneal erosion syndrome: a prospective study of efficacy and safety.
+      Br J Ophthalmol. 2007;91(7):908-11. doi:10.1136/bjo.2006.112912'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/17301117/
+    source_location: 'Abstract: ''15 (83%) eyes were qualified as successes, 3 as partial successes and no failures were seen.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  alcohol_recurrence_3y:
+    description: Erosions coming back within 3 years after alcohol delamination (after an injury), UK
+    value: 1 in 9
+    detail: 11.5% (3 of 26 eyes)
+    population: Aberdeen, UK, 26 eyes with injury-related erosions, at least 36 months
+    source: Teh BL, Chua PYS, Reddy AR. Three-year outcomes of alcohol delamination of corneal epithelium for recurrent corneal erosions of traumatic etiology. Indian J Ophthalmol. 2021;69(9):2437-2440.
+      doi:10.4103/ijo.IJO_3796_20
+    source_url: https://pubmed.ncbi.nlm.nih.gov/34427239/
+    source_location: 'Abstract: ''Three eyes (11.5%) had recurrence of corneal erosion after ADCE at the 3-year follow-up'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  alcohol_vs_ptk:
+    description: Symptoms fully or partly resolved after alcohol delamination or PTK, randomised trial
+    value: 2 in 3
+    detail: 65% (alcohol delamination) and 63% (PTK)
+    population: Randomised trial, Australia, 33 eyes, mean follow-up about 16 to 17 months
+    source: Chan E, Jhanji V, Constantinou M, Amiel H, et al. A randomised controlled trial of alcohol delamination and phototherapeutic keratectomy for the treatment of recurrent corneal erosion syndrome.
+      Br J Ophthalmol. 2014;98(2):166-71. doi:10.1136/bjophthalmol-2013-303276
+    source_url: https://pubmed.ncbi.nlm.nih.gov/23759442/
+    source_location: 'Abstract: ''complete or partial resolution of symptoms in 11 (65%) eyes in the ALD group and 10 (63%) eyes in the PTK group'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
