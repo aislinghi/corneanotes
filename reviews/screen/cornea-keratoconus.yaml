@@ -1,0 +1,14 @@
+# Screen topic: keratoconus (natural history, prevalence, monitoring, management).
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-keratoconus
+covers:
+  evidence:
+    - risk.cornea.keratoconus.*
+  documents:
+    - content/ophthalmology/cornea/conditions/keratoconus/*keratoconus*
+pubmed:
+  - '("Keratoconus"[mh] OR keratoconus[tiab]) AND (prevalence[tiab] OR incidence[tiab] OR progression[tiab] OR "natural history"[tiab] OR keratoplasty[tiab] OR transplant*[tiab] OR "systematic review"[pt] OR guideline[pt])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"
