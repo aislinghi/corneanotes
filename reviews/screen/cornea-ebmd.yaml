@@ -1,0 +1,14 @@
+# Screen topic: ebmd.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-ebmd
+covers:
+  evidence:
+    - risk.cornea.ebmd.*
+  documents:
+    - content/ophthalmology/cornea/conditions/epithelial-basement-membrane-dystrophy/*
+pubmed:
+  - '("epithelial basement membrane dystrophy"[tiab] OR "map-dot-fingerprint"[tiab] OR "anterior basement membrane dystrophy"[tiab]) AND (treatment[tiab] OR keratectomy[tiab] OR cataract[tiab] OR refractive[tiab] OR prevalence[tiab] OR review[pt])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"

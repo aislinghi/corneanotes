@@ -1,0 +1,14 @@
+# Screen topic: band-keratopathy.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-band-keratopathy
+covers:
+  evidence:
+    - risk.cornea.band_keratopathy.*
+  documents:
+    - content/ophthalmology/cornea/conditions/band-keratopathy/*
+pubmed:
+  - '("band keratopathy"[tiab] OR "calcific band keratopathy"[tiab]) AND (EDTA[tiab] OR chelation[tiab] OR keratectomy[tiab] OR recurrence[tiab] OR outcome*[tiab] OR review[pt])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"
