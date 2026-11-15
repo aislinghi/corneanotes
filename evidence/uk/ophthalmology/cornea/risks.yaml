@@ -2009,3 +2009,58 @@ suture_removal:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+graft_rejection:
+  no_symptoms:
+    description: Rejection episodes found when the person had no symptoms
+    value: 4 in 10
+    detail: 43%
+    population: 'Case-control study after PK for keratoconus, Wills Eye Hospital, USA: 23 eyes with a first rejection episode and 69 controls'
+    source: Epstein AJ, de Castro TN, Laibson PR, Cohen EJ, Rapuano CJ. Risk factors for the first episode of corneal graft rejection in keratoconus. Cornea. 2006;25(9):1005-11. doi:10.1097/01.ico.0000240098.01468.4c
+    source_url: https://pubmed.ncbi.nlm.nih.gov/17133044/
+    source_location: 'Abstract, Results: ''Most patients (70%) were diagnosed with rejection at a scheduled office visit rather than at an emergency visit, and correspondingly, nearly one half (43%) had
+      no symptoms when rejection was identified.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  stayed_clear_us:
+    description: Grafts that stayed clear after a rejection episode (US study)
+    value: 9 in 10
+    detail: 91%
+    population: 'Case-control study after PK for keratoconus, Wills Eye Hospital, USA: 23 eyes with a first rejection episode and 69 controls'
+    source: Epstein AJ, de Castro TN, Laibson PR, Cohen EJ, Rapuano CJ. Risk factors for the first episode of corneal graft rejection in keratoconus. Cornea. 2006;25(9):1005-11. doi:10.1097/01.ico.0000240098.01468.4c
+    source_url: https://pubmed.ncbi.nlm.nih.gov/17133044/
+    source_location: 'Abstract, Results: ''91% of the corneas that underwent rejection did not progress to graft failure, remaining centrally clear at most recent follow-up.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  failed_after_rejection_uk:
+    description: Grafts for Fuchs dystrophy that later failed after a recorded rejection episode, UK
+    value: 1 in 2
+    detail: 50% of PKs (17) and 60% of EKs (15) with a rejection episode subsequently failed
+    population: UK Transplant Registry, EK or PK for Fuchs endothelial dystrophy, 2005-2011, 1973 grafts, 2-year follow-up
+    source: 'Figueiredo GS, Jones MN, Krishna Y, Figueiredo FC, Larkin DF, Kaye SB; NHSBT Ocular Tissue Advisory Group. Transplant rejection following endothelial keratoplasty and penetrating keratoplasty
+      in the United Kingdom: incidence and survival. Am J Ophthalmol. 2015;160(3):416-21. doi:10.1016/j.ajo.2015.06.012'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/26116262/
+    source_location: 'Abstract, Results: ''In transplants that had a rejection episode, 50% of PKs (17) and 60% of EKs (15) subsequently failed.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  regraft_survival_5y_uk:
+    description: Second corneal transplants still working at 5 years, UK
+    value: 1 in 2
+    detail: 53.4% (95% CI 51.4-55.4), compared with 72.5% for first grafts
+    population: UK Transplant Registry, 1999-2016, all indications and graft types; 4224 second grafts
+    source: Aboshiha J, Jones MNA, Hopkinson CL, Larkin DFP. Differential survival of penetrating and lamellar transplants in management of failed corneal grafts. JAMA Ophthalmol. 2018;136(8):859-865. doi:10.1001/jamaophthalmol.2018.1515
+    source_url: https://pubmed.ncbi.nlm.nih.gov/29931227/
+    source_location: 'Abstract, Results: ''a difference in survival of 25 270 (72.5%; 95% CI, 71.7%-73.2%) from the first graft to 4224 (53.4%; 95% CI, 51.4%-55.4%) from the second graft'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
