@@ -2064,3 +2064,58 @@ graft_rejection:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+keratoconus_lenses:
+  rigid_share_uk:
+    description: People with keratoconus in a Scottish study who wore rigid contact lenses
+    value: 9 in 10
+    detail: 90.6%
+    population: 200 people with keratoconus, Tayside, Scotland, prospective, 4 years (Dundee University Scottish Keratoconus Study)
+    source: 'Weed KH, MacEwen CJ, McGhee CN. The Dundee University Scottish Keratoconus Study II: a prospective study of optical and surgical correction. Ophthalmic Physiol Opt. 2007;27(6):561-7. doi:10.1111/j.1475-1313.2007.00524.x'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/17956361/
+    source_location: 'Abstract, Results: ''Keratoconic subjects in this study wore rigid contact lenses (90.6%) for longer than 12 hours per day (81%), 7 days a week (91%) and achieved a very good level
+      of Snellen visual acuity (97%, > or =6/9).'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  overnight_infection:
+    description: How much more likely a contact lens infection is with overnight wear, any lens type
+    value: 5 times
+    detail: relative risk 5.4 (95% CI 3.3-10.9)
+    population: 'Case-control study, Moorfields, London: 367 cases of microbial keratitis, 1069 hospital and 639 population controls'
+    source: 'Dart JK, Radford CF, Minassian D, Verma S, Stapleton F. Risk factors for microbial keratitis with contemporary contact lenses: a case-control study. Ophthalmology. 2008;115(10):1647-54. doi:10.1016/j.ophtha.2008.05.003'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/18597850/
+    source_location: 'Abstract, Results: ''The RR for overnight wear, for any lens type, was 5.4 times higher (95% CI, 3.3-10.9; P<0.001).'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  swimming_acanthamoeba:
+    description: How much more likely Acanthamoeba keratitis is in people who wear lenses in swimming pools or hot tubs
+    value: 3 times
+    detail: odds ratio 3.49 (95% CI 1.51-8.04)
+    population: Prospective case-control study of reusable contact lens wearers, Moorfields, London
+    source: 'Carnt N, Hoffman JJ, Verma S, Hau S, Radford CF, Minassian DC, Dart JKG. Acanthamoeba keratitis: confirmation of the UK outbreak and a prospective case-control study identifying contributing
+      risk factors. Br J Ophthalmol. 2018;102(12):1621-1628. doi:10.1136/bjophthalmol-2018-312544'
+    source_url: https://bjo.bmj.com/content/bjophthalmol/102/12/1621.full.pdf
+    source_location: 'Results: ''Wearing CLs in swimming pools or hot tubs of 3.49 (CI 1.51 to 8.04 p 0.003).'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  lenses_after_pk:
+    description: People with keratoconus who go back to contact lenses after a full-thickness transplant
+    value: 1 in 3 to 1 in 2
+    detail: 31% to 56% across studies
+    population: Review of published studies (BCLA CLEAR report), keratoconus treated with PK
+    source: Jacobs DS, Carrasquillo KG, Cottrell PD, et al. CLEAR - Medical use of contact lenses. Cont Lens Anterior Eye. 2021;44(2):289-329. doi:10.1016/j.clae.2021.02.002
+    source_url: https://publications.aston.ac.uk/id/eprint/42528/1/CLEAR_Medical_CLs_PURE.pdf
+    source_location: 'Section 4.2.1: ''In patients with keratoconus that proceed to PK, between 31% and 56% return to contact lens wear after surgery'''
+    read: Full text (accepted manuscript)
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'

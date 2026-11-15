@@ -95,6 +95,8 @@ keratoconus:                           # this unit's own monitoring arrangements
   monitoring: "We usually check your eyes every 6 months while your keratoconus could still change, and less often once it is stable."
   lens_break_before_scans: "Please leave out rigid (hard) contact lenses for 2 weeks, and soft lenses for 1 week, before each scan appointment."
   who_you_see: "Your scans and checks will be done by our specialist optometrists, who work with the cornea consultants."
+  lens_service: "Our hospital contact lens clinic fits lenses for keratoconus. You will need a referral from your optometrist, GP or eye doctor. Please allow up to two hours for your first fitting appointment."
+  lens_charges: "There is an NHS charge for each hospital contact lens, unless you are exempt (for example, if you are under 16, or under 19 and in full-time education, or you receive certain benefits). Spare lenses are always charged. Please ask the clinic for the current charge."
 
 cxl:                                   # how and where this unit provides cross-linking
   where: "We carry out cross-linking here at the Example Eye Unit."
