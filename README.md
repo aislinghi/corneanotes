@@ -24,6 +24,8 @@ It starts with corneal services in the UK. It is designed to grow across ophthal
 
 > **Important:** this material supports, and does not replace, the judgement of the treating clinician. Check that any document fits your local policies before use.
 
+See [ROADMAP.md](ROADMAP.md) for the documents planned so far.
+
 ## What is here
 
 | Folder | Contents |
@@ -32,9 +34,11 @@ It starts with corneal services in the UK. It is designed to grow across ophthal
 | `content/<specialty>/<subspecialty>/protocols/` | Clinical protocols and pathways for staff |
 | `content/<specialty>/<subspecialty>/referral/` | Referral guidance for optometrists, GPs and other units |
 | `content/<specialty>/<subspecialty>/teaching/` | Training material |
+| `content/<specialty>/<subspecialty>/guidelines/` | Clinical guidelines, e.g. microbiology and antimicrobial treatment |
+| `content/<specialty>/<subspecialty>/business-cases/` | Business cases for equipment, tissue, services and training |
 | `content/<specialty>/<subspecialty>/video-scripts/` | Scripts for patient videos, recorded by each service's own clinicians |
 | `content/_template.md` | Starting point for a new document |
-| `evidence/` | Risk and outcome figures, each with its source and review date |
+| `evidence/` | Risk and outcome figures, and national costs and tariffs, each with its source and review date |
 | `sites/` | Each service's local details (phones, urgent access, format) |
 | `src/` | The website |
 

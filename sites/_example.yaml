@@ -24,6 +24,14 @@ pifu:                                  # patient-initiated follow-up (PIFU)
     and how quickly they can expect a reply.
   duration: "EXAMPLE: how long a patient stays on PIFU before discharge"
 
+formulary: |                           # local antimicrobial formulary or links to it, used by guidelines
+  EXAMPLE: link to this service's antimicrobial formulary and any local
+  resistance (antibiogram) data agreed with microbiology.
+
+business_case:                         # local figures that genuinely differ between services
+  activity: "EXAMPLE: annual activity relevant to the case"
+  finance_contact: "EXAMPLE: role, not a personal name"
+
 videos:                                # links to this service's recorded videos, by document
   # corneal-cross-linking: "https://..."
 
