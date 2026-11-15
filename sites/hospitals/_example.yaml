@@ -45,6 +45,10 @@ aftercare:                             # this unit's own practice after each pro
     drops: "We usually reduce your drops gradually over the first year."
     stitches: "We may remove some stitches from about three months after surgery. We usually remove all the stitches after about a year."
     time_off_work: "Most people take about two weeks off work."
+  cxl:
+    pain_relief: "We will give you pain relief tablets and eye drops to take home."
+    follow_up: "We will see you about a week after treatment to check the surface has healed and remove the bandage contact lens, and then again at 3 to 6 months."
+    time_off_work: "Most people take about a week off work or school, or two weeks if they do a lot of close or screen work."
   amniotic_membrane:
     while_in_place: |
       While the membrane is on your eye, please do not rub or press on the eye,
@@ -52,6 +56,16 @@ aftercare:                             # this unit's own practice after each pro
       If a contact lens falls out, do not put it back in: call us instead.
       Wear glasses rather than your usual contact lenses until we tell you it is safe.
     follow_up: "We will check your eye in clinic, usually within a week, and remove any contact lens or ring when the surface has healed."
+
+keratoconus:                           # this unit's own monitoring arrangements
+  monitoring: "We usually check your eyes every 6 months while your keratoconus could still change, and less often once it is stable."
+  lens_break_before_scans: "Please leave out rigid (hard) contact lenses for 2 weeks, and soft lenses for 1 week, before each scan appointment."
+  who_you_see: "Your scans and checks will be done by our specialist optometrists, who work with the cornea consultants."
+
+cxl:                                   # how and where this unit provides cross-linking
+  where: "We carry out cross-linking here at the Example Eye Unit."
+  technique: "We use the standard epithelium-off method, with an accelerated (shorter) ultraviolet treatment. You should expect to be in the department for about half a day."
+  both_eyes: "We usually treat one eye at a time."
 
 videos:                                # links to this hospital's recorded videos, by document
   # leaflet-corneal-cross-linking: "https://..."

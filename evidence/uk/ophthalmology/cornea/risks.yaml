@@ -172,6 +172,45 @@ keratoconus:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+  prevalence_world:
+    description: People with keratoconus, worldwide
+    value: 1 in 350
+    detail: pooled prevalence 289.1 per 100,000 (95% CI 124.2 to 671.1); much higher in South Asia (1374.5 per 100,000) and lower in East Asia (12.7 per 100,000)
+    population: Systematic review and meta-analysis, 55 studies
+    source: 'Sriranganathan A, et al. Global incidence and prevalence of keratoconus: a systematic review and meta-analysis. Cornea. 2026;45(9):1080-1092. doi:10.1097/ICO.0000000000003973'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/40833011/
+    source_location: 'Abstract: ''Pooled KC prevalence was 289.1 per 100,000 persons [95% CI 124.2-671.1]'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  incidence_asian_vs_white_uk:
+    description: How much more often keratoconus was diagnosed in people of Asian origin than in white people, UK
+    value: 4 times
+    detail: relative incidence 4.4 to 1 (19.6 v 4.5 per 100,000 per year, ages 10 to 44)
+    population: Leicester hospital records 1989-1998, catchment about 900,000
+    source: Pearson AR, Soneji B, Sarvananthan N, Sandford-Smith JH. Does ethnic origin influence the incidence or severity of keratoconus? Eye. 2000;14(Pt 4):625-8. doi:10.1038/eye.2000.154
+    source_url: https://pubmed.ncbi.nlm.nih.gov/11040911/
+    source_location: 'Abstract: ''relative incidence of 4.4 to 1'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  family_affected:
+    description: People with keratoconus who have a parent, brother, sister or child also affected
+    value: 1 in 10
+    detail: around 1 in 10 have a first-degree relative affected
+    population: Patient information (no study cited); consistent with ERN-EYE consensus statement ('only 10% of patients may have family members also affected')
+    source: Moorfields Eye Hospital NHS Foundation Trust. Keratoconus. Patient information web page.
+    source_url: https://moorfields.nhs.uk/eye-conditions/keratoconus
+    source_location: 'Section ''What causes keratoconus?'': ''around 1 in 10 people with the eye condition keratoconus will have a 1st degree family member who is also affected'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
 amniotic_membrane:
   ped_healed_3m:
     description: Persistent epithelial defect healed with a stable surface 3 months after treatment
@@ -248,6 +287,139 @@ amniotic_membrane:
     source: 'Ting DSJ, Henein C, Said DG, Dua HS. Amniotic membrane transplantation for infectious keratitis: a systematic review and meta-analysis. Sci Rep. 2021;11:13007. doi:10.1038/s41598-021-92366-x'
     source_url: https://pubmed.ncbi.nlm.nih.gov/34155280/
     source_location: 'Abstract: ''adjuvant AMT resulted in shorter mean time to complete corneal healing (- 4.08 days; 95% CI - 6.27 to - 1.88; p < 0.001)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+cxl:
+  keralink_progression_treated:
+    description: Keratoconus got worse within 18 months after cross-linking (ages 10 to 16)
+    value: 1 in 14
+    detail: 7% (2 of 28)
+    population: UK randomised trial, 60 participants aged 10-16, four UK hospitals, 18 months, epithelium-off
+    source: 'Larkin DFP, et al. Effect of corneal cross-linking versus standard care on keratoconus progression in young patients: the KERALINK randomized controlled trial. Ophthalmology. 2021;128(11):1516-1526.
+      doi:10.1016/j.ophtha.2021.04.019'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/33892046/
+    source_location: 'Abstract: ''Keratoconus progression in the study eye occurred in 2 patients (7%) randomized to CXL compared with 12 patients (43%) randomized to standard care'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  keralink_progression_untreated:
+    description: Keratoconus got worse within 18 months without cross-linking (ages 10 to 16)
+    value: 4 in 10
+    detail: 43% (12 of 28)
+    population: UK randomised trial, 60 participants aged 10-16, 18 months
+    source: 'Larkin DFP, et al. Effect of corneal cross-linking versus standard care on keratoconus progression in young patients: the KERALINK randomized controlled trial. Ophthalmology. 2021;128(11):1516-1526.
+      doi:10.1016/j.ophtha.2021.04.019'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/33892046/
+    source_location: Abstract, as above
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  progression_1y_adults:
+    description: Keratoconus still got worse in the year after cross-linking (mostly adults)
+    value: 1 in 13
+    detail: 7.6% failure rate (continued progression) at 12 months
+    population: 117 eyes of 99 patients, Zurich
+    source: Koller T, Mrochen M, Seiler T. Complication and failure rates after corneal crosslinking. J Cataract Refract Surg. 2009;35(8):1358-62. doi:10.1016/j.jcrs.2009.03.035
+    source_url: https://pubmed.ncbi.nlm.nih.gov/19631120/
+    source_location: 'Abstract: ''The failure rate of CXL (percentage of eyes with continued progression) was 7.6%.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  nonresponse_10y:
+    description: Cornea continued to steepen 10 years after cross-linking
+    value: 1 in 3
+    detail: 33% non-responders at 10 years (16% at 5 years), defined as Kmax increase of more than 2 D
+    population: 131 eyes, Germany
+    source: Seifert FK, Theuersbacher J, Schwabe D, Lamm O, et al. Long-term outcome of corneal collagen crosslinking with riboflavin and UV-A irradiation for keratoconus. Curr Eye Res. 2022;47(11):1472-1478
+    source_url: https://pubmed.ncbi.nlm.nih.gov/36173395/
+    source_location: 'Abstract: ''CXL non-responders, defined by a postoperative increase in Kmax>2 D, increased from 16% after 5 to 33% after 10 years.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  retreatment_10y:
+    description: Cross-linking repeated within 10 years (children and young people)
+    value: 1 in 25
+    detail: approximately 4.2% after 10 years, under 8% after 14 years
+    population: Paediatric long-term studies, reported in a European consensus statement
+    source: 'Buzzonetti L, et al. Paediatric keratoconus: an ERN-EYE clinical consensus statement. Ophthalmol Ther. 2026;15(9):2825-2861. doi:10.1007/s40123-026-01463-5'
+    source_url: https://europepmc.org/article/PMC/PMC13518778
+    source_location: 'Section ''Cross-linking'': ''retreatment rates of approximately 4.2% after 10 years and < 8% after 14 years'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  infection:
+    description: Infection of the cornea caused by the procedure
+    value: 1 in 350
+    detail: 0.3% (5 of 1809 procedures; 95% CI 0.1% to 0.6%)
+    population: 1809 cross-linking procedures, Oslo, 2007-2020
+    source: 'Thorbjørnsen BL, Velle-Skretteberg MA, Thorsrud A, Sæthre M, et al. Infectious keratitis after corneal cross-linking: a retrospective case series. Cornea. 2026;45(6):734-739'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/40539632/
+    source_location: 'Abstract: ''5 (0.3%, 95% CI, 0.1%-0.6%) ... procedure-related infectious keratitis'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  vision_loss:
+    description: Loss of 2 or more lines on the sight chart a year after cross-linking
+    value: 1 in 35
+    detail: 2.9% (95% CI 0.6% to 8.5%)
+    population: 117 eyes of 99 patients, Zurich, 12 months
+    source: Koller T, Mrochen M, Seiler T. Complication and failure rates after corneal crosslinking. J Cataract Refract Surg. 2009;35(8):1358-62. doi:10.1016/j.jcrs.2009.03.035
+    source_url: https://pubmed.ncbi.nlm.nih.gov/19631120/
+    source_location: 'Abstract: ''The complication rate (percentage of eyes losing 2 or more Snellen lines) was 2.9%'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  sterile_infiltrates:
+    description: Inflammatory spots in the cornea (not infection) after cross-linking
+    value: 1 in 13
+    detail: 7.6%
+    population: 117 eyes, Zurich
+    source: Koller T, Mrochen M, Seiler T. Complication and failure rates after corneal crosslinking. J Cataract Refract Surg. 2009;35(8):1358-62. doi:10.1016/j.jcrs.2009.03.035
+    source_url: https://pubmed.ncbi.nlm.nih.gov/19631120/
+    source_location: 'Abstract: ''Sterile infiltrates were seen in 7.6% of eyes'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  scarring:
+    description: Scarring in the centre of the cornea after cross-linking
+    value: 1 in 35
+    detail: 2.8%
+    population: 117 eyes, Zurich
+    source: Koller T, Mrochen M, Seiler T. Complication and failure rates after corneal crosslinking. J Cataract Refract Surg. 2009;35(8):1358-62. doi:10.1016/j.jcrs.2009.03.035
+    source_url: https://pubmed.ncbi.nlm.nih.gov/19631120/
+    source_location: 'Abstract: ''central stromal scars, in 2.8%'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  severe_adverse:
+    description: Any severe complication after cross-linking
+    value: 1 in 75
+    detail: cumulative incidence below 1.3%
+    population: Literature review
+    source: 'Serrao S, Lombardo G, Lombardo M. Adverse events after riboflavin/UV-A corneal cross-linking: a literature review. Int Ophthalmol. 2022;42(1):337-348'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/34448966/
+    source_location: 'Abstract: ''The severe adverse events were infrequent (cumulative incidence: < 1.3%) after CXL.'''
     read: Abstract
     last_changed: '2026-11-15'
     last_checked: '2026-11-15'
