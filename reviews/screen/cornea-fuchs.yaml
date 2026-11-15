@@ -1,0 +1,14 @@
+# Screen topic: fuchs.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-fuchs
+covers:
+  evidence:
+    - risk.cornea.fuchs.*
+  documents:
+    - content/ophthalmology/cornea/conditions/fuchs-endothelial-dystrophy/*
+pubmed:
+  - '("Fuchs endothelial"[tiab] OR "Fuchs dystrophy"[tiab] OR "Fuchs'' dystrophy"[tiab]) AND (treatment[tiab] OR progression[tiab] OR cataract[tiab] OR rho kinase[tiab] OR ripasudil[tiab] OR netarsudil[tiab] OR "Descemet stripping only"[tiab] OR TCF4[tiab] OR prevalence[tiab] OR review[pt])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"

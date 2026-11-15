@@ -1,0 +1,14 @@
+# Screen topic: keratoconus contact lenses.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-keratoconus-contact-lenses
+covers:
+  evidence:
+    - risk.cornea.keratoconus_lenses.*
+  documents:
+    - content/ophthalmology/cornea/conditions/keratoconus/leaflet-keratoconus-contact-lenses.md
+pubmed:
+  - 'keratoconus[tiab] AND ("contact lens"[tiab] OR "contact lenses"[tiab] OR scleral[tiab] OR "rigid gas permeable"[tiab] OR hybrid[tiab] OR piggyback[tiab])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"
