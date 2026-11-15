@@ -1,0 +1,14 @@
+# Screen topic: marginal-keratitis.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-marginal-keratitis
+covers:
+  evidence:
+    - risk.cornea.marginal_keratitis.*
+  documents:
+    - content/ophthalmology/cornea/conditions/marginal-keratitis/*
+pubmed:
+  - '("marginal keratitis"[tiab] OR "catarrhal keratitis"[tiab] OR "staphylococcal hypersensitivity"[tiab] OR "blepharokeratoconjunctivitis"[tiab]) AND (treatment[tiab] OR recurrence[tiab] OR outcome*[tiab] OR review[pt])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"

@@ -1,0 +1,14 @@
+# Screen topic: allergic-conjunctivitis.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-allergic-conjunctivitis
+covers:
+  evidence:
+    - risk.cornea.allergic_conjunctivitis.*
+  documents:
+    - content/ophthalmology/cornea/conditions/allergic-eye-disease/*
+pubmed:
+  - '("Conjunctivitis, Allergic"[mh] OR "allergic conjunctivitis"[tiab] OR "vernal keratoconjunctivitis"[tiab] OR "atopic keratoconjunctivitis"[tiab]) AND ("systematic review"[pt] OR "randomized controlled trial"[pt] OR prevalence[tiab] OR treatment[tiab])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"
