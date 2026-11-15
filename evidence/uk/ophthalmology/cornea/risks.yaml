@@ -2201,3 +2201,112 @@ superficial_keratectomy:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+acanthamoeba:
+  lens_wearer_share_uk:
+    description: People with Acanthamoeba keratitis who wore contact lenses, UK
+    value: 9 in 10
+    detail: 87% (108 of 124 cases)
+    population: UK-wide surveillance (British Ophthalmological Surveillance Unit), 2015, 124 cases
+    source: 'Jasim H, Grzeda M, Foot B, Tole D, Hoffman JJ. Incidence of Acanthamoeba keratitis in the United Kingdom in 2015: a prospective national survey. Cornea. 2024;43(3):269-276. doi:10.1097/ICO.0000000000003445'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/38097200/
+    source_location: 'Abstract, Results: ''CL wearers accounted for 108 of 124 cases (87%), in whom the AK incidence was 26.94 per million.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  yearly_risk_lens_wearers_uk:
+    description: Contact lens wearers who develop Acanthamoeba keratitis each year, UK
+    value: 1 in 37,000
+    detail: '26.94 per million contact lens wearers (calculated: 1,000,000 / 26.94 = about 37,000)'
+    population: UK-wide surveillance (British Ophthalmological Surveillance Unit), 2015, 124 cases
+    source: 'Jasim H, Grzeda M, Foot B, Tole D, Hoffman JJ. Incidence of Acanthamoeba keratitis in the United Kingdom in 2015: a prospective national survey. Cornea. 2024;43(3):269-276. doi:10.1097/ICO.0000000000003445'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/38097200/
+    source_location: 'Abstract, Results: ''CL wearers accounted for 108 of 124 cases (87%), in whom the AK incidence was 26.94 per million.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  reusable_vs_daily_uk:
+    description: How much more common Acanthamoeba keratitis is in wearers of reusable (planned replacement) soft lenses than daily disposables, UK
+    value: 7 times
+    detail: 50.65 vs 7.24 per million
+    population: UK-wide surveillance (British Ophthalmological Surveillance Unit), 2015, 124 cases
+    source: 'Jasim H, Grzeda M, Foot B, Tole D, Hoffman JJ. Incidence of Acanthamoeba keratitis in the United Kingdom in 2015: a prospective national survey. Cornea. 2024;43(3):269-276. doi:10.1097/ICO.0000000000003445'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/38097200/
+    source_location: 'Abstract, Results: ''The highest incidence of AK was among planned replacement soft CL (PRSCL) wearers (50.65 per million), 7-fold greater than for daily disposable CL (DDSCL) users
+      (7.24 per million).'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  misdiagnosed_herpes_uk:
+    description: Acanthamoeba keratitis first misdiagnosed as herpes keratitis, UK
+    value: 1 in 5
+    detail: 20.2% (25 of 124)
+    population: UK-wide surveillance (British Ophthalmological Surveillance Unit), 2015, 124 cases
+    source: 'Jasim H, Grzeda M, Foot B, Tole D, Hoffman JJ. Incidence of Acanthamoeba keratitis in the United Kingdom in 2015: a prospective national survey. Cornea. 2024;43(3):269-276. doi:10.1097/ICO.0000000000003445'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/38097200/
+    source_location: 'Abstract, Results: ''Herpes keratitis was initially misdiagnosed in 25 of 124 cases (20.2%).'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  treatment_months:
+    description: Typical (median) time to cure with treatment
+    value: 5 months
+    detail: median 5 months (IQR 3.25-9.00), range 1 to 26 months
+    population: 227 patients, Moorfields (London) and Milan, 1991-2012
+    source: 'Papa V, Rama P, Radford C, Minassian DC, Dart JKG. Acanthamoeba keratitis therapy: time to cure and visual outcome analysis for different antiamoebic therapies in 227 cases. Br J Ophthalmol.
+      2020;104(4):575-581. doi:10.1136/bjophthalmol-2019-314485. First author employed by SIFI (manufacturer of polihexanide 0.08%).'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/31401556/
+    source_location: 'Abstract, Results: ''median time to cure 5 months (IQR 3.25-9.00 months) and range 1-26.24 months.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  transplant_moorfields:
+    description: People with Acanthamoeba keratitis who had a corneal transplant, Moorfields 1991-2012
+    value: 1 in 4
+    detail: 25.5% (50 of 196); 26 of these were therapeutic grafts, mainly for perforation
+    population: 196 patients, Moorfields Eye Hospital, London, 1991-2012 (a referral centre)
+    source: 'Robaei D, Carnt N, Minassian DC, Dart JK. Therapeutic and optical keratoplasty in the management of Acanthamoeba keratitis: risk factors, outcomes, and summary of the literature. Ophthalmology.
+      2015;122(1):17-24. doi:10.1016/j.ophtha.2014.07.052'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/25262318/
+    source_location: 'Abstract, Results: ''Of the 196 AK patients, a total of 50 patients (25.5%) underwent penetrating or anterior lamellar keratoplasty'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  cure_12m_trial:
+    description: People cured with drops alone within 12 months in a recent European trial
+    value: 87 in 100
+    detail: adjusted medical cure rate 86.6% (PHMB 0.02% + propamidine) and 86.7% (PHMB 0.08%)
+    population: ODAK randomised trial, 135 patients aged 12 and over, 6 European centres including Moorfields, Manchester and Southampton; 12 months
+    source: 'Dart JKG, Papa V, Rama P, et al. The Orphan Drug for Acanthamoeba Keratitis (ODAK) trial: PHMB 0.08% (polihexanide) and placebo versus PHMB 0.02% and propamidine 0.1. Ophthalmology. 2024;131(3):277-287.
+      doi:10.1016/j.ophtha.2023.09.031. Industry-sponsored (SIFI).'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/37802392/
+    source_location: 'Abstract, Results: ''The adjusted MCR within 12 months was 86.6% (unadjusted, 88.5%) for PHMB 0.02%+ propamidine and 86.7% (unadjusted, 84.9%) for PHMB 0.08%'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  transplant_trial:
+    description: People who needed a therapeutic corneal transplant in a recent European trial
+    value: 1 in 16
+    detail: 6.3% (8 of 127)
+    population: ODAK randomised trial, 6 European centres, 12 months
+    source: Dart JKG, Papa V, Rama P, et al. The Orphan Drug for Acanthamoeba Keratitis (ODAK) trial. Ophthalmology. 2024;131(3):277-287. doi:10.1016/j.ophtha.2023.09.031
+    source_url: https://pubmed.ncbi.nlm.nih.gov/37802392/
+    source_location: 'Abstract, Results: ''overall treatment failure rate of 17 of 127 patients (13.4%), of whom 8 of 127 patients (6.3%) required therapeutic keratoplasty.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
