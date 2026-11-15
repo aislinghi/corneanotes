@@ -24,9 +24,18 @@ pifu:                                  # patient-initiated follow-up (PIFU)
     and how quickly they can expect a reply.
   duration: "EXAMPLE: how long a patient stays on PIFU before discharge"
 
-formulary: |                           # local antimicrobial formulary or links to it, used by guidelines
-  EXAMPLE: link to this service's antimicrobial formulary and any local
-  resistance (antibiogram) data agreed with microbiology.
+formulary:                             # local antimicrobial choices, used by guidelines as {{site.formulary.<indication>.<field>}}
+  # Agreed with this service's own microbiology / antimicrobial stewardship team.
+  # Drug choices, doses and sensitivities differ between areas, so they live here, not in the shared guideline.
+  approved_by: "EXAMPLE: role of local microbiology approver"
+  approved_on:                         # YYYY-MM-DD
+  next_review_due:                     # YYYY-MM-DD
+  local_formulary_link: ""
+  local_sensitivity_data: "EXAMPLE: where local resistance / antibiogram data is held"
+  bacterial_keratitis:                 # EXAMPLE indication; add one block per indication
+    first_line: "EXAMPLE: local first-line regimen"
+    alternative: "EXAMPLE: local alternative, e.g. for allergy"
+    notes: ""
 
 business_case:                         # local figures that genuinely differ between services
   activity: "EXAMPLE: annual activity relevant to the case"
