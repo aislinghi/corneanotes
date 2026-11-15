@@ -829,3 +829,225 @@ abrasion:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+microbial_keratitis:
+  cl_incidence:
+    description: Contact lens wearers getting microbial keratitis each year, UK
+    value: 2 in 10,000
+    detail: 1.8 per 10,000 culture-proven, estimated 2.44 per 10,000 including presumed cases
+    population: West of Scotland, population about 3 million, 8-month prospective study
+    source: 'Seal DV, Kirkness CM, Bennett HG, Peterson M; Keratitis Study Group. Population-based cohort study of microbial keratitis in Scotland: incidence and features. Cont Lens Anterior Eye. 1999;22(2):49-57'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/16303406/
+    source_location: 'Abstract: ''a rate of 1.8 per 10,000 for contact lens wearers ... 2.44 per 10,000 for contact lens wearers (all types)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  overnight_risk:
+    description: How much higher the risk is with overnight wear of contact lenses, UK
+    value: 5 times
+    detail: relative risk 5.4 (95% CI 3.3-10.9) for overnight wear, any lens type
+    population: Moorfields case-control study, 367 cases, from 2003
+    source: 'Dart JK, Radford CF, Minassian D, Verma S, Stapleton F. Risk factors for microbial keratitis with contemporary contact lenses: a case-control study. Ophthalmology. 2008;115(10):1647-54'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/18597850/
+    source_location: 'Abstract: ''The RR for overnight wear, for any lens type, was 5.4 times higher (95% CI, 3.3-10.9; P<0.001).'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  cl_water:
+    description: Contact lens-related bacterial keratitis with contact with water
+    value: 1 in 2
+    detail: 49.6% (59 patients)
+    population: UK, Nottingham, 138 patients with contact lens-related bacterial keratitis, 2015-2022, mean follow-up 2.9 months
+    source: 'Suresh L, Hammoudeh Y, Ho CS, Ong ZZ, et al. Clinical features, risk factors and outcomes of contact lens-related bacterial keratitis in Nottingham, UK: a 7-year study. Eye (Lond). 2024;38(18):3459-3466.
+      doi:10.1038/s41433-024-03323-7'
+    source_url: https://europepmc.org/article/PMC/PMC11621543
+    source_location: 'Results: ''overnight wear (43, 36.1%), contact with water (59, 49.6%)'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  cl_overnight_share:
+    description: Contact lens-related bacterial keratitis with overnight wear
+    value: 1 in 3
+    detail: 36.1% (43 patients)
+    population: UK, Nottingham, 138 patients with contact lens-related bacterial keratitis, 2015-2022, mean follow-up 2.9 months
+    source: 'Suresh L, Hammoudeh Y, Ho CS, Ong ZZ, et al. Clinical features, risk factors and outcomes of contact lens-related bacterial keratitis in Nottingham, UK: a 7-year study. Eye (Lond). 2024;38(18):3459-3466.
+      doi:10.1038/s41433-024-03323-7'
+    source_url: https://europepmc.org/article/PMC/PMC11621543
+    source_location: Results, as above
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  cl_hospital:
+    description: Admitted to hospital for intensive treatment, contact lens-related bacterial keratitis
+    value: 4 in 10
+    detail: 37.7% (52 patients)
+    population: UK, Nottingham, 138 patients with contact lens-related bacterial keratitis, 2015-2022, mean follow-up 2.9 months
+    source: 'Suresh L, Hammoudeh Y, Ho CS, Ong ZZ, et al. Clinical features, risk factors and outcomes of contact lens-related bacterial keratitis in Nottingham, UK: a 7-year study. Eye (Lond). 2024;38(18):3459-3466.
+      doi:10.1038/s41433-024-03323-7'
+    source_url: https://europepmc.org/article/PMC/PMC11621543
+    source_location: 'Results: ''Hospitalisation for intensive treatment was warranted in 52 (37.7%) patients'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  cl_healed_drops:
+    description: Contact lens-related bacterial keratitis cured with eye drops alone
+    value: 97 in 100
+    detail: 97.0% (130 patients)
+    population: UK, Nottingham, 138 patients with contact lens-related bacterial keratitis, 2015-2022, mean follow-up 2.9 months
+    source: 'Suresh L, Hammoudeh Y, Ho CS, Ong ZZ, et al. Clinical features, risk factors and outcomes of contact lens-related bacterial keratitis in Nottingham, UK: a 7-year study. Eye (Lond). 2024;38(18):3459-3466.
+      doi:10.1038/s41433-024-03323-7'
+    source_url: https://europepmc.org/article/PMC/PMC11621543
+    source_location: 'Results: ''The majority (130, 97.0%) of patients were successfully treated with intensive topical antibiotics alone'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  cl_healing_time:
+    description: Average time for the cornea to heal, contact lens-related bacterial keratitis
+    value: 3 weeks
+    detail: mean 21.4 +/- 15.2 days; 23.1% took more than 30 days
+    population: UK, Nottingham, 138 patients with contact lens-related bacterial keratitis, 2015-2022, mean follow-up 2.9 months
+    source: 'Suresh L, Hammoudeh Y, Ho CS, Ong ZZ, et al. Clinical features, risk factors and outcomes of contact lens-related bacterial keratitis in Nottingham, UK: a 7-year study. Eye (Lond). 2024;38(18):3459-3466.
+      doi:10.1038/s41433-024-03323-7'
+    source_url: https://europepmc.org/article/PMC/PMC11621543
+    source_location: 'Results: ''The mean complete corneal healing time was 21.4 +/- 15.2 days'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  cl_transplant:
+    description: Corneal transplant later needed for scarring, contact lens-related bacterial keratitis
+    value: 1 in 45
+    detail: 2.2% (3 patients), optical penetrating keratoplasty
+    population: UK, Nottingham, 138 patients with contact lens-related bacterial keratitis, 2015-2022, mean follow-up 2.9 months
+    source: 'Suresh L, Hammoudeh Y, Ho CS, Ong ZZ, et al. Clinical features, risk factors and outcomes of contact lens-related bacterial keratitis in Nottingham, UK: a 7-year study. Eye (Lond). 2024;38(18):3459-3466.
+      doi:10.1038/s41433-024-03323-7'
+    source_url: https://europepmc.org/article/PMC/PMC11621543
+    source_location: 'Results: ''Three (2.2%) patients underwent optical penetrating keratoplasty for treating post-infection corneal scar'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  cl_vision_good:
+    description: Vision of 6/12 or better at final follow-up, contact lens-related bacterial keratitis
+    value: 8 in 10
+    detail: 80.6% (from 42.5% at presentation), corrected distance vision of 0.30 logMAR or better
+    population: UK, Nottingham, 138 patients with contact lens-related bacterial keratitis, 2015-2022, mean follow-up 2.9 months
+    source: 'Suresh L, Hammoudeh Y, Ho CS, Ong ZZ, et al. Clinical features, risk factors and outcomes of contact lens-related bacterial keratitis in Nottingham, UK: a 7-year study. Eye (Lond). 2024;38(18):3459-3466.
+      doi:10.1038/s41433-024-03323-7'
+    source_url: https://europepmc.org/article/PMC/PMC11621543
+    source_location: 'Results: ''The proportion of patients with CDVA of >= 0.30 logMAR increased from 42.5% to 80.6%'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  all_hospital:
+    description: Admitted to hospital for intensive treatment, all bacterial keratitis
+    value: 6 in 10
+    detail: 57.2% (162 patients), mean stay 8 days
+    population: UK, Nottingham tertiary centre, 283 patients with bacterial keratitis, 2015-2019, mean follow-up 6 months; 35% contact lens related
+    source: 'Ting DSJ, Cairns J, Gopal BP, Ho CS, et al. Risk factors, clinical outcomes, and prognostic factors of bacterial keratitis: the Nottingham Infectious Keratitis Study. Front Med (Lausanne).
+      2021;8:715118. doi:10.3389/fmed.2021.715118'
+    source_url: https://europepmc.org/article/PMC/PMC8385317
+    source_location: 'Results: ''Hospitalisation for intensive treatment was required in 162 (57.2%) patients'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  all_perforation:
+    description: Threatened or actual hole in the cornea, all bacterial keratitis
+    value: 1 in 11
+    detail: 8.8% (25 patients)
+    population: UK, Nottingham tertiary centre, 283 patients with bacterial keratitis, 2015-2019, mean follow-up 6 months; 35% contact lens related
+    source: 'Ting DSJ, Cairns J, Gopal BP, Ho CS, et al. Risk factors, clinical outcomes, and prognostic factors of bacterial keratitis: the Nottingham Infectious Keratitis Study. Front Med (Lausanne).
+      2021;8:715118. doi:10.3389/fmed.2021.715118'
+    source_url: https://europepmc.org/article/PMC/PMC8385317
+    source_location: 'Results: ''threatened/actual corneal perforation (25, 8.8%)'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  all_eye_loss:
+    description: Loss of the eye, all bacterial keratitis
+    value: 1 in 70
+    detail: 1.4% (4 patients)
+    population: UK, Nottingham tertiary centre, 283 patients with bacterial keratitis, 2015-2019, mean follow-up 6 months; 35% contact lens related
+    source: 'Ting DSJ, Cairns J, Gopal BP, Ho CS, et al. Risk factors, clinical outcomes, and prognostic factors of bacterial keratitis: the Nottingham Infectious Keratitis Study. Front Med (Lausanne).
+      2021;8:715118. doi:10.3389/fmed.2021.715118'
+    source_url: https://europepmc.org/article/PMC/PMC8385317
+    source_location: 'Results: ''loss of eye (4, 1.4%)'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  all_recurrence:
+    description: Infection came back, all bacterial keratitis
+    value: 1 in 10
+    detail: 9.9% (28 patients)
+    population: UK, Nottingham tertiary centre, 283 patients with bacterial keratitis, 2015-2019, mean follow-up 6 months; 35% contact lens related
+    source: 'Ting DSJ, Cairns J, Gopal BP, Ho CS, et al. Risk factors, clinical outcomes, and prognostic factors of bacterial keratitis: the Nottingham Infectious Keratitis Study. Front Med (Lausanne).
+      2021;8:715118. doi:10.3389/fmed.2021.715118'
+    source_url: https://europepmc.org/article/PMC/PMC8385317
+    source_location: 'Results: ''recurrence of infection (28, 9.9%)'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  ak_cl_share:
+    description: Acanthamoeba keratitis cases in contact lens wearers
+    value: 9 in 10
+    detail: approximately 90%
+    population: UK professional guidance
+    source: 'College of Optometrists. Clinical Management Guidelines: Microbial keratitis (Acanthamoeba sp.), version 15, 2026'
+    source_url: https://www.college-optometrists.org/clinical-guidance/clinical-management-guidelines/microbialkeratitis_acanthamoebasp
+    source_location: 'Summary: ''much more common in contact lens wearers, accounting for approximately 90% of cases'''
+    read: Full text (public summary)
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  ak_cure_time:
+    description: Typical time to cure acanthamoeba keratitis
+    value: 5 months
+    detail: median 5 months (IQR 3.25-9.00, range 1-26 months); 94.3% cured overall
+    population: 227 patients, retrospective cohort, 1991-2012
+    source: 'Papa V, Rama P, Radford C, Minassian DC, Dart JKG. Acanthamoeba keratitis therapy: time to cure and visual outcome analysis for different antiamoebic therapies in 227 cases. Br J Ophthalmol.
+      2020;104(4):575-581'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/31401556/
+    source_location: 'Abstract: ''Overall cure rates ... 94.27% (214/227), median time to cure 5 months'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  ak_transplant:
+    description: Acanthamoeba keratitis needing a corneal transplant
+    value: 1 in 6
+    detail: 16.68%
+    population: Systematic review of 158 reports
+    source: 'Posarelli M, Passaro ML, Avolio FC, Costagliola C, et al. The incidence of severe complications in acanthamoeba keratitis: qualitative and quantitative systematic assessment. Surv Ophthalmol.
+      2024;69(5):769-778'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/38885760/
+    source_location: 'Abstract: ''Corneal transplantation was required in 16.68 % of the cases.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'

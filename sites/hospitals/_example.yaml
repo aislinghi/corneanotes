@@ -62,6 +62,8 @@ aftercare:                             # this unit's own practice after each pro
   abrasion:
     contact_lenses: "Do not wear contact lenses until your eye has completely healed and feels normal, and for at least a week after that. Use a new pair of lenses and a new case when you start again."
     follow_up: "Most people do not need another appointment. We will tell you if we need to see you again."
+  microbial_keratitis:
+    follow_up: "We will usually see you again within one to three days to check the treatment is working, and then regularly until the infection has cleared."
   amniotic_membrane:
     while_in_place: |
       While the membrane is on your eye, please do not rub or press on the eye,
