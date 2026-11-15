@@ -1478,3 +1478,85 @@ herpes_zoster:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+herpes_simplex:
+  uk_carriers:
+    description: People in the UK carrying the cold sore virus (inactive)
+    value: up to 9 in 10
+    detail: up to 90% (no source given)
+    population: UK professional guidance
+    source: 'College of Optometrists. Clinical Management Guidelines: herpes simplex keratitis (HSK). 2025.'
+    source_url: https://www.college-optometrists.org/clinical-guidance/clinical-management-guidelines/herpessimplexkeratitis_hsk
+    source_location: 'Information for patients: ''Up to 90% of people in the UK have an inactive nerve infection caused by herpes simplex virus type 1.'''
+    read: Full text (public section)
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  recurrence_1y:
+    description: Eye herpes coming back within a year of a first episode
+    value: 1 in 4
+    detail: 27% (95% CI 22-32%)
+    population: Olmsted County, USA, 394 residents with eye herpes simplex, 1976-2007, mean follow-up 7.7 years (community-based)
+    source: 'Young RC, Hodge DO, Liesegang TJ, Baratz KH. Incidence, recurrence, and outcomes of herpes simplex virus eye disease in Olmsted County, Minnesota, 1976-2007: the effect of oral antiviral prophylaxis.
+      Arch Ophthalmol. 2010;128(9):1178-83. doi:10.1001/archophthalmol.2010.187'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/20837803/
+    source_location: 'Results: ''estimated to be 27% at 1 year (95% C.I: 22-32%), 50% at 5 years'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  recurrence_5y:
+    description: Eye herpes coming back within 5 years of a first episode
+    value: 1 in 2
+    detail: 50% (95% CI 43-55%)
+    population: Olmsted County, USA, 394 residents with eye herpes simplex, 1976-2007, mean follow-up 7.7 years (community-based)
+    source: 'Young RC, Hodge DO, Liesegang TJ, Baratz KH. Incidence, recurrence, and outcomes of herpes simplex virus eye disease in Olmsted County, Minnesota, 1976-2007: the effect of oral antiviral prophylaxis.
+      Arch Ophthalmol. 2010;128(9):1178-83. doi:10.1001/archophthalmol.2010.187'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/20837803/
+    source_location: Results, as above
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  recurrence_placebo:
+    description: Eye herpes coming back within a year without preventive tablets (people with a recent episode)
+    value: 1 in 3
+    detail: 32% (placebo group)
+    population: Randomised trial, 703 people with eye herpes in the previous year, 12 months of treatment
+    source: Herpetic Eye Disease Study Group. Acyclovir for the prevention of recurrent herpes simplex virus eye disease. N Engl J Med. 1998;339(5):300-6. doi:10.1056/NEJM199807303390503
+    source_url: https://pubmed.ncbi.nlm.nih.gov/9696640/
+    source_location: 'Abstract: ''The cumulative probability of a recurrence ... was 19 percent in the acyclovir group and 32 percent in the placebo group'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  recurrence_aciclovir:
+    description: Eye herpes coming back within a year with daily preventive antiviral tablets
+    value: 1 in 5
+    detail: 19% (aciclovir group)
+    population: Randomised trial, 703 people with eye herpes in the previous year, 12 months of treatment
+    source: Herpetic Eye Disease Study Group. Acyclovir for the prevention of recurrent herpes simplex virus eye disease. N Engl J Med. 1998;339(5):300-6. doi:10.1056/NEJM199807303390503
+    source_url: https://pubmed.ncbi.nlm.nih.gov/9696640/
+    source_location: Abstract, as above
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  serious_complication_20y:
+    description: Serious complication (severe sight loss, perforation or surgery) within 20 years
+    value: 1 in 10
+    detail: 11% at 20 years (5% at 5 years); 17 of 20 people affected were not taking preventive tablets
+    population: Olmsted County, USA, 394 residents with eye herpes simplex, 1976-2007, mean follow-up 7.7 years (community-based)
+    source: 'Young RC, Hodge DO, Liesegang TJ, Baratz KH. Incidence, recurrence, and outcomes of herpes simplex virus eye disease in Olmsted County, Minnesota, 1976-2007: the effect of oral antiviral prophylaxis.
+      Arch Ophthalmol. 2010;128(9):1178-83. doi:10.1001/archophthalmol.2010.187'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/20837803/
+    source_location: 'Results: ''The risk of adverse outcomes was 5% at 5 years ..., 7% at 10 years ..., and 11% at 20 years'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'

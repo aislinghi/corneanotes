@@ -72,6 +72,8 @@ aftercare:                             # this unit's own practice after each pro
     after_procedure: "After a procedure, your eye is likely to be painful and sensitive to light for a few days. We will put in a bandage contact lens and check your eye after about a week. Most people take about a week off work."
   herpes_zoster:
     follow_up: "If your eye is affected, we will see you regularly in the eye clinic. If you are using steroid drops, we will reduce them slowly and keep checking your eye after they stop."
+  herpes_simplex:
+    follow_up: "We will usually check your eye again within a week or two to make sure the infection is healing. If you are using steroid drops, we will reduce them slowly and keep checking your eye."
   amniotic_membrane:
     while_in_place: |
       While the membrane is on your eye, please do not rub or press on the eye,
