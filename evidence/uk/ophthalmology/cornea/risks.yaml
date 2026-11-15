@@ -814,6 +814,20 @@ fuchs:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+  transplant_after_cataract:
+    description: Eyes with moderate Fuchs dystrophy that needed an endothelial transplant after cataract surgery
+    value: 1 in 5
+    detail: 21% (38 of 178 eyes) over a median of 37 months; 82% of these within 6 months of cataract surgery
+    population: 178 eyes of 149 patients with Fuchs grade 2 or more and visually significant cataract, six tertiary hospitals in Spain, 2020-2024, prospective
+    source: Arnalich-Montiel F, Stokking M, Saenz-Madrazo N, et al. Validation and extension of the SUCCESS score for Fuchs dystrophy after cataract surgery. Eye Vis (Lond). 2026;13(1):30. doi:10.1186/s40662-026-00501-4
+    source_url: https://pubmed.ncbi.nlm.nih.gov/42432722/
+    source_location: 'Abstract, Results: ''Over a median follow-up of 37.0 months (interquartile range [IQR], 10.1-45.9), 38 eyes (21%) met the criteria for EK, with 82% of events occurring within 6 months
+      after phacoemulsification.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
 abrasion:
   recurrent_symptoms_3m:
     description: Mild symptoms coming back in the 3 months after a scratch to the cornea

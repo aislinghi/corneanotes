@@ -112,6 +112,9 @@ recurrent_erosion:                     # which procedures this unit offers
 ebmd:                                  # which procedures this unit offers for EBMD
   procedures_offered: "At the Example Eye Unit we offer removal of the loose surface with polishing, and PTK laser treatment. Your surgeon will discuss which is best for you."
 
+fuchs:                                 # how this unit follows up Fuchs dystrophy
+  follow_up: "If Fuchs dystrophy is not affecting your vision, you may not need regular hospital appointments. Your optometrist will check your eyes at your routine eye tests and can refer you back to us if things change."
+
 suture_removal:                        # where and how this unit removes corneal stitches
   where: "We usually remove stitches in the clinic, sitting at the microscope, using numbing drops. It usually takes a few minutes. Occasionally we remove them in the operating theatre."
 
