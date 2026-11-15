@@ -70,6 +70,9 @@ aftercare:                             # this unit's own practice after each pro
     time_off_work: "Most people take about a week off work, or longer if they work in a dusty place."
   recurrent_erosion:
     after_procedure: "After a procedure, your eye is likely to be painful and sensitive to light for a few days. We will put in a bandage contact lens and check your eye after about a week. Most people take about a week off work."
+  band_keratopathy:
+    after_procedure: "Your eye is likely to be sore, watery and sensitive to light for a few days, and your vision will be blurred at first. You can take paracetamol or ibuprofen if needed. You will use antibiotic drops while the surface heals. We will check your eye and remove the bandage contact lens after one to two weeks. If the lens falls out, do not put it back in."
+    time_off_work: "Most people take about a week off work."
   herpes_zoster:
     follow_up: "If your eye is affected, we will see you regularly in the eye clinic. If you are using steroid drops, we will reduce them slowly and keep checking your eye after they stop."
   herpes_simplex:
@@ -103,6 +106,12 @@ pterygium:                             # how this unit carries out pterygium sur
 
 recurrent_erosion:                     # which procedures this unit offers
   procedures_offered: "At the Example Eye Unit we offer alcohol delamination and PTK laser treatment. Your surgeon will discuss which is best for you."
+
+ebmd:                                  # which procedures this unit offers for EBMD
+  procedures_offered: "At the Example Eye Unit we offer removal of the loose surface with polishing, and PTK laser treatment. Your surgeon will discuss which is best for you."
+
+band_keratopathy:                      # where this unit carries out EDTA chelation
+  where: "We carry out EDTA chelation in our day-case theatre, using numbing drops. You can usually go home the same day."
 
 puk:                                   # how this unit shares care for PUK
   shared_care: "We work closely with the rheumatology team at the Example Eye Unit's hospital. Your GP will usually arrange your regular blood tests, following a plan agreed with the hospital."

@@ -1752,3 +1752,205 @@ allergic_conjunctivitis:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+ebmd:
+  share_of_recurrent_erosion:
+    description: Eyes with recurrent corneal erosion that had EBMD
+    value: 1 in 2
+    detail: 52.9% (144 of 272 eyes)
+    population: 272 eyes of 230 patients with recurrent erosion, Wills Eye Institute, USA, 2008-2011
+    source: Suri K, Kosker M, Duman F, Rapuano CJ, Nagra PK, Hammersmith KM. Demographic patterns and treatment outcomes of patients with recurrent corneal erosions related to trauma and epithelial and
+      Bowman layer disorders. Am J Ophthalmol. 2013;156(6):1082-1087.e2. doi:10.1016/j.ajo.2013.07.022
+    source_url: https://pubmed.ncbi.nlm.nih.gov/24075431/
+    source_location: 'Abstract, Results: ''Etiology included epithelial basement membrane dystrophy in 52.9% (144/272)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  cataract_lens_power_change:
+    description: Eyes with EBMD in which treating the surface before cataract surgery changed the calculated lens implant power
+    value: 4 in 5
+    detail: 21 of 26 eyes (80.8%)
+    population: 26 eyes with EBMD and cataract, biometry repeated 30 days or more after superficial keratectomy or PTK, Duke University, USA
+    source: Goerlitz-Jessen MF, Gupta PK, Kim T. Impact of epithelial basement membrane dystrophy and Salzmann nodular degeneration on biometry measurements. J Cataract Refract Surg. 2019;45(8):1119-1123.
+      doi:10.1016/j.jcrs.2019.03.014
+    source_url: https://pubmed.ncbi.nlm.nih.gov/31174985/
+    source_location: 'Abstract, Results: ''a change in IOL spherical power predicting a postoperative spherical equivalent (SE) closest to zero (P < .001) in 21 of 26 eyes'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  debridement_recurrence_5y:
+    description: EBMD changes coming back within five years after removing the loose surface
+    value: 45 in 100
+    detail: 44.7% (five-year cumulative probability, Kaplan-Meier)
+    population: 74 eyes of 55 patients treated mainly for visual symptoms, single centre, USA, mean age 74, mean follow-up 33 months
+    source: Itty S, Hamilton SS, Baratz KH, Diehl NN, Maguire LJ. Outcomes of epithelial debridement for anterior basement membrane dystrophy. Am J Ophthalmol. 2007;144(2):217-221. doi:10.1016/j.ajo.2007.04.024
+    source_url: https://pubmed.ncbi.nlm.nih.gov/17553446/
+    source_location: 'Abstract, Results: ''The five-year cumulative probability of recurrence of ABMD was 44.7%.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  debridement_haze:
+    description: Eyes with some haze in the cornea after removing the loose surface
+    value: 1 in 4
+    detail: 26% (19 of 74 eyes)
+    population: 74 eyes of 55 patients treated mainly for visual symptoms, single centre, USA, mean follow-up 33 months
+    source: Itty S, Hamilton SS, Baratz KH, Diehl NN, Maguire LJ. Outcomes of epithelial debridement for anterior basement membrane dystrophy. Am J Ophthalmol. 2007;144(2):217-221. doi:10.1016/j.ajo.2007.04.024
+    source_url: https://pubmed.ncbi.nlm.nih.gov/17553446/
+    source_location: 'Abstract, Results: ''The most common postoperative complication was subepithelial haze, occurring in 19 eyes (26%).'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+band_keratopathy:
+  no_cause_found:
+    description: Eyes with band keratopathy in which no cause was found
+    value: 1 in 3
+    detail: 36% (32 of 89 eyes) idiopathic
+    population: 89 eyes of 72 adults, NHS Greater Glasgow and Clyde, 2009-2015, five surgeons; mean total follow-up 581 days
+    source: 'Al-Hity A, Ramaesh K, Lockington D. EDTA chelation for symptomatic band keratopathy: results and recurrence. Eye (Lond). 2018;32(1):26-31. doi:10.1038/eye.2017.264'
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5770724/
+    source_location: 'Results: ''Most cases of band keratopathy were idiopathic (36%).'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  glaucoma_drops:
+    description: Eyes with band keratopathy linked to long-term glaucoma eye drops (the most common known cause)
+    value: 1 in 4
+    detail: 27%
+    population: 89 eyes of 72 adults, NHS Greater Glasgow and Clyde, 2009-2015, five surgeons; mean total follow-up 581 days
+    source: 'Al-Hity A, Ramaesh K, Lockington D. EDTA chelation for symptomatic band keratopathy: results and recurrence. Eye (Lond). 2018;32(1):26-31. doi:10.1038/eye.2017.264'
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5770724/
+    source_location: 'Results: ''The most commonly identified underlying diagnosis was long-term topical glaucoma therapy (27%).'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  operation_time:
+    description: Typical length of the EDTA chelation procedure
+    value: 20 minutes
+    detail: mean 20 min (range 10-45)
+    population: 89 eyes of 72 adults, NHS Greater Glasgow and Clyde, 2009-2015, five surgeons; mean total follow-up 581 days
+    source: 'Al-Hity A, Ramaesh K, Lockington D. EDTA chelation for symptomatic band keratopathy: results and recurrence. Eye (Lond). 2018;32(1):26-31. doi:10.1038/eye.2017.264'
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5770724/
+    source_location: 'Abstract, Results: ''The mean duration of the operation was 20 min (range 10-45).'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  clear_centre:
+    description: Eyes with a clear centre of the cornea after EDTA chelation
+    value: 98 in 100
+    detail: 97.8%
+    population: 89 eyes of 72 adults, NHS Greater Glasgow and Clyde, 2009-2015, five surgeons; mean total follow-up 581 days
+    source: 'Al-Hity A, Ramaesh K, Lockington D. EDTA chelation for symptomatic band keratopathy: results and recurrence. Eye (Lond). 2018;32(1):26-31. doi:10.1038/eye.2017.264'
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5770724/
+    source_location: 'Outcomes: ''At follow-up, the visual axis was found to be clear in 97.8% of cases.'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  vision_same_or_better:
+    description: Eyes whose vision stayed the same or improved after EDTA chelation
+    value: 4 in 5
+    detail: 79.8%
+    population: 89 eyes of 72 adults, NHS Greater Glasgow and Clyde, 2009-2015, five surgeons; mean total follow-up 581 days
+    source: 'Al-Hity A, Ramaesh K, Lockington D. EDTA chelation for symptomatic band keratopathy: results and recurrence. Eye (Lond). 2018;32(1):26-31. doi:10.1038/eye.2017.264'
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5770724/
+    source_location: 'Outcomes: ''Visual acuity was maintained or improved in 79.8%, with 13.5% improving by two lines or more'' (the paper adds there was ''no evidence of a difference between the initial
+      VA and final VA following treatment'', P = 0.441)'
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  vision_clearly_better:
+    description: Eyes whose vision improved by two lines or more on the sight chart after EDTA chelation
+    value: 1 in 7
+    detail: 13.5%
+    population: 89 eyes of 72 adults, NHS Greater Glasgow and Clyde, 2009-2015, five surgeons; mean total follow-up 581 days
+    source: 'Al-Hity A, Ramaesh K, Lockington D. EDTA chelation for symptomatic band keratopathy: results and recurrence. Eye (Lond). 2018;32(1):26-31. doi:10.1038/eye.2017.264'
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5770724/
+    source_location: 'Outcomes: ''Visual acuity was maintained or improved in 79.8%, with 13.5% improving by two lines or more'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  comfort_poor_vision:
+    description: People with very poor vision (counting fingers or worse) whose comfort improved after EDTA chelation
+    value: 4 in 5
+    detail: 80%
+    population: Subgroup of 89 eyes of 72 adults, NHS Greater Glasgow and Clyde, 2009-2015, five surgeons; mean total follow-up 581 days
+    source: 'Al-Hity A, Ramaesh K, Lockington D. EDTA chelation for symptomatic band keratopathy: results and recurrence. Eye (Lond). 2018;32(1):26-31. doi:10.1038/eye.2017.264'
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5770724/
+    source_location: 'Discussion: ''80% of those patients with counting fingers or worse vision reported improved ocular surface comfort following treatment.'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  slow_healing:
+    description: Eyes with a surface that had not fully healed four weeks after EDTA chelation
+    value: 1 in 90
+    detail: 1 of 89 eyes (healed later)
+    population: 89 eyes of 72 adults, NHS Greater Glasgow and Clyde, 2009-2015, five surgeons; mean total follow-up 581 days
+    source: 'Al-Hity A, Ramaesh K, Lockington D. EDTA chelation for symptomatic band keratopathy: results and recurrence. Eye (Lond). 2018;32(1):26-31. doi:10.1038/eye.2017.264'
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5770724/
+    source_location: 'Outcomes: ''There were no documented surgical complications, although one case had a residual epithelial defect at 4 weeks follow-up, which subsequently healed.'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  calcium_returns:
+    description: Eyes in which some calcium came back after EDTA chelation
+    value: 3 in 10
+    detail: 28.1% (25 of 89 eyes), mean time 546 days
+    population: 89 eyes of 72 adults, NHS Greater Glasgow and Clyde, 2009-2015, five surgeons; mean total follow-up 581 days
+    source: 'Al-Hity A, Ramaesh K, Lockington D. EDTA chelation for symptomatic band keratopathy: results and recurrence. Eye (Lond). 2018;32(1):26-31. doi:10.1038/eye.2017.264'
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5770724/
+    source_location: 'Recurrence: ''Twenty-five eyes (28.1%) showed localised recurrence of calcium with a mean time of 546 days (median 374)''. Note: the Discussion defines recurrence as ''reformation
+      of band keratopathy affecting the central visual axis''.'
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  repeat_treatment:
+    description: Eyes that needed EDTA chelation again
+    value: 1 in 20
+    detail: 4.5% (4 of 89 eyes); median time between operations 430 days
+    population: 89 eyes of 72 adults, NHS Greater Glasgow and Clyde, 2009-2015, five surgeons; mean total follow-up 581 days
+    source: 'Al-Hity A, Ramaesh K, Lockington D. EDTA chelation for symptomatic band keratopathy: results and recurrence. Eye (Lond). 2018;32(1):26-31. doi:10.1038/eye.2017.264'
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5770724/
+    source_location: 'Recurrence: ''only four cases (4.5% overall) required repeat EDTA chelation. The median time between operations was 430 days.'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  zoster_melt:
+    description: People with shingles affecting the eye who developed corneal melting after EDTA chelation
+    value: 4 of 8
+    detail: 4 of 8 treated subjects had corneal melt; 2 had perforation
+    population: 869 people with herpes zoster ophthalmicus, Auckland, New Zealand, 2006-2016; 8 had EDTA chelation; median follow-up 6.3 years
+    source: Trollip JC, Meyer JJ, McGhee CNJ, Liu K, Danesh-Meyer HV, Niederer RL. Ethylenediaminetetraacetic acid chelation in herpes zoster ophthalmicus is associated with a high rate of corneal melt
+      and perforation. Cornea. 2021;40(3):277-281. doi:10.1097/ICO.0000000000002619
+    source_url: https://pubmed.ncbi.nlm.nih.gov/33264147/
+    source_location: 'Abstract, Results: ''EDTA chelation was performed in 8 subjects. Corneal melt occurred after EDTA chelation in 4 subjects, and corneal perforation occurred in 2 subjects.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
