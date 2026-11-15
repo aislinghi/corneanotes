@@ -2,7 +2,8 @@
 """Currency check: report what is overdue, due soon, or affected by a changed figure.
 
 Reads:
-  content/**/*.md       front matter: status, last_reviewed, next_review_due, risks_used
+  content/**/*.md       front matter: status, last_reviewed, next_review_due, risks_used;
+                        and the "Sources and how this document was produced" table
   evidence/**/*.yaml    any entry with next_check_due (and last_changed, last_checked)
   sites/**/*.yaml       any block with next_review_due (e.g. local formularies)
 
@@ -87,7 +88,7 @@ def main():
     args = ap.parse_args()
     today, soon = args.today, args.today + dt.timedelta(days=args.soon_days)
 
-    overdue, due_soon, missing, stale_docs, broken = [], [], [], [], []
+    overdue, due_soon, missing, stale_docs, broken, no_sources = [], [], [], [], [], []
 
     def check(label, due):
         if due is None:
@@ -116,6 +117,8 @@ def main():
         if meta is None:
             continue
         rel = f.relative_to(ROOT)
+        if "## Sources and how this document was produced" not in f.read_text(encoding="utf-8"):
+            no_sources.append(f"`{rel}`")
         if meta.get("status") == "approved":
             check(f"`{rel}`", as_date(meta.get("next_review_due")))
         reviewed = as_date(meta.get("last_reviewed"))
@@ -136,6 +139,7 @@ def main():
         ("Documents quoting a figure that changed after they were last reviewed", stale_docs),
         ("Documents quoting a figure that does not exist", broken),
         ("Missing a review date", missing),
+        ("Missing the sources and production table", no_sources),
     ]
     total = 0
     for title, items in sections:

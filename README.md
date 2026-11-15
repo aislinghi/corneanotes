@@ -22,6 +22,8 @@ At this early stage it is maintained by a single clinician. Others are welcome t
 
 **Kept current.** Every document, figure and local formulary has a review date. A monthly check (`scripts/check_currency.py`, run by GitHub Actions) opens an issue listing anything overdue or due soon, any document quoting a figure that has changed since the document was last reviewed, and any reference to a figure that does not exist. A planned addition will also list new publications on each risk topic for a clinician to look at. Figures are only ever changed by a person, through a reviewed change, so there is a full record of who changed what, when, and on what evidence.
 
+**Honest about where it came from.** Every document ends with a table showing, section by section, what it is based on (national data, published guidance or research, clinical experience, an adapted document, or AI-drafted text that was then checked), who checked it and when. Readers can see exactly how much weight each part will bear.
+
 **Every change is reviewed.** Anyone can propose a change. Nothing is published until a trusted clinical reviewer for that area has approved it (see `.github/CODEOWNERS`).
 
 > **Important:** this material supports, and does not replace, the judgement of the treating clinician. Check that any document fits your local policies before use.
@@ -42,6 +44,10 @@ See [ROADMAP.md](ROADMAP.md) for the documents planned so far, and [content/opht
 ## Suggesting a change
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). You do not need to know how to code: you can edit files directly on the GitHub website.
+
+## How this repository was produced
+
+The structure, governance files, templates and scripts in this repository were drafted with the help of an AI assistant (Claude, made by Anthropic), working to the maintainer's direction, and reviewed by the maintainer. Clinical content is labelled document by document in its own sources table.
 
 ## Licence
 

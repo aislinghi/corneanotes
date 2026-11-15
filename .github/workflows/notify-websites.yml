@@ -1,0 +1,28 @@
+name: Rebuild linked websites
+
+# When approved changes reach main, ask each linked website to rebuild so it
+# picks up the latest content. Websites are linked by adding their Netlify
+# build hook URL as a repository secret (Settings > Secrets and variables >
+# Actions). If a secret is not set, that website is skipped.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Personal website (Netlify)
+        env:
+          HOOK: ${{ secrets.NETLIFY_BUILD_HOOK_PERSONAL }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "NETLIFY_BUILD_HOOK_PERSONAL is not set; skipping."
+            exit 0
+          fi
+          curl -fsS -X POST -d '{}' "$HOOK"
+          echo "Rebuild requested."

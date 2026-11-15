@@ -8,7 +8,7 @@ Thank you for helping improve these leaflets and protocols. Contributions from c
 2. **Every change is reviewed.** Nothing reaches the main branch without approval from a trusted reviewer (listed in `.github/CODEOWNERS`).
 3. **Same information everywhere.** The clinical core of a document is shared by every service. Local details (phone numbers, urgent access, out-of-hours arrangements) go in placeholders filled from `sites/`, never in the shared text.
 4. **National figures, kept in one place.** Never type a risk figure into a document. Add or update it in `evidence/uk/` with its national or published source, and refer to it by its key. See [evidence/README.md](evidence/README.md).
-5. **Cite your sources.** Other clinical statements should be backed by a reference (guideline, paper, product information) listed in the file's `sources` field.
+5. **Be honest about how it was produced.** Every document ends with a "Sources and how this document was produced" table showing, section by section, what it is based on: national data, a published guideline or research, clinical experience (expert opinion), another document it was adapted from, or an AI-drafted text that was then checked. Say who checked it and when. If you use AI help, say so and say what for. If you adapt someone else's document, name it and make sure its licence or the owner's permission allows it.
 6. **Write for the reader.** Leaflets are for patients: plain English, short sentences, and explain any medical term you have to use.
 
 ## How to suggest a change
