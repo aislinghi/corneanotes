@@ -18,6 +18,7 @@ Documents planned so far, starting with cornea. Each is split into a shared core
 |---|---|---|
 | Keratoconus management protocol | Assessment, monitoring, treatment thresholds and pathway | Referral routes, clinic arrangements |
 | Microbiology guidelines (e.g. microbial keratitis) | Sampling, investigation, evidence-based treatment principles | Antimicrobial choices must follow the local formulary and resistance data agreed with local microbiology (see `formulary` in `sites/`) |
+| Shared list of antimicrobial eye preparations | Every available eye preparation (licensed, special, unlicensed) with source and check date; standard lab testing request | Which ones the service stocks |
 | Referral guidance | When and how urgently to refer | Referral routes and contacts |
 
 ## Training

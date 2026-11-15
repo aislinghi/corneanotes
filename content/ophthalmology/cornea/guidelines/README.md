@@ -9,6 +9,13 @@ Guidelines here, for example on microbial keratitis, follow the shared-core, loc
 - Treatment principles, monitoring, and when to change or escalate treatment
 - When to refer or seek specialist advice
 
+## Shared list of eye preparations
+
+`evidence/ophthalmology/cornea/ophthalmic-antimicrobials.yaml` lists the antimicrobial eye preparations actually available (licensed, specially manufactured and unlicensed), each with its source and check date. It is used for two things:
+
+1. **Lab testing.** A standard request to each local microbiology lab to test isolates against the agents available as eye preparations, so sensitivity results are useful for topical treatment, not only for the systemic panel.
+2. **Local choice.** Each service picks its drugs from this list (the `stocked` field in its `sites/` file), so local choices always map to something that exists.
+
 ## What is local
 
 Drug choices, doses and regimens differ between areas because of local resistance patterns, sensitivities and formularies. They are set by each service with its own microbiology or antimicrobial stewardship team, and held in that service's `sites/` file under `formulary`.

@@ -1,0 +1,33 @@
+# Shared list of antimicrobial eye preparations available, by agent.
+#
+# Purpose:
+#   1. One national list of what is actually available as an eye preparation
+#      (licensed products and specially manufactured or unlicensed ones).
+#   2. A standard request to local microbiology labs to test sensitivities
+#      against these agents, so results are useful for topical treatment
+#      rather than only reflecting the systemic panel.
+#   Each service then picks its own choices from this list in sites/ (formulary).
+#
+# Rules: the same as evidence/README.md. Every entry needs a source (for
+# example the BNF, the NHS Dictionary of Medicines and Devices (dm+d), or
+# the supplier) and a check date, because availability and licensing change.
+#
+# EXAMPLE ONLY: the entry below shows the format and is not real data.
+
+agents:
+  example_agent:
+    name: "EXAMPLE"
+    group: antibacterial              # antibacterial, antifungal, antiviral or antiamoebic
+    class: "EXAMPLE"                  # drug class
+    preparations:
+      - form: "EXAMPLE: drops / ointment"
+        strength: "EXAMPLE"
+        status: licensed              # licensed, special (specially manufactured) or unlicensed import
+        supplier_or_route: "EXAMPLE"
+    request_lab_testing: true         # include in the standard lab testing request
+    lab_testing_notes: "EXAMPLE: method or interpretation notes agreed with microbiology"
+    source: "EXAMPLE"
+    source_url: ""
+    last_checked:
+    checked_by: ""
+    next_check_due:

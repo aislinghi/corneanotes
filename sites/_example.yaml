@@ -32,6 +32,8 @@ formulary:                             # local antimicrobial choices, used by gu
   next_review_due:                     # YYYY-MM-DD
   local_formulary_link: ""
   local_sensitivity_data: "EXAMPLE: where local resistance / antibiogram data is held"
+  stocked:                             # agents from evidence/ophthalmology/cornea/ophthalmic-antimicrobials.yaml this service stocks
+    - example_agent
   bacterial_keratitis:                 # EXAMPLE indication; add one block per indication
     first_line: "EXAMPLE: local first-line regimen"
     alternative: "EXAMPLE: local alternative, e.g. for allergy"
