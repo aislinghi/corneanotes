@@ -1051,3 +1051,122 @@ microbial_keratitis:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+pterygium:
+  prevalence_world:
+    description: People with a pterygium, worldwide
+    value: 1 in 8
+    detail: pooled prevalence 12% (95% CI 11-14%); from 0.07% to 53% between studies
+    population: Systematic review and meta-analysis, 68 studies, 415,911 participants, 24 countries
+    source: 'Rezvan F, Khabazkhoob M, Hooshmand E, Yekta A, et al. Prevalence and risk factors of pterygium: a systematic review and meta-analysis. Surv Ophthalmol. 2018;63(5):719-735. doi:10.1016/j.survophthal.2018.03.001'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/29551597/
+    source_location: 'Abstract: ''The prevalence of pterygium in the total population was 12% (95% confidence interval [CI] 11-14%).'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  recurrence_bare:
+    description: Pterygium coming back after removal without any graft
+    value: 8 in 10
+    detail: '''upwards of 80%'' (background statement, not a pooled estimate)'
+    population: Background of a Cochrane review
+    source: Clearfield E, Muthappan V, Wang X, Kuo IC. Conjunctival autograft for pterygium. Cochrane Database Syst Rev. 2016;2:CD011349. doi:10.1002/14651858.CD011349.pub2
+    source_url: https://pubmed.ncbi.nlm.nih.gov/26867004/
+    source_location: 'Abstract, Background: ''With simple excision techniques (that is, excising the pterygium and leaving bare sclera), the risk of recurrence has been reported to be upwards of 80%.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  recurrence_uk_leaflet:
+    description: Pterygium coming back after surgery with an autograft, as stated in UK hospital information
+    value: 1 in 10
+    detail: approximately 10% (no source given in the leaflet)
+    population: Moorfields Eye Hospital patient information
+    source: Moorfields Eye Hospital NHS Foundation Trust. Pterygium surgery. Patient information leaflet, revision 1 (approved May 2023).
+    source_url: https://www.moorfields.nhs.uk/mediaLocal/wrxbl0de/pterygium-surgery.pdf
+    source_location: '''Recurrence (return of the pterygium) This happens in approximately 10% of cases'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  recurrence_glue_series:
+    description: Pterygium coming back after autograft held with glue, large series
+    value: 1 in 70
+    detail: 1.44% (34 patients)
+    population: 2,356 eyes, single centre, South India, 2010-2018; all had conjunctival autograft held with fibrin glue; mean follow-up 17 months
+    source: 'Kodavoor SK, Preethi V, Dandapani R. Profile of complications in pterygium surgery: a retrospective analysis. Indian J Ophthalmol. 2021;69(7):1697-1701. doi:10.4103/ijo.IJO_3055_20'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/34146009/
+    source_location: 'Abstract: ''Recurrence was seen in 34 patients (1.44%)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  bleeding_surface:
+    description: Bleeding under the surface of the eye after surgery
+    value: 4 in 10
+    detail: 38.7% (912 eyes)
+    population: 2,356 eyes, single centre, South India, 2010-2018; all had conjunctival autograft held with fibrin glue; mean follow-up 17 months
+    source: 'Kodavoor SK, Preethi V, Dandapani R. Profile of complications in pterygium surgery: a retrospective analysis. Indian J Ophthalmol. 2021;69(7):1697-1701. doi:10.4103/ijo.IJO_3055_20'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/34146009/
+    source_location: 'Abstract: ''Sub-conjunctival hemorrhage in 912 eyes (38.7%)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  graft_swelling:
+    description: Swelling of the graft after surgery
+    value: 1 in 5
+    detail: 22.15% (522 eyes)
+    population: 2,356 eyes, single centre, South India, 2010-2018; all had conjunctival autograft held with fibrin glue; mean follow-up 17 months
+    source: 'Kodavoor SK, Preethi V, Dandapani R. Profile of complications in pterygium surgery: a retrospective analysis. Indian J Ophthalmol. 2021;69(7):1697-1701. doi:10.4103/ijo.IJO_3055_20'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/34146009/
+    source_location: 'Abstract: ''edema of the graft in 522 cases (22.15%)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  graft_shrinking:
+    description: Graft shrinking back (retraction) after surgery
+    value: 3 in 10
+    detail: 29.37% (692 eyes)
+    population: 2,356 eyes, single centre, South India, 2010-2018; all had conjunctival autograft held with fibrin glue; mean follow-up 17 months
+    source: 'Kodavoor SK, Preethi V, Dandapani R. Profile of complications in pterygium surgery: a retrospective analysis. Indian J Ophthalmol. 2021;69(7):1697-1701. doi:10.4103/ijo.IJO_3055_20'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/34146009/
+    source_location: 'Abstract: ''graft retraction in 692 cases (29.37%)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  graft_loss:
+    description: Graft lost after surgery
+    value: 1 in 100
+    detail: 0.93% (22 eyes)
+    population: 2,356 eyes, single centre, South India, 2010-2018; all had conjunctival autograft held with fibrin glue; mean follow-up 17 months
+    source: 'Kodavoor SK, Preethi V, Dandapani R. Profile of complications in pterygium surgery: a retrospective analysis. Indian J Ophthalmol. 2021;69(7):1697-1701. doi:10.4103/ijo.IJO_3055_20'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/34146009/
+    source_location: 'Abstract: ''graft loss in 22 cases (0.93%)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  surface_cancer_found:
+    description: Removed tissue found to contain an early surface cancer or pre-cancer, mainly white-skinned populations
+    value: 1 in 40
+    detail: 2.45% in predominantly white skin types; 3.7% co-existing ocular surface squamous neoplasia overall
+    population: Systematic review and meta-analysis, 21 studies, 23,165 specimens
+    source: 'Foroughi E, Pourmahdi-Boroujeni M, Chaibakhsh S, Ghasvarian A, et al. Prevalence of ocular surface squamous neoplasia in clinically diagnosed pterygium specimens: a systematic review and meta-analysis.
+      Eur J Ophthalmol. 2026. doi:10.1177/11206721261496343'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/42852915/
+    source_location: 'Abstract: ''2.45%'' for predominantly white skin types; ''co-existing OSSN ... 3.7% (95% CI: 1.8-5.7)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'

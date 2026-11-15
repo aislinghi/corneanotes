@@ -64,6 +64,10 @@ aftercare:                             # this unit's own practice after each pro
     follow_up: "Most people do not need another appointment. We will tell you if we need to see you again."
   microbial_keratitis:
     follow_up: "We will usually see you again within one to three days to check the treatment is working, and then regularly until the infection has cleared."
+  pterygium:
+    follow_up: "We will see you about three to four weeks after the operation."
+    drops: "You will use antibiotic and steroid drops. We usually stop the antibiotic after one to two weeks and reduce the steroid drops over about a month or two."
+    time_off_work: "Most people take about a week off work, or longer if they work in a dusty place."
   amniotic_membrane:
     while_in_place: |
       While the membrane is on your eye, please do not rub or press on the eye,
@@ -81,6 +85,11 @@ cxl:                                   # how and where this unit provides cross-
   where: "We carry out cross-linking here at the Example Eye Unit."
   technique: "We use the standard epithelium-off method, with an accelerated (shorter) ultraviolet treatment. You should expect to be in the department for about half a day."
   both_eyes: "We usually treat one eye at a time."
+
+pterygium:                             # how this unit carries out pterygium surgery
+  graft_fixation: "We usually hold the graft in place with a special tissue glue, sometimes with one or two dissolving stitches."
+  mitomycin: "We do not routinely use mitomycin. If your surgeon recommends it, for example because your pterygium has come back, they will discuss it with you."
+  tissue_to_lab: "We send the removed tissue to the laboratory to be checked."
 
 videos:                                # links to this hospital's recorded videos, by document
   # leaflet-corneal-cross-linking: "https://..."
