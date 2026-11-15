@@ -1,0 +1,14 @@
+# Screen topic: microbial keratitis (bacterial, fungal, acanthamoeba), including contact lens risk.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-microbial-keratitis
+covers:
+  evidence:
+    - risk.cornea.microbial_keratitis.*
+  documents:
+    - content/ophthalmology/cornea/conditions/microbial-keratitis/*
+pubmed:
+  - '("Keratitis"[mh] OR keratitis[tiab] OR "corneal ulcer*"[tiab]) AND (microbial[tiab] OR bacterial[tiab] OR fungal[tiab] OR acanthamoeba[tiab] OR infectious[tiab]) AND (outcome*[tiab] OR incidence[tiab] OR "risk factor*"[tiab] OR "contact lens*"[tiab] OR keratoplasty[tiab] OR perforation[tiab])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"

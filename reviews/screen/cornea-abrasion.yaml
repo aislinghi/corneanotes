@@ -1,0 +1,14 @@
+# Screen topic: corneal abrasion.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-abrasion
+covers:
+  evidence:
+    - risk.cornea.abrasion.*
+  documents:
+    - content/ophthalmology/cornea/conditions/corneal-abrasion/*
+pubmed:
+  - '("Corneal Injuries"[mh] OR "corneal abrasion*"[tiab] OR "corneal epithelial defect*"[tiab]) AND (treatment[tiab] OR patch*[tiab] OR antibiotic*[tiab] OR analges*[tiab] OR healing[tiab] OR "recurrent erosion"[tiab] OR "systematic review"[pt])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"
