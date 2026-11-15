@@ -14,4 +14,4 @@
 - [ ] The "Sources and how this document was produced" table is complete, including any AI assistance and any document this was adapted from
 - [ ] Patient leaflets use plain English
 - [ ] `status` is left as `draft` (the reviewer will approve it)
-- [ ] I agree my contribution is licensed under CC BY-NC-SA 4.0
+- [ ] I agree my contribution is licensed under CC BY 4.0 (content) and MIT (code), so anyone may reuse it for any purpose with credit, and I have the right to license it this way

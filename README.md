@@ -49,9 +49,20 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). You do not need to know how to code: you
 
 The structure, governance files, templates and scripts in this repository were drafted with the help of an AI assistant (Claude, made by Anthropic), working to the maintainer's direction, and reviewed by the maintainer. Clinical content is labelled document by document in its own sources table.
 
+## Using this material
+
+You are free to use, copy, adapt and republish anything here, for any purpose, including commercial use. For example: in NHS patient information, on your own website, or to inform patients about your private practice. The only condition is that you credit the source. Suggested wording:
+
+> Adapted from corneanotes (https://github.com/aislinghi/corneanotes), licensed under CC BY 4.0.
+
+When you reuse it, you are responsible for checking it is right for your patients and your service, and for keeping your copy up to date. Reuse does not imply that the authors endorse you, your service or your adaptation.
+
 ## Licence
 
-The content of this repository is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](LICENSE). You may share and adapt it for non-commercial purposes, as long as you give credit and share your adaptations under the same licence.
+- **Content** (documents, evidence, templates): [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
+- **Code** (the website in `src/` and the scripts in `scripts/`): [MIT License](LICENSE-CODE).
+
+Contributions are accepted under the same licences.
 
 ## Running the website locally
 

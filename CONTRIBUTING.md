@@ -47,4 +47,4 @@ Open an issue first. A new area needs a lead reviewer, who is added to `.github/
 
 ## Licence
 
-By contributing, you agree that your contribution is licensed under the same licence as the rest of the repository, [CC BY-NC-SA 4.0](LICENSE).
+By contributing, you agree that your contribution is licensed under the same licences as the rest of the repository: content under [CC BY 4.0](LICENSE) and code under the [MIT License](LICENSE-CODE). This means anyone may reuse your contribution for any purpose, including commercial use such as a private practice website, as long as they credit the source. Only contribute material you have the right to license in this way.
