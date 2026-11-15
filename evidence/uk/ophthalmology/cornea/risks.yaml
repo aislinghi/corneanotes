@@ -814,3 +814,18 @@ fuchs:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+abrasion:
+  recurrent_symptoms_3m:
+    description: Mild symptoms coming back in the 3 months after a scratch to the cornea
+    value: 1 in 10
+    detail: '''mild'' symptoms in 10% of fingernail and 10% of non-fingernail injuries at 3 months; ''moderate'' in 0% and 12%; two cases of major recurrent erosion confirmed by 2 years'
+    population: 'UK, patients with traumatic corneal abrasion: 42 fingernail and 32 non-fingernail injuries, telephone follow-up at 3 months, case-note review at 2 years'
+    source: 'Eke T, Morrison DA, Austin DJ. Recurrent symptoms following traumatic corneal abrasion: prevalence, severity, and the effect of a simple regimen of prophylaxis. Eye (Lond). 1999;13(Pt 3a):345-7.
+      doi:10.1038/eye.1999.87'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/10624430/
+    source_location: 'Abstract: "''mild'' symptoms were reported in 10% of ''fingernail'' and 10% of ''non-fingernail'' injuries"; ''Macroform RCE is not common in the 2 years following TCA.'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
