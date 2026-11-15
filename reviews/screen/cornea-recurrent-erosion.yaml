@@ -1,0 +1,14 @@
+# Screen topic: recurrent corneal erosion syndrome and its treatments.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-recurrent-erosion
+covers:
+  evidence:
+    - risk.cornea.recurrent_erosion.*
+  documents:
+    - content/ophthalmology/cornea/conditions/recurrent-corneal-erosion/*
+pubmed:
+  - '("recurrent corneal erosion*"[tiab] OR "recurrent erosion*"[tiab] OR "Corneal Dystrophies, Hereditary"[mh] OR "epithelial basement membrane dystrophy"[tiab]) AND (treatment[tiab] OR keratectomy[tiab] OR PTK[tiab] OR "alcohol delamination"[tiab] OR "stromal puncture"[tiab] OR recurrence[tiab] OR "systematic review"[pt])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"
