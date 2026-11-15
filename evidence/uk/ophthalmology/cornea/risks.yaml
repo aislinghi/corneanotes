@@ -1954,3 +1954,44 @@ band_keratopathy:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+suture_removal:
+  wound_opening:
+    description: Grafts in which the wound opened after stitches were removed
+    value: 1 in 40
+    detail: 2.4%
+    population: 361 penetrating keratoplasties in 332 patients, grafted 1993-1994, single centre; follow-up not stated in the abstract
+    source: 'Christo CG, van Rooij J, Geerards AJ, Remeijer L, Beekhuis WH. Suture-related complications following keratoplasty: a 5-year retrospective study. Cornea. 2001;20(8):816-9. doi:10.1097/00003226-200111000-00008'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/11685058/
+    source_location: 'Abstract, Results: ''wound dehiscence following suture removal, 2.4%'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  stitch_infection:
+    description: Grafts that developed an infection linked to the stitches
+    value: 1 in 30
+    detail: 3.3%
+    population: 361 penetrating keratoplasties in 332 patients, grafted 1993-1994, single centre; follow-up not stated in the abstract
+    source: 'Christo CG, van Rooij J, Geerards AJ, Remeijer L, Beekhuis WH. Suture-related complications following keratoplasty: a 5-year retrospective study. Cornea. 2001;20(8):816-9. doi:10.1097/00003226-200111000-00008'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/11685058/
+    source_location: 'Abstract, Results: ''infectious keratitis related to sutures, 3.3%'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  loose_stitch_share_uk:
+    description: Infections after corneal transplant in which broken or loose stitches were a risk factor
+    value: 1 in 3
+    detail: 30.6% (15 of 49 cases)
+    population: 49 cases of infection after corneal transplant (PK, DALK and endothelial grafts), Queen's Medical Centre, Nottingham, 2015-2022
+    source: 'Ong ZZ, Wong TL, Suresh L, Hammoudeh Y, Lister M, Said DG, Dua HS, Ting DSJ. A 7-year review of clinical characteristics, predisposing factors and outcomes of post-keratoplasty infectious keratitis:
+      the Nottingham infectious keratitis study. Front Cell Infect Microbiol. 2023;13:1250599. doi:10.3389/fcimb.2023.1250599'
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10499169/
+    source_location: 'Abstract, Results: ''Bullous keratopathy (18, 36.7%), ocular surface disease (18, 36.7%), and broken/loose sutures (15, 30.6%) were the most common risk factors.'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'

@@ -70,6 +70,8 @@ aftercare:                             # this unit's own practice after each pro
     time_off_work: "Most people take about a week off work, or longer if they work in a dusty place."
   recurrent_erosion:
     after_procedure: "After a procedure, your eye is likely to be painful and sensitive to light for a few days. We will put in a bandage contact lens and check your eye after about a week. Most people take about a week off work."
+  suture_removal:
+    follow_up: "We will usually check your eye about a week after stitches are removed, and measure your eye for glasses about six weeks later."
   band_keratopathy:
     after_procedure: "Your eye is likely to be sore, watery and sensitive to light for a few days, and your vision will be blurred at first. You can take paracetamol or ibuprofen if needed. You will use antibiotic drops while the surface heals. We will check your eye and remove the bandage contact lens after one to two weeks. If the lens falls out, do not put it back in."
     time_off_work: "Most people take about a week off work."
@@ -109,6 +111,9 @@ recurrent_erosion:                     # which procedures this unit offers
 
 ebmd:                                  # which procedures this unit offers for EBMD
   procedures_offered: "At the Example Eye Unit we offer removal of the loose surface with polishing, and PTK laser treatment. Your surgeon will discuss which is best for you."
+
+suture_removal:                        # where and how this unit removes corneal stitches
+  where: "We usually remove stitches in the clinic, sitting at the microscope, using numbing drops. It usually takes a few minutes. Occasionally we remove them in the operating theatre."
 
 band_keratopathy:                      # where this unit carries out EDTA chelation
   where: "We carry out EDTA chelation in our day-case theatre, using numbing drops. You can usually go home the same day."
