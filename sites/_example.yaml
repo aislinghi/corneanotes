@@ -17,5 +17,15 @@ out_of_hours: |
   EXAMPLE: describe what a patient should do out of hours, e.g. which
   emergency department or eye casualty to attend.
 
+pifu:                                  # patient-initiated follow-up (PIFU)
+  phone: "01234 567892"                # EXAMPLE: your PIFU line
+  how_to_contact: |
+    EXAMPLE: how a patient on PIFU gets back in touch (phone, email, online form)
+    and how quickly they can expect a reply.
+  duration: "EXAMPLE: how long a patient stays on PIFU before discharge"
+
+videos:                                # links to this service's recorded videos, by document
+  # corneal-cross-linking: "https://..."
+
 format:
   template: ""                         # name of this service's document template, when available
