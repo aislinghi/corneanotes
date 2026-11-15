@@ -100,7 +100,7 @@ The material is provided as is, without warranty, as set out in the licence.
 
 ## 12. Personal data
 
-The repository holds no patient data. The only personal data held is the names, roles and declarations that contributors and reviewers choose to provide. Site files contain only information that services already publish, such as department phone numbers.
+The repository holds no patient data. An automatic check runs on every push and pull request and blocks merging if anything looks like patient data (NHS, CHI or Health and Care numbers, dates of birth, hospital numbers, patient names, mobile numbers, and files that cannot be scanned such as images and PDFs). Exceptions for false positives must be marked in the file and are visible to the reviewer. If patient data is ever pushed, the maintainer is told at once, the data is removed from the repository history, and GitHub is asked to purge cached copies. The only personal data held is the names, roles and declarations that contributors and reviewers choose to provide. Site files contain only information that services already publish, such as department phone numbers.
 
 ## 13. Accessibility and inclusion
 

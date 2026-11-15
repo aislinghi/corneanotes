@@ -1,0 +1,19 @@
+name: Patient data check
+
+# Runs on every push to every branch and on every pull request. Make it a
+# required status check in the branch ruleset so nothing can merge if it fails.
+on:
+  push:
+  pull_request:
+  merge_group:
+
+permissions:
+  contents: read
+
+jobs:
+  patient-data-check:
+    name: Patient data check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/check_patient_data.py

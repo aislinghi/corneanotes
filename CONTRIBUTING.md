@@ -5,6 +5,7 @@ Thank you for helping improve these leaflets and protocols. Contributions from c
 ## The golden rules
 
 1. **No patient-identifiable information, ever.** No names, dates of birth, hospital or NHS numbers, photographs, or case details that could identify someone. This repository is public and its history is permanent: anything pushed can be seen even after it is deleted.
+   An automatic patient data check runs on every push and pull request and blocks merging if it finds anything that looks like patient data. It cannot catch everything, and it cannot un-publish something already pushed, so check before you commit. You can run the same check on your own computer: `python3 scripts/check_patient_data.py`.
 2. **Every change is reviewed.** Nothing reaches the main branch without approval from a trusted reviewer (listed in `.github/CODEOWNERS`).
 3. **Same information everywhere.** The clinical core of a document is shared by every service. Local details (phone numbers, urgent access, out-of-hours arrangements) go in placeholders filled from `sites/`, never in the shared text.
 4. **National figures, kept in one place.** Never type a risk figure into a document. Add or update it in `evidence/uk/` with its national or published source, and refer to it by its key. See [evidence/README.md](evidence/README.md).

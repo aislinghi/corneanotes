@@ -1,0 +1,3 @@
+# Files the patient data check cannot read as text (images, PDFs, Office files)
+# that a reviewer has opened and confirmed contain no patient data.
+# One path or pattern per line. Changes to this file need maintainer approval.
