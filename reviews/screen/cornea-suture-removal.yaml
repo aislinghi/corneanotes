@@ -1,0 +1,14 @@
+# Screen topic: corneal suture removal after keratoplasty.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-suture-removal
+covers:
+  evidence:
+    - risk.cornea.suture_removal.*
+  documents:
+    - content/ophthalmology/cornea/conditions/corneal-transplant/*suture*
+pubmed:
+  - '("Keratoplasty, Penetrating"[mh] OR keratoplasty[tiab] OR "corneal graft*"[tiab] OR DALK[tiab]) AND ("suture removal"[tiab] OR "loose suture*"[tiab] OR "broken suture*"[tiab] OR "suture-related"[tiab] OR "selective suture"[tiab])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"
