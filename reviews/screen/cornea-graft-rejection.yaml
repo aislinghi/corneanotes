@@ -1,0 +1,14 @@
+# Screen topic: graft rejection.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-graft-rejection
+covers:
+  evidence:
+    - risk.cornea.graft_rejection.*
+  documents:
+    - content/ophthalmology/cornea/conditions/corneal-transplant/leaflet-graft-rejection.md
+pubmed:
+  - '(keratoplasty[tiab] OR "corneal graft"[tiab] OR "corneal transplant"[tiab]) AND (rejection[tiab]) AND (treatment[tiab] OR reversal[tiab] OR incidence[tiab] OR risk[tiab] OR steroid[tiab] OR review[pt])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"

@@ -1,0 +1,14 @@
+# Screen topic: neurotrophic keratitis.
+# PubMed searches drafted with AI assistance; need clinical review.
+topic: cornea-neurotrophic-keratitis
+covers:
+  evidence:
+    - risk.cornea.neurotrophic.*
+  documents:
+    - content/ophthalmology/cornea/conditions/neurotrophic-keratitis/*
+pubmed:
+  - '("neurotrophic keratitis"[tiab] OR "neurotrophic keratopathy"[tiab] OR "corneal neurotization"[tiab] OR "corneal neurotisation"[tiab] OR cenegermin[tiab])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"
