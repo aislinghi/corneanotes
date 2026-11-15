@@ -2,7 +2,7 @@
 title: "Title of the document"
 type: leaflet            # leaflet, consent, pifu, letter, video-script, protocol, guideline,
                          # referral, teaching, business-case, formulary-application, formulary-review
-status: draft            # draft or approved (set by the reviewer)
+status: draft            # draft, approved (set by the reviewer) or withdrawn (state why at the top)
 version: 0.1
 authors:
   - "Your name"

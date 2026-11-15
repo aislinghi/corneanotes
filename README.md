@@ -41,6 +41,10 @@ See [ROADMAP.md](ROADMAP.md) for the documents planned so far, and [content/opht
 | `sites/` | Local details at four levels: country, network, trust, hospital |
 | `src/` | The website |
 
+## Governance
+
+How content is approved, what evidence it relies on, how AI use is declared, conflicts of interest, and what services adopting the material are responsible for: see [GOVERNANCE.md](GOVERNANCE.md). Declarations of interest are in [DECLARATIONS.md](DECLARATIONS.md).
+
 ## Suggesting a change
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). You do not need to know how to code: you can edit files directly on the GitHub website.

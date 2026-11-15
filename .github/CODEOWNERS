@@ -16,3 +16,6 @@
 # Governance files always need the repository owner
 /.github/                            @aislinghi
 /LICENSE                             @aislinghi
+/LICENSE-CODE                        @aislinghi
+/GOVERNANCE.md                       @aislinghi
+/DECLARATIONS.md                     @aislinghi
