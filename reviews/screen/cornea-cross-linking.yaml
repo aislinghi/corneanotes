@@ -1,0 +1,15 @@
+# Screen topic: corneal cross-linking (CXL).
+# PubMed searches are a starting point drafted with AI assistance and need
+# clinical review. National sources are still to be added. [To complete]
+topic: cornea-cross-linking
+covers:
+  evidence:
+    - risk.cornea.cxl.*
+  documents:
+    - content/ophthalmology/cornea/conditions/keratoconus/*cross-linking*
+pubmed:
+  - '("corneal cross-linking"[tiab] OR "corneal crosslinking"[tiab] OR "corneal collagen cross-linking"[tiab] OR "corneal collagen crosslinking"[tiab] OR ((CXL[tiab] OR "cross-linking"[tiab] OR crosslinking[tiab]) AND (keratoconus[tiab] OR cornea*[tiab] OR "Keratoconus"[mh]))) AND (complication*[tiab] OR "adverse event*"[tiab] OR safety[tiab] OR failure[tiab] OR progression[tiab] OR keratitis[tiab] OR haze[tiab] OR "Postoperative Complications"[mh])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"

@@ -1,0 +1,31 @@
+name: Something the review missed
+description: Report a paper, dataset or guideline that should change a figure or document, or that the review should have found.
+title: "Missed: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Every confirmed report becomes a permanent test case, so the review finds this kind of evidence from now on.
+        **Do not include any patient information.**
+  - type: input
+    id: item
+    attributes:
+      label: The paper, dataset or guideline
+      description: A PubMed link or ID, DOI, or web link.
+    validations:
+      required: true
+  - type: input
+    id: affects
+    attributes:
+      label: What it affects
+      description: The document or figure, e.g. the cross-linking leaflet or risk.cornea.cxl.haze.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: What it would change, and where in the source (table, page).
+    validations:
+      required: true

@@ -1,0 +1,12 @@
+# A report of something the review missed, kept permanently as a test case.
+# Copy, rename (e.g. 2027-001.yaml) and fill in. Give pmid for a PubMed item,
+# or url for anything else (national data, guidance).
+id: example
+reported_in: ""                 # link to the GitHub issue
+reported_on:                    # YYYY-MM-DD
+topic: example-topic            # the screen topic that should have found it
+pmid: ""
+url: ""
+title: ""
+why_it_matters: ""              # what it would have changed
+screen_change: ""               # what was changed in the screen so it is found from now on

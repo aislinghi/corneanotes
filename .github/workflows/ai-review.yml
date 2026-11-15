@@ -1,0 +1,122 @@
+name: AI review
+
+# Monthly AI review of everything due (see reviews/README.md).
+#   no change       -> review record saved to the review-records branch
+#   change proposed -> pull request, which a person must approve
+#   needs a person  -> issue
+# Needs the repository secret ANTHROPIC_API_KEY.
+on:
+  schedule:
+    - cron: "41 7 2 * *"   # 07:41 UTC on the 2nd of each month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+  id-token: write
+
+concurrency: ai-review
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RECORDS: records-branch/reviews/records
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+
+      - name: Get review records
+        run: |
+          git config user.name "corneanotes AI review"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin review-records >/dev/null; then
+            git fetch origin review-records
+            git worktree add records-branch origin/review-records
+          else
+            git worktree add --orphan -b review-records records-branch
+          fi
+          mkdir -p "$RECORDS"
+
+      - name: Find what is due
+        id: due
+        run: |
+          python3 scripts/check_currency.py --records "$RECORDS" --json due.json > /dev/null || true
+          echo "count=$(python3 -c 'import json;print(len(json.load(open("due.json"))))')" >> "$GITHUB_OUTPUT"
+
+      - name: Run the screen
+        if: steps.due.outputs.count != '0'
+        run: python3 scripts/screen_literature.py search --due due.json --out candidates.json --records "$RECORDS"
+
+      - name: AI review
+        if: steps.due.outputs.count != '0'
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ github.token }}
+          prompt: |
+            Follow reviews/AI_REVIEW_INSTRUCTIONS.md exactly. The subjects due for
+            review and the screen results are in candidates.json. Today's date is
+            the date of this run. Write records to review-output/records/, and
+            write review-output/changes.md and review-output/needs-human.md only
+            if there is something to put in them.
+          claude_args: --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch"
+
+      - name: Keep only permitted changes
+        if: steps.due.outputs.count != '0'
+        run: |
+          # The reviewer may only change content/, evidence/ and review-output/.
+          git status --porcelain | awk '{print $2}' | while read -r f; do
+            case "$f" in
+              content/*|evidence/*|review-output/*|due.json|candidates.json|records-branch*) ;;
+              *) echo "Reverting change outside permitted folders: $f"; git checkout -- "$f" 2>/dev/null || rm -rf "$f" ;;
+            esac
+          done
+          python3 scripts/check_patient_data.py
+
+      - name: Save review records
+        if: steps.due.outputs.count != '0'
+        run: |
+          if ls review-output/records/*.yaml >/dev/null 2>&1; then
+            cp review-output/records/*.yaml "$RECORDS"/
+            cd records-branch
+            git add reviews/records
+            git commit -m "AI review records $(date -u +%Y-%m-%d)"
+            git push origin HEAD:review-records
+          fi
+
+      - name: Open a pull request for proposed changes
+        if: steps.due.outputs.count != '0'
+        run: |
+          if git diff --quiet -- content evidence; then
+            echo "No changes proposed."
+            exit 0
+          fi
+          branch="ai-review/$(date -u +%Y-%m-%d)"
+          git switch -c "$branch"
+          git add content evidence
+          git commit -m "AI review: proposed changes $(date -u +%Y-%m-%d)"
+          git push origin "$branch"
+          {
+            echo "Changes proposed by the monthly AI review. A person must check every change against its source before approving."
+            echo
+            cat review-output/changes.md 2>/dev/null || echo "(The reviewer did not write a summary. Do not approve without one.)"
+          } > pr-body.md
+          gh pr create --base main --head "$branch" --title "AI review: proposed changes $(date -u +%Y-%m-%d)" --body-file pr-body.md
+          # Pull requests opened by this workflow do not start other workflows automatically.
+          gh workflow run patient-data-check.yml --ref "$branch"
+
+      - name: Open an issue for anything needing a person
+        if: steps.due.outputs.count != '0'
+        run: |
+          if [ -s review-output/needs-human.md ]; then
+            gh issue create --title "AI review: needs a person $(date -u +%Y-%m-%d)" --body-file review-output/needs-human.md
+          fi

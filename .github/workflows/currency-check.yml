@@ -22,11 +22,18 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pyyaml
+      - name: Get AI review records
+        run: |
+          mkdir -p records
+          if git ls-remote --exit-code --heads origin review-records >/dev/null; then
+            git fetch --depth 1 origin review-records
+            git archive FETCH_HEAD reviews/records | tar -x -C records
+          fi
       - name: Run check
         id: check
         run: |
           set +e
-          python3 scripts/check_currency.py > report.md
+          python3 scripts/check_currency.py --records records/reviews/records > report.md
           echo "found=$?" >> "$GITHUB_OUTPUT"
       - name: Open or update the issue
         env:

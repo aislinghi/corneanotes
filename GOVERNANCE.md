@@ -45,6 +45,7 @@ New area reviewers are appointed by the maintainer. A reviewer should be a clini
    - `approved`: reviewed and approved for use.
    - `withdrawn`: no longer to be used, with the reason stated at the top of the document.
 4. Every approved document records its version, who approved it, when, and when it is next due for review.
+5. Routine reviews are carried out by AI (section 9). An AI review can renew a review date when it finds no change. It can never approve a change to clinical content.
 
 ## 6. Evidence standards
 
@@ -65,8 +66,9 @@ Antimicrobial drug choices are the exception to "the same everywhere": they are 
 1. Every document ends with a "Sources and how this document was produced" table, showing for each section what it is based on, who checked it and when.
 2. **Use of AI.** AI tools may be used to help draft or edit content. Where they are:
    - this is stated in the document's sources table, with what the AI was used for;
-   - every statement is checked by a named person against its source before approval;
+   - every new or changed statement is checked by a named person against its source before approval;
    - AI is never treated as a source in its own right.
+   - The exception is routine review (section 9), where an AI review that finds no change renews the review date without a person checking it. This is always labelled as such.
 3. Material adapted from another document is credited, and is only included if its licence or the owner's permission allows reuse under this repository's licences.
 
 ## 8. Conflicts of interest
@@ -75,10 +77,15 @@ Reviewers, and contributors making substantial clinical contributions, declare a
 
 ## 9. Keeping content current
 
-1. Every approved document, evidence figure and local formulary has a next review date. **[To confirm default intervals. Proposal: documents every 2 years; risk figures and national prices every year; local formularies as set by local microbiology]**
-2. A monthly automated check opens an issue listing anything overdue or due soon, any document quoting a figure that has changed since the document was last reviewed, and any missing review dates or sources tables.
-3. Automated checks never change content. Changes are made by people, through reviewed pull requests.
-4. A document that is overdue for review by more than **[To confirm: 6 months]** is marked as overdue wherever it is displayed.
+1. Every approved document and evidence figure has a next review date. **[To confirm default intervals. Proposal: documents every 2 years; risk figures and national prices every year; local formularies as set by local microbiology]**
+2. **Routine reviews are carried out by AI**, monthly, for everything due (see [reviews/README.md](reviews/README.md)). The AI reviewer searches PubMed and the national sources for each topic for anything new since the last review, following published instructions ([reviews/AI_REVIEW_INSTRUCTIONS.md](reviews/AI_REVIEW_INSTRUCTIONS.md)). There are three outcomes:
+   - **No change found:** the review date is renewed by the AI review alone, without a person checking it. This is recorded with exactly what was searched, and shown as "Reviewed by AI on [date], no change found, not checked by a person".
+   - **Change proposed:** the AI proposes the change in a pull request, with its evidence and every affected document. A person must approve it.
+   - **Needs a person:** where the AI cannot reach a safe conclusion, an issue is opened for a person.
+3. **Anyone can report something the review missed.** Each confirmed report becomes a permanent test case, and the searches are changed so it is found. Every past miss must be found by the current searches before any change to them is accepted.
+4. A monthly automated check opens an issue listing anything overdue or due soon, any document quoting a figure that has changed since the document was last reviewed, and any missing review dates or sources tables.
+5. A document that is overdue for review by more than **[To confirm: 6 months]** is marked as overdue wherever it is displayed.
+6. The AI review currently runs on an API account provided by Ufonia Limited, the maintainer's employer. Ufonia has no editorial role. **[To confirm with Ufonia, and declare in DECLARATIONS.md]**
 
 ## 10. Responsibilities of adopting services
 

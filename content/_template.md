@@ -68,3 +68,4 @@ rather than published evidence, say so.
 | When to get urgent help | Local details | This service's file in `sites/` | | |
 
 Written by: Your name and role. AI assistance: none. Reviewed and approved by: (reviewer, date).
+Latest routine review: shown automatically from the review records (for example "Reviewed by AI on [date], no change found, not checked by a person").

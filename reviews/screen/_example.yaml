@@ -1,0 +1,19 @@
+# Screen topic. Copy, rename (e.g. cornea-cross-linking.yaml) and fill in.
+# A topic says which evidence figures and documents it covers, and how to look
+# for anything new about them. Every reported miss (reviews/missed/) that
+# belongs to this topic must be found by these searches; the screen test checks.
+topic: example-topic
+covers:
+  evidence:                     # evidence keys, wildcards allowed
+    - risk.cornea.example.*
+  documents:                    # document paths, wildcards allowed
+    - content/ophthalmology/cornea/conditions/example/*
+pubmed:                         # PubMed searches, run for items added since the last review
+  - '"example term"[tiab] AND (complication*[tiab] OR "adverse event*"[tiab])'
+national_sources:               # national data and guidance the reviewer must check directly
+  - name: "EXAMPLE national registry annual report"
+    url: "https://example.org/"
+    what_to_check: "EXAMPLE: the latest annual report's table of outcomes"
+changes:                        # why this topic was changed; link each missed report
+  - date:
+    reason: "Created"
