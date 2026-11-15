@@ -2,14 +2,16 @@
 # A reviewer must be a collaborator with write access to the repository.
 # When a new specialty or subspecialty joins, add a line for its folder and its lead reviewer(s), e.g.
 # /content/ophthalmology/glaucoma/   @glaucoma-lead
-# /evidence/ophthalmology/glaucoma/  @glaucoma-lead
+# /evidence/uk/ophthalmology/glaucoma/  @glaucoma-lead
+# Services can be made owners of their own site files, e.g.
+# /sites/hospitals/example-eye-unit.yaml  @their-lead
 
 # Default: everything else, including governance files and the website
 *                                    @aislinghi
 
 # Cornea content and evidence
 /content/ophthalmology/cornea/       @aislinghi
-/evidence/ophthalmology/cornea/      @aislinghi
+/evidence/uk/ophthalmology/cornea/   @aislinghi
 
 # Governance files always need the repository owner
 /.github/                            @aislinghi

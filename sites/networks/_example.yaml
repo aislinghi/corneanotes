@@ -1,0 +1,20 @@
+# Network level (regional network, integrated care system, area prescribing
+# committee, shared microbiology lab). EXAMPLE file: copy, rename and fill in.
+level: network
+name: "EXAMPLE Network"
+country: uk                            # file name in sites/countries/ without .yaml
+covers: "EXAMPLE: e.g. microbiology and antimicrobial formulary"
+
+formulary:                             # local antimicrobial choices, used as {{site.formulary.<indication>.<field>}}
+  # Agreed with this area's own microbiology / antimicrobial stewardship team.
+  # Drug choices, doses and sensitivities differ between areas, so they live here, not in the shared guideline.
+  # Choose from evidence/uk/ophthalmology/cornea/ophthalmic-antimicrobials.yaml.
+  approved_by: "EXAMPLE: role of local microbiology approver"
+  approved_on:                         # YYYY-MM-DD
+  next_review_due:                     # YYYY-MM-DD
+  local_formulary_link: ""
+  local_sensitivity_data: "EXAMPLE: where local resistance / antibiogram data is held"
+  bacterial_keratitis:                 # EXAMPLE indication; add one block per indication
+    first_line: "EXAMPLE: local first-line regimen"
+    alternative: "EXAMPLE: local alternative, e.g. for allergy"
+    notes: ""

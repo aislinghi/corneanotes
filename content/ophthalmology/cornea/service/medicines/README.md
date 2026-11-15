@@ -1,4 +1,4 @@
-# Formulary applications
+# Medicines: formulary applications and reviews
 
 Applications to add a new medicine to a local formulary, and the periodic reviews of medicines already on it. Every service applying for the same medicine needs the same evidence, so the evidence review is written once here and reused.
 
@@ -19,4 +19,4 @@ Applications to add a new medicine to a local formulary, and the periodic review
 - Local prescribing and supply arrangements (who prescribes, hospital-only or shared care, pharmacy supply route)
 - Local approval decision and review date
 
-Local details come from the service's `sites/` file or are added by the service in its own copy. Commercially confidential pricing (for example local contract prices) must never be added to this public repository.
+Local details come from the `sites/` files or are added by the service in its own copy. Commercially confidential pricing (for example local contract prices) must never be added to this public repository.

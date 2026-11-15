@@ -6,7 +6,8 @@
 #   2. A standard request to local microbiology labs to test sensitivities
 #      against these agents, so results are useful for topical treatment
 #      rather than only reflecting the systemic panel.
-#   Each service then picks its own choices from this list in sites/ (formulary).
+#   Each area then picks its own choices from this list (formulary in its
+#   sites/networks/ or sites/trusts/ file), and each hospital lists what it stocks.
 #
 # Rules: the same as evidence/README.md. Every entry needs a source (for
 # example the BNF, the NHS Dictionary of Medicines and Devices (dm+d), or

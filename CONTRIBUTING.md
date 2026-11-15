@@ -7,7 +7,7 @@ Thank you for helping improve these leaflets and protocols. Contributions from c
 1. **No patient-identifiable information, ever.** No names, dates of birth, hospital or NHS numbers, photographs, or case details that could identify someone. This repository is public and its history is permanent: anything pushed can be seen even after it is deleted.
 2. **Every change is reviewed.** Nothing reaches the main branch without approval from a trusted reviewer (listed in `.github/CODEOWNERS`).
 3. **Same information everywhere.** The clinical core of a document is shared by every service. Local details (phone numbers, urgent access, out-of-hours arrangements) go in placeholders filled from `sites/`, never in the shared text.
-4. **National figures, kept in one place.** Never type a risk figure into a document. Add or update it in `evidence/` with its national or published source, and refer to it by its key. See [evidence/README.md](evidence/README.md).
+4. **National figures, kept in one place.** Never type a risk figure into a document. Add or update it in `evidence/uk/` with its national or published source, and refer to it by its key. See [evidence/README.md](evidence/README.md).
 5. **Cite your sources.** Other clinical statements should be backed by a reference (guideline, paper, product information) listed in the file's `sources` field.
 6. **Write for the reader.** Leaflets are for patients: plain English, short sentences, and explain any medical term you have to use.
 
@@ -32,14 +32,14 @@ A reviewer will read your pull request. They may approve it, ask questions, or r
 
 ## Adding a new document
 
-1. Copy `content/_template.md` into the right folder, for example `content/ophthalmology/cornea/leaflets/`.
-2. Name it in lower case with hyphens, for example `corneal-cross-linking.md`.
+1. Copy `content/_template.md` into the right folder, for example `content/ophthalmology/cornea/conditions/keratoconus/`, or the `service/` folder if it belongs to no single condition.
+2. Name it `<type>-<topic>.md` in lower case with hyphens, for example `leaflet-corneal-cross-linking.md`.
 3. Fill in the details at the top of the file (the part between the `---` lines) and write the content underneath.
 4. Leave `status` as `draft`. The reviewer changes it to `approved`.
 
 ## Adding your service
 
-Copy `sites/_example.yaml`, fill in your local details and open a pull request. See [sites/README.md](sites/README.md).
+Copy the `_example.yaml` file at each level you need in `sites/` (usually a hospital file and a trust file), fill in your local details and open a pull request. See [sites/README.md](sites/README.md).
 
 ## Starting a new specialty or subspecialty
 

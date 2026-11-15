@@ -1,6 +1,7 @@
 ---
 title: "Title of the document"
-type: leaflet            # leaflet, protocol, referral or teaching
+type: leaflet            # leaflet, consent, pifu, letter, video-script, protocol, guideline,
+                         # referral, teaching, business-case, formulary-application, formulary-review
 status: draft            # draft or approved (set by the reviewer)
 version: 0.1
 authors:
@@ -18,8 +19,9 @@ sources:
 Shared core: everything below is the same for every service. Do not put local
 details here. Use placeholders instead:
   {{site.name}}, {{site.contacts.main_phone}}, {{site.contacts.urgent_phone}},
-  {{site.urgent_access}}, {{site.out_of_hours}}  (from sites/)
-  {{risk.<subspecialty>.<procedure>.<figure>}}   (from evidence/)
+  {{site.urgent_access}}, {{site.out_of_hours}}  (from sites/, hospital then trust,
+  network and country)
+  {{risk.<subspecialty>.<procedure>.<figure>}}   (from evidence/uk/)
 Never type a risk figure directly into a document.
 -->
 

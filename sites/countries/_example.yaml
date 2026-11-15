@@ -1,0 +1,4 @@
+# Country level. EXAMPLE file: copy, rename (e.g. uk.yaml) and fill in.
+level: country
+name: "United Kingdom"
+evidence_set: uk                       # uses evidence/uk/

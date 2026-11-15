@@ -1,0 +1,33 @@
+# Hospital or clinic level. EXAMPLE file: copy, rename and fill in.
+# Every key here (and inherited from the trust, networks and country) can be
+# used in a document as {{site.<key>}}.
+level: hospital
+name: "Example Eye Unit"
+trust: example-trust                   # file name in sites/trusts/ without .yaml
+department: "Cornea Service"
+
+contacts:
+  main_phone: "01234 567890"           # EXAMPLE: replace with your number
+  urgent_phone: "01234 567891"         # EXAMPLE: replace with your number
+  hours: "Monday to Friday, 9am to 5pm"
+
+urgent_access: |
+  EXAMPLE: describe how a patient should get urgent help during working hours.
+
+out_of_hours: |
+  EXAMPLE: describe what a patient should do out of hours, e.g. which
+  emergency department or eye casualty to attend.
+
+pifu:                                  # patient-initiated follow-up (PIFU)
+  phone: "01234 567892"                # EXAMPLE: your PIFU line
+  how_to_contact: |
+    EXAMPLE: how a patient on PIFU gets back in touch (phone, email, online form)
+    and how quickly they can expect a reply.
+  duration: "EXAMPLE: how long a patient stays on PIFU before discharge"
+
+formulary:
+  stocked:                             # agents from evidence/uk/ophthalmology/cornea/ophthalmic-antimicrobials.yaml stocked here
+    - example_agent
+
+videos:                                # links to this hospital's recorded videos, by document
+  # leaflet-corneal-cross-linking: "https://..."

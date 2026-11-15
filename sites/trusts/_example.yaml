@@ -1,0 +1,18 @@
+# Trust or organisation level. EXAMPLE file: copy, rename and fill in.
+level: trust
+name: "EXAMPLE NHS Foundation Trust"
+country: uk
+networks:                              # file names in sites/networks/ without .yaml
+  - example-network
+# If two networks set the same detail, say which applies, e.g.
+# use_network_for:
+#   formulary: example-network
+
+format:
+  template: ""                         # this trust's document template, when available
+
+consent:
+  policy_link: ""                      # the trust's consent policy; consent forms and sign-off stay with the trust
+
+business_case:                         # only publishable information; never local prices or supplier quotes
+  finance_contact: "EXAMPLE: role, not a personal name"

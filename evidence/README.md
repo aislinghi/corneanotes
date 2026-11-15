@@ -13,7 +13,7 @@ Costs follow the same rules. Use the national published price (with its source a
 
 ## File format
 
-One YAML file per subspecialty, for example `evidence/ophthalmology/cornea/risks.yaml`:
+Evidence is held per country, because national data differs between countries. For now only the UK is covered: `evidence/uk/`. One YAML file per subspecialty, for example `evidence/uk/ophthalmology/cornea/risks.yaml`:
 
 ```yaml
 cxl:                                   # procedure or condition

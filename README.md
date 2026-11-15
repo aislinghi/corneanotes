@@ -10,13 +10,15 @@ The operation is the same everywhere. The condition is the same everywhere. The 
 
 This project stops us all doing the same work. The shared information is written once, reviewed by clinicians, kept current against national data, and then used by any service. Each service adds only its own local details.
 
-It starts with corneal services in the UK. It is designed to grow across ophthalmology, then to other specialties, and internationally.
+It starts with corneal services in the UK, drawing on experience of setting up a cornea service. It is designed to grow across ophthalmology, then to other specialties, and internationally.
+
+At this early stage it is maintained by a single clinician. Others are welcome to read it and suggest changes.
 
 ## How it works
 
-**Shared core, local details.** Every document has a core (what the condition is, what the operation involves, what the risks are) that is reviewed centrally and is the same for everyone. Local details such as telephone numbers, urgent access instructions and out-of-hours arrangements go in placeholders, for example `{{site.urgent_phone}}`, which each service fills in from its own file in `sites/`. A service can update its phone numbers without touching, or re-reviewing, the clinical content.
+**Shared core, local details.** Every document has a core (what the condition is, what the operation involves, what the risks are) that is reviewed centrally and is the same for everyone. Local details such as telephone numbers, urgent access instructions and out-of-hours arrangements go in placeholders, for example `{{site.contacts.urgent_phone}}`. These are filled from `sites/`, which holds local details at four levels (country, network, trust and hospital), each inheriting from the level above. A service can update its phone numbers without touching, or re-reviewing, the clinical content.
 
-**One national figure, used everywhere.** Risk figures are not typed into individual leaflets. Each figure lives once in `evidence/`, with its source in national data or the published literature, the date it was last checked and when it is next due. Documents refer to it, for example `{{risk.cornea.cxl.example_risk}}`, so updating one figure updates every document that quotes it.
+**One national figure, used everywhere.** Risk figures are not typed into individual leaflets. Each figure lives once in `evidence/` (for now `evidence/uk/`), with its source in national data or the published literature, the date it was last checked and when it is next due. Documents refer to it, for example `{{risk.cornea.cxl.example_risk}}`, so updating one figure updates every document that quotes it.
 
 **Kept current.** Every document and every figure has a review date. The plan is a scheduled check that flags anything overdue and lists new publications on each risk topic for a clinician to look at. Figures are only ever changed by a person, through a reviewed change, so there is a full record of who changed what, when, and on what evidence.
 
@@ -24,23 +26,17 @@ It starts with corneal services in the UK. It is designed to grow across ophthal
 
 > **Important:** this material supports, and does not replace, the judgement of the treating clinician. Check that any document fits your local policies before use.
 
-See [ROADMAP.md](ROADMAP.md) for the documents planned so far.
+See [ROADMAP.md](ROADMAP.md) for the documents planned so far, and [content/ophthalmology/cornea/README.md](content/ophthalmology/cornea/README.md) for how content is organised.
 
 ## What is here
 
 | Folder | Contents |
 |---|---|
-| `content/<specialty>/<subspecialty>/leaflets/` | Patient information leaflets |
-| `content/<specialty>/<subspecialty>/protocols/` | Clinical protocols and pathways for staff |
-| `content/<specialty>/<subspecialty>/referral/` | Referral guidance for optometrists, GPs and other units |
-| `content/<specialty>/<subspecialty>/teaching/` | Training material |
-| `content/<specialty>/<subspecialty>/guidelines/` | Clinical guidelines, e.g. microbiology and antimicrobial treatment |
-| `content/<specialty>/<subspecialty>/formulary-applications/` | Applications and reviews for medicines on local formularies |
-| `content/<specialty>/<subspecialty>/business-cases/` | Business cases for equipment, tissue, services and training |
-| `content/<specialty>/<subspecialty>/video-scripts/` | Scripts for patient videos, recorded by each service's own clinicians |
+| `content/<specialty>/<subspecialty>/conditions/<condition>/` | Everything for one condition or procedure: leaflet, consent, PIFU, video script, protocol, business case |
+| `content/<specialty>/<subspecialty>/service/` | Things for the whole service: general patient information, training, business cases, medicines |
 | `content/_template.md` | Starting point for a new document |
-| `evidence/` | Risk and outcome figures, and national costs and tariffs, each with its source and review date |
-| `sites/` | Each service's local details (phones, urgent access, format) |
+| `evidence/<country>/` | Risk and outcome figures, national prices, and the list of available eye preparations, each with its source and review date |
+| `sites/` | Local details at four levels: country, network, trust, hospital |
 | `src/` | The website |
 
 ## Suggesting a change
