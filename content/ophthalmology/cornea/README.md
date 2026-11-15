@@ -33,6 +33,6 @@ Things for the whole cornea service that belong to no single condition:
 
 Every file states its type at the top, so the website can list all documents of one type across conditions:
 
-`leaflet`, `consent`, `pifu`, `letter`, `video-script`, `protocol`, `guideline`, `referral`, `teaching`, `business-case`, `formulary-application`, `formulary-review`
+`leaflet`, `aftercare`, `consent`, `pifu`, `letter`, `questionnaire`, `video-script`, `protocol`, `guideline`, `referral`, `teaching`, `business-case`, `formulary-application`, `formulary-review`
 
 Name files `<type>-<topic>.md` in lower case with hyphens, for example `leaflet-corneal-cross-linking.md`.

@@ -1,0 +1,15 @@
+# Screen topic: deep anterior lamellar keratoplasty (DALK).
+# PubMed searches drafted with AI assistance; need clinical review.
+# National sources: [To complete once confirmed by the source research]
+topic: cornea-dalk
+covers:
+  evidence:
+    - risk.cornea.dalk.*
+  documents:
+    - content/ophthalmology/cornea/conditions/corneal-transplant/*dalk*
+pubmed:
+  - '("deep anterior lamellar keratoplasty"[tiab] OR DALK[tiab] OR "Keratoplasty, Deep Anterior Lamellar"[mh]) AND (rejection[tiab] OR survival[tiab] OR failure[tiab] OR complication*[tiab] OR conversion[tiab] OR perforation[tiab] OR outcome*[tiab])'
+national_sources: []
+changes:
+  - date: 2026-11-15
+    reason: "Created"

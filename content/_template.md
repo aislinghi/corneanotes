@@ -1,6 +1,6 @@
 ---
 title: "Title of the document"
-type: leaflet            # leaflet, consent, pifu, letter, video-script, protocol, guideline,
+type: leaflet            # leaflet, aftercare, consent, pifu, letter, questionnaire, video-script, protocol, guideline,
                          # referral, teaching, business-case, formulary-application, formulary-review
 status: draft            # draft, approved (set by the reviewer) or withdrawn (state why at the top)
 version: 0.1
