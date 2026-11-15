@@ -108,10 +108,10 @@ There are not enough donated corneas in the UK for everyone who needs one [1], s
 
 ## After the operation
 
-- **Check-ups.** You will usually be seen within a week, and then regularly, with about six visits in the first year [3].
-- **Eye drops.** You will need to use anti-rejection eye drops for at least six months, and some people need them for life [3]. In one study, rejection often happened after steroid drops were reduced or stopped, or after stitches were removed [15]. Do not stop or change your drops unless your eye team tells you to.
-- **Stitches.** Some stitches may be removed from about three months after surgery. All the stitches are usually not removed until at least a year after surgery [3].
-- **Work.** Many people take about two weeks off work [3]. Ask your eye team what is right for your job.
+- **Check-ups.** {{site.aftercare.dalk.follow_up}}
+- **Eye drops.** You will need to use anti-rejection eye drops for many months, and some people need them for life [3]. {{site.aftercare.dalk.drops}} In one study, rejection often happened after steroid drops were reduced or stopped, or after stitches were removed [15]. Do not stop or change your drops unless your eye team tells you to.
+- **Stitches.** {{site.aftercare.dalk.stitches}}
+- **Work.** {{site.aftercare.dalk.time_off_work}} Ask your eye team what is right for your job.
 
 ## Signs of rejection: get help the same day
 
@@ -153,6 +153,7 @@ For other questions, call {{site.name}} on {{site.contacts.main_phone}} ({{site.
 | Risks | Systematic review; published research; UK hospital patient information | [3, 7, 8, 14, 15] | AI assistant, quotes checked against source | 2026-11-15 |
 | How well does it work? | Meta-analysis; published research (UK); UK government | [3, 10, 16, 17] | AI assistant, quotes checked against source | 2026-11-15 |
 | After the operation; signs of rejection | UK hospital patient information; published research | [3, 15] | AI assistant, quotes checked against source | 2026-11-15 |
+| After the operation: check-ups, drops schedule, stitches, time off work | Local details (each unit's own practice) | This service's file in `sites/` (`aftercare.dalk`) | | |
 | Information about your transplant | UK hospital patient information; NHS Blood and Transplant | [3, 18] | AI assistant, quotes checked against source | 2026-11-15 |
 | Contacting us | Local details | This service's file in `sites/` | | |
 

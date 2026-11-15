@@ -39,5 +39,12 @@ amniotic_membrane:                     # products differ between units
     kept frozen until it is needed.
   antibiotic_traces: "The membrane may contain tiny traces of the antibiotics used to clean it during processing. Please tell us if you are allergic to any antibiotic."
 
+aftercare:                             # this unit's own practice after each procedure
+  dalk:
+    follow_up: "We will see you within a week of your operation, and then regularly, usually about six times in the first year."
+    drops: "We usually reduce your drops gradually over the first year."
+    stitches: "We may remove some stitches from about three months after surgery. We usually remove all the stitches after about a year."
+    time_off_work: "Most people take about two weeks off work."
+
 videos:                                # links to this hospital's recorded videos, by document
   # leaflet-corneal-cross-linking: "https://..."
