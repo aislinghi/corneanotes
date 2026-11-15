@@ -72,6 +72,9 @@ aftercare:                             # this unit's own practice after each pro
     after_procedure: "After a procedure, your eye is likely to be painful and sensitive to light for a few days. We will put in a bandage contact lens and check your eye after about a week. Most people take about a week off work."
   suture_removal:
     follow_up: "We will usually check your eye about a week after stitches are removed, and measure your eye for glasses about six weeks later."
+  superficial_keratectomy:
+    after_procedure: "Your eye is likely to be sore, watery and sensitive to light for a few days. You will use antibiotic and steroid drops for about two weeks. We will check your eye and remove the bandage contact lens after one to two weeks. If the lens falls out, do not put it back in."
+    time_off_work: "Most people take about a week off work."
   band_keratopathy:
     after_procedure: "Your eye is likely to be sore, watery and sensitive to light for a few days, and your vision will be blurred at first. You can take paracetamol or ibuprofen if needed. You will use antibiotic drops while the surface heals. We will check your eye and remove the bandage contact lens after one to two weeks. If the lens falls out, do not put it back in."
     time_off_work: "Most people take about a week off work."
@@ -126,6 +129,9 @@ conjunctival_lesions:                  # this unit's own arrangements for conjun
 
 suture_removal:                        # where and how this unit removes corneal stitches
   where: "We usually remove stitches in the clinic, sitting at the microscope, using numbing drops. It usually takes a few minutes. Occasionally we remove them in the operating theatre."
+
+superficial_keratectomy:               # where this unit carries out superficial keratectomy
+  where: "We usually carry out superficial keratectomy in our day-case theatre, using numbing drops. You can go home the same day."
 
 band_keratopathy:                      # where this unit carries out EDTA chelation
   where: "We carry out EDTA chelation in our day-case theatre, using numbing drops. You can usually go home the same day."
