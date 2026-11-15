@@ -45,6 +45,13 @@ aftercare:                             # this unit's own practice after each pro
     drops: "We usually reduce your drops gradually over the first year."
     stitches: "We may remove some stitches from about three months after surgery. We usually remove all the stitches after about a year."
     time_off_work: "Most people take about two weeks off work."
+  amniotic_membrane:
+    while_in_place: |
+      While the membrane is on your eye, please do not rub or press on the eye,
+      keep water out of it when you wash, and do not swim or wear eye make-up.
+      If a contact lens falls out, do not put it back in: call us instead.
+      Wear glasses rather than your usual contact lenses until we tell you it is safe.
+    follow_up: "We will check your eye in clinic, usually within a week, and remove any contact lens or ring when the surface has healed."
 
 videos:                                # links to this hospital's recorded videos, by document
   # leaflet-corneal-cross-linking: "https://..."

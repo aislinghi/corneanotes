@@ -172,3 +172,84 @@ keratoconus:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+amniotic_membrane:
+  ped_healed_3m:
+    description: Persistent epithelial defect healed with a stable surface 3 months after treatment
+    value: 1 in 3
+    detail: 31.4% (11 of 35)
+    population: UK national user group audit, first 233 amniotic membrane transplants, outcome at 3 months
+    source: 'Saw VP, Minassian D, Dart JK, et al.; Amniotic Membrane Tissue User Group. Amniotic membrane transplantation for ocular disease: a review of the first 233 cases from the UK user group. Br J
+      Ophthalmol. 2007;91(8):1042-7. doi:10.1136/bjo.2006.098525'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/17314154/
+    source_location: 'Abstract, Results: ''the outcome for persistent epithelial defects was a healed and stable surface in 11/35 (31.4%, 95% CI 16.9 to 49.3)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  repeat_treatment:
+    description: Treatment repeated in the same eye
+    value: 1 in 13
+    detail: 7.7% (51 of 664 eyes)
+    population: 664 eyes, single centre, Japan, 21 years
+    source: 'Harada K, et al. Efficacy and limitations of amniotic membrane transplantation in cases of severe ocular surface disorders: retrospective analysis over a 21-year period. Jpn J Ophthalmol. 2025;69(5):694-701.
+      doi:10.1007/s10384-025-01209-z'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/40478507/
+    source_location: 'Abstract: ''AMT was repeated on 51 of those 664 eyes (7.7%)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  discomfort_clinic_device:
+    description: Discomfort from a membrane held on the eye by a ring device in clinic
+    value: 1 in 6
+    detail: 17.1% (6 of 35 eyes)
+    population: 35 eyes, sutureless ring-mounted membrane, USA
+    source: 'Suri K, et al. Sutureless amniotic membrane ProKera for ocular surface disorders: short-term results. Eye Contact Lens. 2013;39(5):341-7'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/23945524/
+    source_location: 'Abstract: ''Discomfort with the device was seen in 6 (17.1%) of 35 eyes'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  infection:
+    description: Infection after treatment with processed membrane from a tissue supplier
+    value: 1 in 60
+    detail: 1.6% of patients treated with commercially processed membrane (9.2% with membrane prepared in a research laboratory)
+    population: 326 patients, USA
+    source: Marangon FB, et al. Incidence of microbial infection after amniotic membrane transplantation. Cornea. 2004;23(3):264-9
+    source_url: https://pubmed.ncbi.nlm.nih.gov/15084859/
+    source_location: 'Abstract: ''A total of 11 culture-positive infections (3.4%) were identified, and among them 7 infections (9.2%) were from the first group, and 4 (1.6%) were from the second group'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  days_in_place_clinic:
+    description: Time a membrane placed in clinic stayed on the eye
+    value: 2 weeks
+    detail: median 14 days (interquartile range 7 to 28)
+    population: 328 patients, self-retained membrane placed in clinic, USA, 2015-2023
+    source: Patel TM, Syed ZA. Indications and outcomes of self-retained cryopreserved amniotic membrane at a tertiary care center. Cornea. 2026. doi:10.1097/ICO.0000000000004348
+    source_url: https://pubmed.ncbi.nlm.nih.gov/42950013/
+    source_location: 'Abstract: ''On average, AM was in place for 19.3 +/- 16.1 days (median 14 days, interquartile range 7-28 days)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  keratitis_faster_healing:
+    description: Extra speed of healing when added to treatment for corneal infection
+    value: 4 days
+    detail: mean 4.08 days shorter time to complete healing (95% CI 1.88 to 6.27), low-quality evidence
+    population: Systematic review and meta-analysis, 28 studies including 4 RCTs, 861 eyes
+    source: 'Ting DSJ, Henein C, Said DG, Dua HS. Amniotic membrane transplantation for infectious keratitis: a systematic review and meta-analysis. Sci Rep. 2021;11:13007. doi:10.1038/s41598-021-92366-x'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/34155280/
+    source_location: 'Abstract: ''adjuvant AMT resulted in shorter mean time to complete corneal healing (- 4.08 days; 95% CI - 6.27 to - 1.88; p < 0.001)'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
