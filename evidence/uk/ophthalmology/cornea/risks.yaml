@@ -1560,3 +1560,57 @@ herpes_simplex:
     last_checked: '2026-11-15'
     checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
     next_check_due: '2027-11-15'
+chemical_injury:
+  severe_ongoing_problems:
+    description: People with a severe chemical eye injury still needing treatment 6 months later, UK
+    value: 8 in 10
+    detail: 81%
+    population: UK-wide surveillance of severe chemical eye injuries, 2019-2021, 20 patients (29 eyes), 6-month follow-up
+    source: 'Cronbach N, Foot B, Scawn R. Severe ocular chemical injury in the UK: a British Ophthalmological Surveillance Unit study. Eye (Lond). 2024;38(13):2552-2556. doi:10.1038/s41433-024-03073-6'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/38637697/
+    source_location: 'Abstract: ''A total of 81% patients had persistent complications at 6 months requiring ongoing treatment'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  severe_surgery:
+    description: People with a severe chemical eye injury needing surgery, UK
+    value: 6 in 10
+    detail: 60%
+    population: UK-wide surveillance of severe chemical eye injuries, 2019-2021, 20 patients (29 eyes), 6-month follow-up
+    source: 'Cronbach N, Foot B, Scawn R. Severe ocular chemical injury in the UK: a British Ophthalmological Surveillance Unit study. Eye (Lond). 2024;38(13):2552-2556. doi:10.1038/s41433-024-03073-6'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/38637697/
+    source_location: 'Abstract: ''60% patients required surgical intervention'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  severe_vision_below_6_12:
+    description: Vision worse than 6/12 after a severe chemical eye injury, London
+    value: 4 in 10
+    detail: 44% (11 of 25)
+    population: Moorfields, 25 severe (Roper-Hall grade 3-4) injuries, 2011-2014; final follow-up up to 1 year; 40% lost to follow-up
+    source: 'Hoffman JJ, Casswell EJ, Shortt AJ. Assault-related severe ocular chemical injury at a London ophthalmic referral hospital: a 3-year retrospective observational study. BMJ Open. 2020;10(10):e038109.
+      doi:10.1136/bmjopen-2020-038109'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/33077563/
+    source_location: 'Results: ''less than 6/12 (20/40) in 11/25 (44%) of cases'''
+    read: Full text
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
+  stem_cell_graft_success:
+    description: Successful outcome after a limbal stem cell transplant from the other eye
+    value: 7 in 10
+    detail: 69% anatomical and 60% functional success, median follow-up 1.75 years
+    population: Systematic review, 22 case series, 1,023 eyes (88% after burns)
+    source: 'Shanbhag SS, et al. Autologous limbal stem cell transplantation: a systematic review of clinical outcomes with different surgical techniques. Br J Ophthalmol. 2020;104(2):247-253. doi:10.1136/bjophthalmol-2019-314081'
+    source_url: https://pubmed.ncbi.nlm.nih.gov/31118185/
+    source_location: 'Abstract: ''anatomical and functional success rates of 69% and 60%, respectively'''
+    read: Abstract
+    last_changed: '2026-11-15'
+    last_checked: '2026-11-15'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-15'
