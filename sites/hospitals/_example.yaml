@@ -28,6 +28,8 @@ pifu:                                  # patient-initiated follow-up (PIFU)
     Call our PIFU line, Monday to Friday, 9am to 4pm. Leave a message if no one
     answers, and we will call you back within two working days.
   duration: "12 months"
+  conditions: "In the cornea clinic, we may offer PIFU if you have a stable, long-term condition such as blepharitis, dry eye or recurrent corneal erosion, or once you have recovered well from some treatments. Your clinician will decide this with you."
+  response: "If you need to be seen, we will give you the next available appointment."
 
 formulary:
   stocked:                             # agents from evidence/uk/ophthalmology/cornea/ophthalmic-antimicrobials.yaml stocked here
