@@ -1,0 +1,57 @@
+# Cornea cost and price figures used in business cases. See evidence/README.md for the rules and format.
+# 'value' is how the figure reads in a document; 'detail' is the figure as published.
+# NHS Blood and Transplant does not publish its tissue price list; ask NHSBT Tissue and Eye Services for current prices.
+
+amniotic_membrane:
+  dehydrated_application:
+    description: Cost of one clinic application of dehydrated amniotic membrane (Omnigen) with its carrier lens (OmniLenz), including postage
+    value: "£400"
+    detail: "Omnigen £235; OmniLenz £120; postage £45 (price-base year not stated)"
+    population: UK NHS, Queen Victoria Hospital and Maidstone and Tunbridge Wells, cost model in a published study
+    source: "Maqsood SE, Posnett JW, Elalfy M. Management of ocular surface disease involving inflammation and persistent epithelial defects utilising various treatment modalities in the UK NHS. Eye (Lond). 2026;40(11):1627-1636. doi:10.1038/s41433-026-04314-6. Authors received a fellowship grant from NuVision Biotherapies (the manufacturer)."
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13415519/
+    source_location: "Results: 'The cost of HAMDM and lens (Omnigen £235; OmniLenz £120; postage £45) totalled £400 per application.'"
+    read: Full text
+    last_changed: '2026-11-16'
+    last_checked: '2026-11-16'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-16'
+  ped_standard_care_cost:
+    description: Average cost per patient of standard care for a persistent epithelial defect with surface inflammation (including tarsorrhaphy and theatre amniotic membrane where used)
+    value: "£4,900"
+    detail: "£4900 ± £3363 per patient; complete healing 57%; mean 176 days and 10 outpatient visits; unit costs from 2017 NHS Reference Costs"
+    population: 30 patients, retrospective, Queen Victoria Hospital and Maidstone and Tunbridge Wells, UK NHS
+    source: "Maqsood SE, Posnett JW, Elalfy M. Eye (Lond). 2026;40(11):1627-1636. doi:10.1038/s41433-026-04314-6. Funded by a NuVision fellowship grant."
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13415519/
+    source_location: "Abstract, Results: 'Conventional management achieved complete healing in 57% of patients, with a mean treatment duration of 176 ± 188 days and 10 OP visits per case ... The average total cost per patient was £ 4900 ± £ 3363.'"
+    read: Full text
+    last_changed: '2026-11-16'
+    last_checked: '2026-11-16'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-16'
+  ped_dehydrated_pathway_cost:
+    description: Modelled average cost per patient when a persistent epithelial defect is treated with dehydrated amniotic membrane in clinic, including follow-up care
+    value: "£2,508"
+    detail: "£1623 to outcome; £2508 including follow-up intervention care (follow-up cost of £2249 carried over from the standard-care group); modelled against pooled earlier data"
+    population: Cost model based on pooled earlier studies at the same two UK centres
+    source: "Maqsood SE, Posnett JW, Elalfy M. Eye (Lond). 2026;40(11):1627-1636. doi:10.1038/s41433-026-04314-6. Funded by a NuVision fellowship grant."
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13415519/
+    source_location: "Results: 'the average OP treatment cost per HAMDM patient was £1623 to outcome and £2508 including follow-up intervention care, representing a potential saving of £2392 per patient compared to SOC.'"
+    read: Full text
+    last_changed: '2026-11-16'
+    last_checked: '2026-11-16'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-16'
+  theatre_cost_per_minute:
+    description: Average theatre cost per minute used in a published UK cost model
+    value: "£20"
+    detail: "£20 per minute, 'based on national estimates' (source of the estimate not detailed in the paper)"
+    population: UK NHS cost model
+    source: "Maqsood SE, Posnett JW, Elalfy M. Eye (Lond). 2026;40(11):1627-1636. doi:10.1038/s41433-026-04314-6"
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13415519/
+    source_location: "Methods: 'For procedures without a fixed tariff, an average theatre cost of £20 per minute was applied based on national estimates.'"
+    read: Full text
+    last_changed: '2026-11-16'
+    last_checked: '2026-11-16'
+    checked_by: 'AI assistant: quote checked against the original source. Awaiting maintainer confirmation.'
+    next_check_due: '2027-11-16'

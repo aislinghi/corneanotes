@@ -149,5 +149,16 @@ blepharitis:                           # products and further treatments this un
 dry_eye:                               # local access to further treatments
   further_treatments: "If your dry eye is severe and does not improve with lubricants, we can discuss further treatments with you in the cornea clinic, including anti-inflammatory drops, plugs for the tear ducts and serum eye drops."
 
+business_cases:                        # local facts used in business case templates (EXAMPLE values for a fictional unit)
+  amniotic_membrane:
+    current_service: "At present, the Example Eye Unit uses frozen amniotic membrane from NHS Blood and Transplant, stitched or glued in place in the main operating theatre. Patients wait for a theatre slot, and there is no way to apply amniotic membrane in clinic."
+    proposal: "We propose to offer clinic-based (sutureless) amniotic membrane in the cornea clinic, while keeping theatre-based frozen membrane for cases that need it."
+    expected_activity: "We expect about 40 clinic applications and 10 theatre applications a year, based on our last 12 months of activity."
+    storage: "Tissue will be stored by the hospital blood transfusion laboratory, which already holds a Human Tissue Authority licence and a 24-hour alarmed freezer."
+    product_price: "Our current quoted prices are recorded in the finance appendix. NHS Blood and Transplant prices were obtained by phone from Tissue and Eye Services."
+    staffing: "Applications will be done by the corneal consultants and two trained specialist optometrists, within existing cornea clinic sessions."
+    funding: "We ask for the tissue and lens costs to be funded from the ophthalmology drugs and consumables budget, offset by fewer theatre sessions."
+    clinical_lead: "Cornea clinical lead, Example Eye Unit"
+
 videos:                                # links to this hospital's recorded videos, by document
   # leaflet-corneal-cross-linking: "https://..."
